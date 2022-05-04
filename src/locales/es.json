@@ -1,0 +1,1167 @@
+{
+    "Sonolus": {
+        "Common": {
+            "Loading": "Cargando...",
+            "Confirm": "Confirmar",
+            "Retry": "Reintentar",
+            "Cancel": "Cancelar",
+            "Next": "Siguiente",
+            "Add": "Agregar",
+            "Select": "Seleccionar",
+            "View": "Ver",
+            "On": "ON",
+            "Off": "OFF",
+            "Error": {
+                "Title": "Error",
+                "Description": "Error inesperado:\n{0}"
+            },
+            "Confirmation": {
+                "Title": "Confirmación",
+                "Remove": {
+                    "Description": "¿Está seguro de eliminar {0}?"
+                }
+            },
+            "InfoUpdate": {
+                "Title": "Actualización disponible",
+                "Description": "¡La versión {0} de Sonolus está disponible!\n\nVisita nuestra página web:\nhttps://sonolus.com",
+                "Update": "Actualizar"
+            },
+            "PermissionError": {
+                "Title": "Error de permisos",
+                "Description": "Sonolus no tiene los permisos requeridos para realizar esta acción.\n\nAbre Opciones y otorga a Sonolus los permisos para continuar.",
+                "Open": "Abrir"
+            },
+            "ColorField": {
+                "Html": "HEX",
+                "Rgb": "RGB",
+                "Hsv": "HSV"
+            },
+            "Success": "Éxito",
+            "PullToRefresh": "Tira para refrescar",
+            "PullToLoad": "Tira para cargar más",
+            "More": "Más",
+            "Search": "Search",
+            "Grade": "Calificación",
+            "Arcade": "Puntuación arcade",
+            "Accuracy": "Puntuación de precisión",
+            "Combo": "Combo",
+            "Perfect": "Perfecto",
+            "Great": "Genial",
+            "Good": "Bueno",
+            "Miss": "Fallo",
+            "Easings": {
+                "Linear": "Linear",
+                "InSine": "Seno (In)",
+                "OutSine": "Seno (Out)",
+                "InOutSine": "Seno (In Out)",
+                "OutInSine": "Seno (Out In)",
+                "InQuad": "Cuadrado (In)",
+                "OutQuad": "Cuadrado (Out)",
+                "InOutQuad": "Cuadrado (In Out)",
+                "OutInQuad": "Cuadrado (Out In)",
+                "InCubic": "Cúbico (In)",
+                "OutCubic": "Cúbico (Out)",
+                "InOutCubic": "Cúbico (In Out)",
+                "OutInCubic": "Cúbico (Out In)",
+                "InQuart": "Cuarto grado (In)",
+                "OutQuart": "Cuarto grado (Out)",
+                "InOutQuart": "Cuarto grado (In Out)",
+                "OutInQuart": "Cuarto grado (Out In)",
+                "InQuint": "Quinto grado (In)",
+                "OutQuint": "Quinto grado (Out)",
+                "InOutQuint": "Quinto grado (In Out)",
+                "OutInQuint": "Quinto grado (Out In)",
+                "InExpo": "Exponencial (In)",
+                "OutExpo": "Exponencial (Out)",
+                "InOutExpo": "Exponencial (In Out)",
+                "OutInExpo": "Exponencial (Out In)",
+                "InCirc": "Circular (In)",
+                "OutCirc": "Circular (Out)",
+                "InOutCirc": "Circular (In Out)",
+                "OutInCirc": "Circular (Out In)",
+                "InBack": "Regreso (In)",
+                "OutBack": "Regreso (Out)",
+                "InOutBack": "Regreso (In Out)",
+                "OutInBack": "Regreso (Out In)",
+                "InElastic": "Elástico (In)",
+                "OutElastic": "Elástico (Out)",
+                "InOutElastic": "Elástico (In Out)",
+                "OutInElastic": "Elástico (Out In)"
+            },
+            "JudgmentError": {
+                "Style": {
+                    "None": "Ninguno",
+                    "Plus": "+ / -",
+                    "Minus": "- / +",
+                    "ArrowUp": "↑ / ↓",
+                    "ArrowDown": "↓ / ↑",
+                    "ArrowLeft": "← / →",
+                    "ArrowRight": "→ / ←",
+                    "TriangleUp": "▲ / ▼",
+                    "TriangleDown": "▼ / ▲",
+                    "TriangleLeft": "◄ / ►",
+                    "TriangleRight": "► / ◄"
+                },
+                "Placement": {
+                    "Both": "Ambos",
+                    "Left": "Izquierda",
+                    "Right": "Derecha"
+                }
+            },
+            "Style": {
+                "Visibility": "Visibilidad",
+                "Animation": "Animación"
+            },
+            "Option": {
+                "Name": {
+                    "#KEYWORDS": "Palabras clave",
+                    "#NAME": "Nombre",
+                    "#RATING": "Nivel de dificultad",
+                    "#RATING_MINIMUM": "Nivel de dificultad mínima",
+                    "#RATING_MAXIMUM": "Nivel de dificultad máxima",
+                    "#TITLE": "Título",
+                    "#SUBTITLE": "Subtítulo",
+                    "#ARTISTS": "Artistas",
+                    "#AUTHOR": "Autor",
+                    "#GENRE": "Género",
+                    "#CATEGORY": "Categoría",
+                    "#LANGUAGE": "Idioma",
+                    "#DIFFICULTY": "Dificultad",
+                    "#LENGTH": "Duración",
+                    "#LENGTH_MINIMUM": "Duración mínima",
+                    "#LENGTH_MAXIMUM": "Duración máxima",
+                    "#SPEED": "Velocidad del nivel",
+                    "#AUTO": "Auto Play",
+                    "#MIRROR": "Efecto espejo",
+                    "#RANDOM": "Aleatorio",
+                    "#HIDDEN": "Escondido",
+                    "#JUDGMENT_STRICT": "Juicio estricto",
+                    "#JUDGMENT_LOOSE": "Juicio permisivo",
+                    "#EFFECT": "Efectos de sonido",
+                    "#EFFECT_AUTO": "Auto SFX",
+                    "#STAGE": "Visibilidad del escenario",
+                    "#STAGE_SIZE": "Tamaño del escenario",
+                    "#STAGE_ROTATION": "Rotación del nivel",
+                    "#STAGE_ALPHA": "Transparencia del escenario",
+                    "#STAGE_TILT": "Inclinación del escenario",
+                    "#STAGE_COVER_VERTICAL": "Cubrir escenario verticalmente",
+                    "#STAGE_COVER_HORIZONTAL": "Cubrir escenario horizontalmente",
+                    "#STAGE_COVER_ALPHA": "Transparencia de la cubierta del escenario",
+                    "#STAGE_ASPECTRATIO_LOCK": "Mantener relación de aspecto del escenario",
+                    "#STAGE_EFFECT": "Efecto del escenario",
+                    "#STAGE_EFFECT_SIZE": "Tamaño del efecto del escenario",
+                    "#STAGE_EFFECT_ROTATION": "Rotación de los efectos del nivel",
+                    "#STAGE_EFFECT_ALPHA": "Transparencia del efecto del escenario",
+                    "#LANE": "Visibilidad de la línea",
+                    "#LANE_SIZE": "Tamaño de la línea",
+                    "#LANE_ROTATION": "Rotación de la línea",
+                    "#LANE_ALPHA": "Transparencia de la línea",
+                    "#LANE_EFFECT": "Efecto de la línea",
+                    "#LANE_EFFECT_SIZE": "Tamaño del efecto de la línea",
+                    "#LANE_EFFECT_ROTATION": "Rotación de los efectos de la línea",
+                    "#LANE_EFFECT_ALPHA": "Transparencia del efecto de la línea",
+                    "#JUDGELINE": "Visibilidad de la línea de criterio",
+                    "#JUDGELINE_SIZE": "Tamaño de la línea de criterio",
+                    "#JUDGELINE_ROTATION": "Rotación de la línea de juicio",
+                    "#JUDGELINE_ALPHA": "Transparencia de la línea de criterio",
+                    "#JUDGELINE_EFFECT": "Efecto de la línea de criterio",
+                    "#JUDGELINE_EFFECT_SIZE": "Tamaño del efecto de la línea de criterio",
+                    "#JUDGELINE_EFFECT_ROTATION": "Rotación de los efectos de la línea de juicio",
+                    "#JUDGELINE_EFFECT_ALPHA": "Transparencia del efecto de la línea de criterio",
+                    "#SLOT": "Visibilidad de la ranura",
+                    "#SLOT_SIZE": "Tamaño de la ranura",
+                    "#SLOT_ROTATION": "Rotación de la ranura",
+                    "#SLOT_ALPHA": "Transparencia de la ranura",
+                    "#SLOT_EFFECT": "Efecto de la ranura",
+                    "#SLOT_EFFECT_SIZE": "Tamaño del efecto de la ranura",
+                    "#SLOT_EFFECT_ROTATION": "Rotación de los efectos de la ranura",
+                    "#SLOT_EFFECT_ALPHA": "Transparencia del efecto de la ranura",
+                    "#NOTE": "Visibilidad de las notas",
+                    "#NOTE_SPEED": "Velocidad de las notas",
+                    "#NOTE_SPEED_RANDOM": "Velocidad de las notas aleatorias",
+                    "#NOTE_SIZE": "Tamaño de las notas",
+                    "#NOTE_ROTATION": "Rotación de las notas",
+                    "#NOTE_ALPHA": "Transparencia de las notas",
+                    "#NOTE_EFFECT": "Efecto de las notas",
+                    "#NOTE_EFFECT_SIZE": "Tamaño del efecto de las notas",
+                    "#NOTE_EFFECT_ROTATION": "Rotación del efecto de las notas",
+                    "#NOTE_EFFECT_ALPHA": "Transparencia del efecto de la nota",
+                    "#MARKER": "Visibilidad del marcador",
+                    "#MARKER_SIZE": "Tamaño del marcador",
+                    "#MARKER_ROTATION": "Rotación del marcador",
+                    "#MARKER_ALPHA": "Transparencia del marcador",
+                    "#CONNECTOR": "Visibilidad del conector",
+                    "#CONNECTOR_SIZE": "Tamaño del conector",
+                    "#CONNECTOR_ROTATION": "Rotación del conector",
+                    "#CONNECTOR_ALPHA": "Transparencia del conector",
+                    "#SIMLINE": "Visibilidad de la línea de simultaneidad",
+                    "#SIMLINE_SIZE": "Tamaño de la línea de simultaneidad",
+                    "#SIMLINE_ROTATION": "Rotación de la línea de simultaneidad",
+                    "#SIMLINE_ALPHA": "Transparencia de la línea de simultaneidad"
+                },
+                "Value": {
+                    "#NONE": "Ninguno",
+                    "#ANY": "Cualquiera",
+                    "#ALL": "Todos",
+                    "#OTHERS": "Otros",
+                    "#SHORT": "Pequeño",
+                    "#LONG": "Largo",
+                    "#HIGH": "Alto",
+                    "#MID": "Medio",
+                    "#LOW": "Bajo",
+                    "#SMALL": "Pequeño",
+                    "#MEDIUM": "Mediano",
+                    "#LARGE": "Grande",
+                    "#LEFT": "Izquierda",
+                    "#RIGHT": "Derecha",
+                    "#UP": "Arriba",
+                    "#DOWN": "Abajo",
+                    "#FRONT": "En frente",
+                    "#BACK": "Detrás",
+                    "#CENTER": "En el centro",
+                    "#TOP": "Arriba",
+                    "#BOTTOM": "Abajo",
+                    "#TOP_LEFT": "Arriba a la izquierda",
+                    "#TOP_CENTER": "Arriba en el centro",
+                    "#TOP_RIGHT": "Arriba a la derecha",
+                    "#CENTER_LEFT": "Centro izquierda",
+                    "#CENTER_RIGHT": "Centro derecha",
+                    "#BOTTOM_LEFT": "Abajo a la izquierda",
+                    "#BOTTOM_CENTER": "Abajo en el centro",
+                    "#BOTTOM_RIGHT": "Abajo a la derecha",
+                    "#CLOCKWISE": "Sentido del reloj",
+                    "#COUNTERCLOCKWISE": "Sentido anti-horario",
+                    "#FORWARD": "Hacia adelante",
+                    "#BACKWARD": "Hacia atrás",
+                    "#SIMPLE": "Simple",
+                    "#EASY": "Easy",
+                    "#NORMAL": "Normal",
+                    "#HARD": "Hard",
+                    "#EXPERT": "Expert",
+                    "#MASTER": "Master",
+                    "#PRO": "Pro",
+                    "#TECHNICAL": "Technical",
+                    "#SPECIAL": "Special"
+                },
+                "Placeholder": {
+                    "#KEYWORDS": "Ingresa las palabras clave...",
+                    "#NAME": "Ingresa el nombre...",
+                    "#RATING": "Ingresa el nivel de dificultad...",
+                    "#RATING_MINIMUM": "Ingresa el nivel de dificultad mínimo...",
+                    "#RATING_MAXIMUM": "Ingresa el nivel de dificultad máximo...",
+                    "#TITLE": "Ingresa el título...",
+                    "#SUBTITLE": "Ingresa el subtítulo...",
+                    "#ARTISTS": "Ingresa el artista...",
+                    "#AUTHOR": "Ingresa el autor...",
+                    "#GENRE": "Ingresa el género...",
+                    "#CATEGORY": "Ingresa la categoría...",
+                    "#LANGUAGE": "Ingresa el idioma...",
+                    "#DIFFICULTY": "Ingresa la dificultad...",
+                    "#LENGTH": "Ingresa la duración...",
+                    "#LENGTH_MINIMUM": "Ingresa la duración mínima...",
+                    "#LENGTH_MAXIMUM": "Ingresa la duración máxima..."
+                }
+            },
+            "Metric": {
+                "Arcade": "Puntuación arcade",
+                "Accuracy": "Puntuación de precisión",
+                "Life": "Vida",
+                "PerfectRate": "Ratio de perfectos",
+                "ErrorHeatmap": "Mapa de calor de error"
+            },
+            "ListView": {
+                "ClearSearch": "Resultados para \"{0}\"",
+                "Jump": {
+                    "Header": "Saltar a página",
+                    "Page": "Página",
+                    "PagePlaceholder": "Ingresar número de página..."
+                },
+                "Search": {
+                    "Header": "Buscar",
+                    "Keywords": "Palabras clave",
+                    "KeywordsPlaceholder": "Ingresar palabras clave..."
+                }
+            }
+        },
+        "Color": {
+            "Title": "Color",
+            "Html": "Hexadecimal",
+            "HtmlPlaceholder": "Ingresa el color hexadecimal...",
+            "R": "Rojo (R)",
+            "G": "Verde (G)",
+            "B": "Azul (B)",
+            "H": "Tono (H)",
+            "S": "Saturación (S)",
+            "V": "Valor (V)",
+            "A": "Alpha (A)"
+        },
+        "Search": {
+            "Title": "Buscar"
+        },
+        "Title": {
+            "TapToStart": "Presiona para iniciar"
+        },
+        "SelectLocalization": {
+            "Title": "Seleccionar idioma",
+            "Description": "Selecciona el idioma preferido:",
+            "List": {
+                "Error": {
+                    "Description": "No se ha podido cargar la lista de idiomas"
+                }
+            },
+            "Localization": {
+                "Error": {
+                    "Description": "No se ha podido cargar el idioma \"{0}\""
+                }
+            }
+        },
+        "SelectTheme": {
+            "Title": "Seleccionar tema",
+            "Description": "Selecciona un tema:"
+        },
+        "Theme": {
+            "Dark": "Oscuro",
+            "Light": "Claro"
+        },
+        "ManageCache": {
+            "Title": "Administrar caché",
+            "Cache": {
+                "Header": "Caché",
+                "Description": "La caché le permite a Sonolus acelerar la carga de solicitudes de red y reducir el uso de ancho de banda al memorizar las URLs de red y los recursos del repositorio local asociados con ellas.\nLa caché usa muy poco espacio de memoria, y no se recomienda eliminar.",
+                "Count": "Caché: {0} entradas"
+            },
+            "Expire": {
+                "Header": "Expirar",
+                "Description": "Expirar toda la caché causará que Sonolus revalide antes de usar recursos del repositorio local a las que URLs de red están asociadas.",
+                "Expire": "Expirar",
+                "Confirmation": {
+                    "Description": "¿Está seguro de expirar toda la caché?"
+                }
+            },
+            "Delete": {
+                "Header": "Eliminar",
+                "Description": "Eliminar toda la caché, lo que causará que Sonolus vuelva a descargar todas las solicitudes de red. No se recomienda.",
+                "Delete": "Eliminar",
+                "Confirmation": {
+                    "Description": "¿Está seguro de eliminar toda la caché?"
+                }
+            }
+        },
+        "ManageRepository": {
+            "Title": "Administrar repositorio",
+            "Repository": {
+                "Header": "Repositorio",
+                "Description": "El repositorio almacena todos los recursos disponibles localmente en el dispositivo.",
+                "Size": "Tamaño: {0}"
+            },
+            "Delete": {
+                "Header": "Eliminar",
+                "Description": "Eliminar todos los recursos del repositorio, lo que provocará que Sonolus los vuelva a descargar cuando se soliciten.",
+                "Delete": "Eliminar",
+                "Confirmation": {
+                    "Description": "¿Está seguro de eliminar todos los recursos del repositorio?"
+                }
+            }
+        },
+        "CalibrateAudio": {
+            "Title": "Calibrar audio",
+            "Description": "Calibra el audio ajustando la compensación del audio del dispositivo hasta que el audio y los gráficos estén sincronizados."
+        },
+        "CalibrateInput": {
+            "Title": "Calibrar input",
+            "Description": "Calibra el input arrastrando el cuadrado con tu dedo. \nSi estás acostumbrado a juegos que no ofrecen esta opción, puedes dejarlo en 0.",
+            "Result": {
+                "Start": "Arrastra para probar la compensación",
+                "Ongoing": "Midiendo...",
+                "OneFinger": "Por favor, usa solo un dedo para arrastrar",
+                "Incomplete": "Por favor, arrastre hasta el final",
+                "Success": "Éxito, compensación recomendada: {0}"
+            }
+        },
+        "Home": {
+            "Play": "Jugar",
+            "Settings": "Opciones"
+        },
+        "Settings": {
+            "Title": "Opciones",
+            "Graphics": {
+                "Header": "Gráficos",
+                "RenderScale": "Escala de renderizado",
+                "AntiAliasing": "Anti-Aliasing",
+                "GpuParticleSystem": "Sistema de partículas en GPU",
+                "IgnoreNotch": "Ignorar notch"
+            },
+            "Audio": {
+                "Header": "Audio",
+                "BgmVolume": "Volumen de la música de fondo (BGM)",
+                "EffectVolume": "Volumen de los efectos de sonido (SFX)",
+                "PreviewBgm": "Previsualización de la música",
+                "PreserveBgmPitch": "Preservar el pitch de la música"
+            },
+            "UI": {
+                "Header": "Interfaz",
+                "Localization": "Idioma",
+                "Theme": "Tema",
+                "UIScale": "Escala de la interfaz",
+                "PerfectJudgmentColor": "Color de criterio Perfect",
+                "GreatJudgmentColor": "Color de criterio Great",
+                "GoodJudgmentColor": "Color de criterio Good",
+                "MissJudgmentColor": "Color de criterio Miss",
+                "PositiveJudgmentErrorColor": "Color de error de criterio positivo",
+                "NegativeJudgmentErrorColor": "Color de error de criterio negativo",
+                "AllPerfectComboColor": "Color de All Perfect",
+                "FullComboComboColor": "Color de Full Combo",
+                "PassComboColor": "Color de Pass",
+                "FailComboColor": "Color de Fail",
+                "BoldComboNumber": "Número de color en negritas",
+                "ShowZeroCombo": "Mostrar combo de cero"
+            },
+            "Offsets": {
+                "Header": "Compensación",
+                "Calibrate": "Calibrar",
+                "DeviceAudioOffset": "Compensación de audio del dispositivo",
+                "DeviceInputOffset": "Compensación de input del dispositivo"
+            },
+            "Repository": {
+                "Header": "Repositorio",
+                "Manage": "Administrar"
+            },
+            "Cache": {
+                "Header": "Caché",
+                "AlwaysRevalidate": "Siempre revalidar",
+                "Manage": "Repositorio"
+            },
+            "Debug": {
+                "Header": "Debug",
+                "DebugMode": "Modo debug"
+            }
+        },
+        "SelectCollection": {
+            "Title": "Seleccionar colección"
+        },
+        "SelectServer": {
+            "Title": "Seleccionar servidor",
+            "Collection": {
+                "Header": "Colección",
+                "Import": "Importar",
+                "PackageError": {
+                    "Description": "Paquete no soportado o corrupto"
+                }
+            },
+            "Custom": {
+                "Header": "Servidor personalizado"
+            }
+        },
+        "CollectionInfo": {
+            "Title": "Información de la colección",
+            "Name": "Nombre",
+            "NamePlaceholder": "Ingresa el nombre de la colección..."
+        },
+        "CustomServerInfo": {
+            "Title": "Información del servidor personalizado",
+            "Name": "Nombre",
+            "NamePlaceholder": "Ingresa nombre del servidor personalizado...",
+            "Address": "Dirección",
+            "AddressPlaceholder": "Ingresa dirección del servidor personalizado..."
+        },
+        "Server": {
+            "Style": {
+                "Visibility": {
+                    "Title": "Visibilidad",
+                    "Scale": "Escala",
+                    "Alpha": "Alpha"
+                },
+                "Animation": {
+                    "Title": "Título",
+                    "Scale": "Escala",
+                    "Alpha": "Alpha",
+                    "Tween": "Tween"
+                },
+                "Tween": {
+                    "Title": "Título",
+                    "From": "Desde",
+                    "To": "Hasta",
+                    "Duration": "Duración",
+                    "Ease": "Suavizado"
+                }
+            },
+            "VersionError": {
+                "Description": "Este servidor solo soporta la versión {0}"
+            },
+            "Home": {
+                "ServerInfo": {
+                    "Error": {
+                        "Description": "No se ha podido cargar información del servidor {0}"
+                    }
+                },
+                "Levels": {
+                    "Header": "Niveles"
+                },
+                "Skins": {
+                    "Header": "Skins"
+                },
+                "Backgrounds": {
+                    "Header": "Fondos"
+                },
+                "Effects": {
+                    "Header": "Efectos de sonido"
+                },
+                "Particles": {
+                    "Header": "Partículas"
+                },
+                "Engines": {
+                    "Header": "Motores"
+                }
+            },
+            "LevelList": {
+                "Title": "Niveles",
+                "Error": {
+                    "Description": "No se han podido cargar los niveles en la página {0}"
+                }
+            },
+            "SkinList": {
+                "Title": "Skins",
+                "Error": {
+                    "Description": "No se han podido cargar las skins en la página {0}"
+                }
+            },
+            "BackgroundList": {
+                "Title": "Fondos",
+                "Error": {
+                    "Description": "No se han podido cargar los fondos en la página {0}"
+                }
+            },
+            "EffectList": {
+                "Title": "Efectos de sonido",
+                "Error": {
+                    "Description": "No se han podido cargar los efectos de sonido en la página {0}"
+                }
+            },
+            "ParticleList": {
+                "Title": "Partículas",
+                "Error": {
+                    "Description": "No se han podido cargar las partículas en la página {0}"
+                }
+            },
+            "EngineList": {
+                "Title": "Motores",
+                "Error": {
+                    "Description": "No se han podido cargar los motores en la página {0}"
+                }
+            },
+            "LevelLoader": {
+                "Details": {
+                    "Description": "Cargando detalles del nivel...",
+                    "Error": {
+                        "Description": "No se han podido cargar los detalles del nivel..."
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "El nivel \"{0}\" no es compatible con la versión actual"
+                },
+                "Cover": {
+                    "Description": "Cargando carátula del nivel...",
+                    "Error": {
+                        "Description": "No se ha podido cargar la carátula del nivel..."
+                    }
+                },
+                "Data": {
+                    "Description": "Cargando datos del nivel...",
+                    "Error": {
+                        "Description": "No se han podido cargar los datos del nivel de \"{0}\""
+                    }
+                },
+                "Bgm": {
+                    "Description": "Cargando música del nivel...",
+                    "Error": {
+                        "Description": "No se ha podido cargar la música del nivel de \"{0}\""
+                    }
+                },
+                "Preview": {
+                    "Description": "Loading level preview...",
+                    "Error": {
+                        "Description": "Failed to load level preview of \"{0}\""
+                    }
+                }
+            },
+            "SkinLoader": {
+                "Details": {
+                    "Description": "Cargando detalles de skin...",
+                    "Error": {
+                        "Description": "No se han podido cargar los detalles de skin..."
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "La skin \"{0}\" no es compatible con la versión actual"
+                },
+                "Thumbnail": {
+                    "Description": "Cargando miniatura de la skin...",
+                    "Error": {
+                        "Description": "No se ha podido cargar la miniatura de la skin \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Cargando datos de la skin...",
+                    "Error": {
+                        "Description": "No se han podido cargar los datos de la skin de \"{0}\""
+                    }
+                },
+                "Texture": {
+                    "Description": "Cargando texturas de la skin...",
+                    "Error": {
+                        "Description": "No se han podido cargar las texturas de la skin de \"{0}\""
+                    }
+                }
+            },
+            "BackgroundLoader": {
+                "Details": {
+                    "Description": "Cargando detalles del fondo...",
+                    "Error": {
+                        "Description": "No se han podido cargar los detalles del fondo..."
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "El fondo \"{0}\" no es compatible con la versión actual"
+                },
+                "Thumbnail": {
+                    "Description": "Cargando miniatura del fondo...",
+                    "Error": {
+                        "Description": "No se ha podido cargar la miniatura del fondo de \"{0}\""
+                    }
+                },
+                "Configuration": {
+                    "Description": "Cargando la configuración del fondo...",
+                    "Error": {
+                        "Description": "No se ha podido cargar la configuración del fondo de \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Cargando datos del fondo...",
+                    "Error": {
+                        "Description": "No se han podido cargar los datos del fondo de \"{0}\""
+                    }
+                },
+                "Image": {
+                    "Description": "Cargando imagen de fondo...",
+                    "Error": {
+                        "Description": "No se ha podido cargar la imagen de fondo de \"{0}\""
+                    }
+                }
+            },
+            "EffectLoader": {
+                "Details": {
+                    "Description": "Cargando detalles de los efectos de sonido (SFX)...",
+                    "Error": {
+                        "Description": "No se han podido cargar los detalles de los efectos de sonido (SFX)..."
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "Los efectos de sonido \"{0}\" no son compatibles con la versión actual"
+                },
+                "Thumbnail": {
+                    "Description": "Cargando miniatura de los efectos de sonido...",
+                    "Error": {
+                        "Description": "No se ha podido cargar la miniatura de los efectos de sonido"
+                    }
+                },
+                "Data": {
+                    "Description": "Cargando datos de los efectos de sonido...",
+                    "Error": {
+                        "Description": "No se han podido cargar los datos de los efectos de sonido de \"{0}\""
+                    }
+                },
+                "Clip": {
+                    "Description": "Cargando efectos de sonido...",
+                    "Error": {
+                        "Description": "No se han podido cargar los efectos de sonido de \"{0}\""
+                    }
+                }
+            },
+            "ParticleLoader": {
+                "Details": {
+                    "Description": "Cargando detalles de las partículas...",
+                    "Error": {
+                        "Description": "No se han podido cargar los detalles de las partículas..."
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "Las partículas de \"{0}\" no son compatibles con la versión actual"
+                },
+                "Thumbnail": {
+                    "Description": "Cargando miniatura de las partículas...",
+                    "Error": {
+                        "Description": "No se ha podido cargar la miniatura de las partículas"
+                    }
+                },
+                "Data": {
+                    "Description": "Cargando datos de las partículas...",
+                    "Error": {
+                        "Description": "No se han podido cargar los datos de las partículas de \"{0}\""
+                    }
+                },
+                "Texture": {
+                    "Description": "Cargando textura de las partículas...",
+                    "Error": {
+                        "Description": "No se han podido cargar las texturas de las partículas de \"{0}\""
+                    }
+                }
+            },
+            "EngineLoader": {
+                "Details": {
+                    "Description": "Cargando detalles del motor...",
+                    "Error": {
+                        "Description": "No se han podido cargar los detalles del motor..."
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "El motor de \"{0}\" no son compatibles con la versión actual"
+                },
+                "Thumbnail": {
+                    "Description": "Cargando miniatura del motor...",
+                    "Error": {
+                        "Description": "No se ha podido cargar la miniatura del motor"
+                    }
+                },
+                "Configuration": {
+                    "Description": "Cargando configuración del motor...",
+                    "Error": {
+                        "Description": "No se ha podido cargar la configuración del motor de \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Cargando datos del motor...",
+                    "Error": {
+                        "Description": "No se han podido cargar los datos del motor de \"{0}\""
+                    }
+                },
+                "Rom": {
+                    "Description": "Cargando ROM del motor...",
+                    "Error": {
+                        "Description": "No se ha podido cargar la ROM del motor de \"{0}\""
+                    }
+                }
+            },
+            "PackageExporter": {
+                "LevelList": {
+                    "Description": "Exportando lista de niveles...",
+                    "Error": {
+                        "Description": "No se ha podido exportar la lista de niveles"
+                    }
+                },
+                "SkinList": {
+                    "Description": "Exportando lista de skins...",
+                    "Error": {
+                        "Description": "No se ha podido exportar la lista de skins"
+                    }
+                },
+                "BackgroundList": {
+                    "Description": "Exportando lista de imágenes de fondo...",
+                    "Error": {
+                        "Description": "No se ha podido exportar la lista de imágenes de fondo"
+                    }
+                },
+                "EffectList": {
+                    "Description": "Exportando lista de efectos de sonido...",
+                    "Error": {
+                        "Description": "No se ha podido exportar la lista de efectos de sonido"
+                    }
+                },
+                "ParticleList": {
+                    "Description": "Exportando lista de partículas...",
+                    "Error": {
+                        "Description": "No se ha podido exportar la lista de partículas"
+                    }
+                },
+                "EngineList": {
+                    "Description": "Exportando lista de motores...",
+                    "Error": {
+                        "Description": "No se ha podido exportar la lista de motores"
+                    }
+                }
+            },
+            "LevelExporter": {
+                "CompatibilityError": {
+                    "Description": "El nivel \"{0}\" no es compatible con la versión actual"
+                },
+                "Cover": {
+                    "Description": "Exportando carátula del nivel...",
+                    "Error": {
+                        "Description": "No se ha podido exportar la carátula del nivel \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Exportando datos del nivel...",
+                    "Error": {
+                        "Description": "No se han podido exportar los datos del nivel \"{0}\""
+                    }
+                },
+                "Bgm": {
+                    "Description": "Exportando música del nivel...",
+                    "Error": {
+                        "Description": "No se ha podido exportar la música del nivel \"{0}\""
+                    }
+                },
+                "Preview": {
+                    "Description": "Exporting level preview...",
+                    "Error": {
+                        "Description": "Failed to export level preview of \"{0}\""
+                    }
+                },
+                "Details": {
+                    "Description": "Exportando detalles del nivel...",
+                    "Error": {
+                        "Description": "No se han podido exportar los detalles del nivel \"{0}\""
+                    }
+                }
+            },
+            "SkinExporter": {
+                "CompatibilityError": {
+                    "Description": "La skin \"{0}\" no es compatible con la versión actual"
+                },
+                "Thumbnail": {
+                    "Description": "Exportando miniatura de la skin...",
+                    "Error": {
+                        "Description": "No se ha podido exportar la miniatura de la skin de \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Exportando datos de la skin...",
+                    "Error": {
+                        "Description": "No se han podido exportar los datos de la skin de \"{0}\""
+                    }
+                },
+                "Texture": {
+                    "Description": "Exportando texturas de la skin...",
+                    "Error": {
+                        "Description": "No se han podido exportar las texturas de la skin de \"{0}\""
+                    }
+                },
+                "Details": {
+                    "Description": "Exportando detalles de la skin...",
+                    "Error": {
+                        "Description": "No se han podido exportar los detalles de la skin de \"{0}\""
+                    }
+                }
+            },
+            "BackgroundExporter": {
+                "CompatibilityError": {
+                    "Description": "La imagen de fondo \"{0}\" no es compatible con la versión actual"
+                },
+                "Thumbnail": {
+                    "Description": "Exportando la miniatura de la imagen de fondo...",
+                    "Error": {
+                        "Description": "No se ha podido exportar la miniatura de la imagen de fondo de \"{0}\""
+                    }
+                },
+                "Configuration": {
+                    "Description": "Exportando la configuración de la imagen de fondo...",
+                    "Error": {
+                        "Description": "No se ha podido exportar la configuración de la imagen de fondo \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Exportando los datos de la imagen de fondo...",
+                    "Error": {
+                        "Description": "No se han podido exportar los datos de la imagen de fondo \"{0}\""
+                    }
+                },
+                "Image": {
+                    "Description": "Exportando imagen de fondo...",
+                    "Error": {
+                        "Description": "No se ha podido exportar la imagen de fondo \"{0}\""
+                    }
+                },
+                "Details": {
+                    "Description": "Exportando los detalles de la imagen de fondo...",
+                    "Error": {
+                        "Description": "No se han podido exportar los detalles de la imagen de fondo \"{0}\""
+                    }
+                }
+            },
+            "EffectExporter": {
+                "CompatibilityError": {
+                    "Description": "El efecto de sonido \"{0}\" no es compatible con la versión actual"
+                },
+                "Thumbnail": {
+                    "Description": "Exportando la miniatura del efecto de sonido...",
+                    "Error": {
+                        "Description": "No se ha podido exportar la miniatura del efecto de sonido \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Exportando datos de los efectos de sonido...",
+                    "Error": {
+                        "Description": "No se han podido exportar los datos del efecto de sonido \"{0}\""
+                    }
+                },
+                "Clip": {
+                    "Description": "Exportando efecto de sonido...",
+                    "Error": {
+                        "Description": "No se ha podido exportar el efecto de sonido \"{0}\""
+                    }
+                },
+                "Details": {
+                    "Description": "Exportando detalles del efecto de sonido...",
+                    "Error": {
+                        "Description": "No se han podido exportar los detalles del efecto de sonido \"{0}\""
+                    }
+                }
+            },
+            "ParticleExporter": {
+                "CompatibilityError": {
+                    "Description": "La partícula \"{0}\" no es compatible con la versión actual"
+                },
+                "Thumbnail": {
+                    "Description": "Exportando miniatura de las partículas...",
+                    "Error": {
+                        "Description": "No se ha podido exportar la miniatura de las partículas de \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Exportando datos de las partículas...",
+                    "Error": {
+                        "Description": "No se han podido exportar los datos de las partículas de \"{0}\""
+                    }
+                },
+                "Texture": {
+                    "Description": "Exportando texturas de las partículas...",
+                    "Error": {
+                        "Description": "No se han podido exportar las texturas de las partículas de \"{0}\""
+                    }
+                },
+                "Details": {
+                    "Description": "Exportando detalles de las partículas...",
+                    "Error": {
+                        "Description": "No se han podido exportar los detalles de las partículas de \"{0}\""
+                    }
+                }
+            },
+            "EngineExporter": {
+                "CompatibilityError": {
+                    "Description": "El motor \"{0}\" no es compatible con la versión actual"
+                },
+                "Thumbnail": {
+                    "Description": "Exportando miniatura del motor...",
+                    "Error": {
+                        "Description": "No se ha podido exportar la miniatura del motor \"{0}\""
+                    }
+                },
+                "Configuration": {
+                    "Description": "Exportando configuración del motor...",
+                    "Error": {
+                        "Description": "No se ha podido exportar la configuración del motor \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Exportando datos del motor...",
+                    "Error": {
+                        "Description": "No se han podido exportar los datos del motor \"{0}\""
+                    }
+                },
+                "Rom": {
+                    "Description": "Exportando ROM del motor...",
+                    "Error": {
+                        "Description": "No se ha podido exportar la ROM del motor de \"{0}\""
+                    }
+                },
+                "Details": {
+                    "Description": "Exportando detalles del motor...",
+                    "Error": {
+                        "Description": "No se han podido exportar los detalles del motor \"{0}\""
+                    }
+                }
+            },
+            "ItemDetails": {
+                "Save": "Guardar",
+                "Update": "Actualizar",
+                "Description": {
+                    "Header": "Descripción"
+                },
+                "Recommended": {
+                    "Header": "Recomendados"
+                }
+            },
+            "LevelDetails": {
+                "Title": "Detalles del nivel",
+                "Actions": {
+                    "Play": "Jugar",
+                    "Configuration": "Configuración"
+                }
+            },
+            "SkinDetails": {
+                "Title": "Detalles de skin"
+            },
+            "BackgroundDetails": {
+                "Title": "Detalles del fondo",
+                "Actions": {
+                    "Configuration": "Configuración"
+                }
+            },
+            "EffectDetails": {
+                "Title": "Detalles de los efectos de sonido (SFX)"
+            },
+            "ParticleDetails": {
+                "Title": "Detalles de las partículas"
+            },
+            "EngineDetails": {
+                "Title": "Detalles del motor",
+                "Actions": {
+                    "Configuration": "Configuración"
+                }
+            },
+            "LevelConfiguration": {
+                "Title": "Configuración del nivel",
+                "Error": {
+                    "Description": "No se han podido cargar la configuración del nivel de \"{0}\""
+                },
+                "Skin": {
+                    "Header": "Skin"
+                },
+                "Background": {
+                    "Header": "Fondo"
+                },
+                "Effect": {
+                    "Header": "Efectos de sonido"
+                },
+                "Particle": {
+                    "Header": "Partículas"
+                },
+                "Offsets": {
+                    "Header": "Compensaciones",
+                    "LevelAudioOffset": "Compensación de audio del nivel",
+                    "ServerAudioOffset": "Compensación de audio del servidor",
+                    "DeviceAudioOffset": "Compensación de audio del dispositivo",
+                    "EngineInputOffset": "Compensación de entrada del motor",
+                    "DeviceInputOffset": "Compensación de entrada del dispositivo",
+                    "Calibrate": "Calibrar"
+                },
+                "Options": {
+                    "Header": "Opciones"
+                },
+                "UI": {
+                    "Header": "UI",
+                    "PrimaryMetric": "Métrica principal",
+                    "SecondaryMetric": "Métrica secundaria",
+                    "MenuStyle": "Estilo del menú",
+                    "JudgmentStyle": "Estilo del criterio",
+                    "ComboStyle": "Estilo del combo",
+                    "PrimaryMetricStyle": "Estilo de la métrica principal",
+                    "SecondaryMetricStyle": "Estilo de la métrica secundaria",
+                    "JudgmentErrorStyle": "Estilo del criterio de error",
+                    "JudgmentErrorPlacement": "Posición del criterio de error",
+                    "JudgmentErrorMin": "Error de criterio mínimo"
+                }
+            },
+            "BackgroundConfiguration": {
+                "Title": "Configuración del fondo",
+                "Error": {
+                    "Description": "No se ha podido cargar la configuración del fondo de \"{0}\""
+                },
+                "Blur": "Blur",
+                "Mask": "Enmascaramiento"
+            },
+            "EngineConfiguration": {
+                "Title": "Configuración del motor",
+                "Error": {
+                    "Description": "No se ha podido cargar la configuración del motor"
+                },
+                "Skin": {
+                    "Header": "Skin"
+                },
+                "Background": {
+                    "Header": "Fondo"
+                },
+                "Effect": {
+                    "Header": "Efectos de sonido"
+                },
+                "Particle": {
+                    "Header": "Partículas"
+                },
+                "Offsets": {
+                    "Header": "Compensaciones",
+                    "EngineInputOffset": "Compensación de entrada del motor"
+                },
+                "Options": {
+                    "Header": "Opciones"
+                },
+                "UI": {
+                    "Header": "UI",
+                    "PrimaryMetric": "Métrica principal",
+                    "SecondaryMetric": "Métrica secundaria",
+                    "MenuStyle": "Estilo del menú",
+                    "JudgmentStyle": "Estilo del criterio",
+                    "ComboStyle": "Estilo del combo",
+                    "PrimaryMetricStyle": "Estilo de la métrica principal",
+                    "SecondaryMetricStyle": "Estilo de la métrica secundaria",
+                    "JudgmentErrorStyle": "Estilo del criterio de error",
+                    "JudgmentErrorPlacement": "Posición del criterio de error",
+                    "JudgmentErrorMin": "Error de criterio mínimo"
+                }
+            }
+        },
+        "Gameplay": {
+            "PlayMode": {
+                "Loader": {
+                    "Runtime": {
+                        "Error": {
+                            "Description": "No se ha podido iniciar el nivel \"{0}\""
+                        }
+                    }
+                },
+                "Pause": {
+                    "Title": "Pausa",
+                    "Control": {
+                        "Header": "Control",
+                        "Restart": "Reiniciar",
+                        "Exit": "Salir"
+                    },
+                    "Snapshot": {
+                        "Header": "Snapshot",
+                        "Record": "Registrar",
+                        "Replay": "Repetir"
+                    },
+                    "Debug": {
+                        "Header": "Debug",
+                        "Code": "Código",
+                        "Data": "Datos"
+                    }
+                },
+                "Result": {
+                    "Title": "Resultado",
+                    "Restart": "Reiniciar",
+                    "Options": {
+                        "Snapshot": "Snapshot",
+                        "Paused": "Pausado"
+                    },
+                    "Graphs": {
+                        "Header": "Gráficos",
+                        "Judgment": "Juicio",
+                        "Accuracy": "Precisión"
+                    }
+                }
+            },
+            "Debug": {
+                "Code": {
+                    "Title": "Código"
+                },
+                "Data": {
+                    "Title": "Datos"
+                }
+            },
+            "JudgmentGraph": {
+                "Title": "Gráfica de juicio"
+            },
+            "AccuracyGraph": {
+                "Title": "Gráfica de precisión",
+                "AbsoluteValue": "Valor absoluto",
+                "Mean": "Promedio",
+                "StandardDeviation": "Desviación estándar",
+                "Min": "Mín",
+                "Max": "Máx"
+            },
+            "BucketGraph": {
+                "Title": "Gráfica de cubo"
+            }
+        }
+    }
+}

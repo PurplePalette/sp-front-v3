@@ -1,0 +1,1202 @@
+{
+    "SweetPotato": {
+        "Navigation": {
+          "Header": {
+            "Introduction": "Introduction",
+            "Community": "Community",
+            "Explorer": "Explorer",
+            "Upload": "Upload",
+            "MyPage": "My Page"
+          },
+          "Footer": {
+            "TermsOfUses": "Terms of Uses",
+            "PrivacyPolicy": "Privacy Policy",
+            "Guideline": "Guideline",
+            "Contact": "Contact Us",
+            "Notice": "The content posted on this site is user-submitted content. If you find any infringement, please contact us through Contact Us."
+          }
+        },
+        "Index": {
+          "Sentence": {
+            "Title": "Next Generation Sonolus Distribution Server with FREEDOM",
+            "SubTitle1": "SweetPotato is a file uploader service for sonolus.",
+            "SubTitle2": "You can share your chart, skin, etc. easily with this."
+          },
+          "ServerInfo": "Server information",
+          "SupportVersion": "Supported version",
+          "TotalUsers": "TotalUsers",
+          "Total": "Total"
+        }
+    },
+    "Sonolus": {
+        "Common": {
+            "Loading": "Loading...",
+            "Confirm": "Confirm",
+            "Retry": "Retry",
+            "Cancel": "Cancel",
+            "Next": "Next",
+            "Add": "Add",
+            "Select": "Select",
+            "View": "View",
+            "On": "ON",
+            "Off": "OFF",
+            "Error": {
+                "Title": "Error",
+                "Description": "Unexpected error:\n{0}"
+            },
+            "Confirmation": {
+                "Title": "Confirmation",
+                "Remove": {
+                    "Description": "Are you sure to remove \"{0}\"?"
+                }
+            },
+            "InfoUpdate": {
+                "Title": "Update Available",
+                "Description": "Sonolus version {0} is available!\n\nVisit our website:\nhttps://sonolus.com",
+                "Update": "Update"
+            },
+            "PermissionError": {
+                "Title": "Permission Error",
+                "Description": "Sonolus is unable to obtain required permissions to perform this action.\n\nOpen Settings and grant Sonolus permissions to continue.",
+                "Open": "Open"
+            },
+            "ColorField": {
+                "Html": "HEX",
+                "Rgb": "RGB",
+                "Hsv": "HSV"
+            },
+            "Success": "Success",
+            "PullToRefresh": "Pull to refresh",
+            "PullToLoad": "Pull to load more",
+            "More": "More",
+            "Search": "Search",
+            "Grade": "Grade",
+            "Arcade": "Arc Score",
+            "Accuracy": "Acc Score",
+            "Combo": "Combo",
+            "Perfect": "Perfect",
+            "Great": "Great",
+            "Good": "Good",
+            "Miss": "Miss",
+            "Easings": {
+                "Linear": "Linear",
+                "InSine": "Sine (In)",
+                "OutSine": "Sine (Out)",
+                "InOutSine": "Sine (In Out)",
+                "OutInSine": "Sine (Out In)",
+                "InQuad": "Quad (In)",
+                "OutQuad": "Quad (Out)",
+                "InOutQuad": "Quad (In Out)",
+                "OutInQuad": "Quad (Out In)",
+                "InCubic": "Cubic (In)",
+                "OutCubic": "Cubic (Out)",
+                "InOutCubic": "Cubic (In Out)",
+                "OutInCubic": "Cubic (Out In)",
+                "InQuart": "Quart (In)",
+                "OutQuart": "Quart (Out)",
+                "InOutQuart": "Quart (In Out)",
+                "OutInQuart": "Quart (Out In)",
+                "InQuint": "Quint (In)",
+                "OutQuint": "Quint (Out)",
+                "InOutQuint": "Quint (In Out)",
+                "OutInQuint": "Quint (Out In)",
+                "InExpo": "Expo (In)",
+                "OutExpo": "Expo (Out)",
+                "InOutExpo": "Expo (In Out)",
+                "OutInExpo": "Expo (Out In)",
+                "InCirc": "Circ (In)",
+                "OutCirc": "Circ (Out)",
+                "InOutCirc": "Circ (In Out)",
+                "OutInCirc": "Circ (Out In)",
+                "InBack": "Back (In)",
+                "OutBack": "Back (Out)",
+                "InOutBack": "Back (In Out)",
+                "OutInBack": "Back (Out In)",
+                "InElastic": "Elastic (In)",
+                "OutElastic": "Elastic (Out)",
+                "InOutElastic": "Elastic (In Out)",
+                "OutInElastic": "Elastic (Out In)"
+            },
+            "JudgmentError": {
+                "Style": {
+                    "None": "None",
+                    "Plus": "+ / -",
+                    "Minus": "- / +",
+                    "ArrowUp": "↑ / ↓",
+                    "ArrowDown": "↓ / ↑",
+                    "ArrowLeft": "← / →",
+                    "ArrowRight": "→ / ←",
+                    "TriangleUp": "▲ / ▼",
+                    "TriangleDown": "▼ / ▲",
+                    "TriangleLeft": "◄ / ►",
+                    "TriangleRight": "► / ◄"
+                },
+                "Placement": {
+                    "Both": "Both",
+                    "Left": "Left",
+                    "Right": "Right"
+                }
+            },
+            "Style": {
+                "Visibility": "Visibility",
+                "Animation": "Animation"
+            },
+            "Option": {
+                "Name": {
+                    "#KEYWORDS": "Keywords",
+                    "#NAME": "Name",
+                    "#RATING": "Rating",
+                    "#RATING_MINIMUM": "Minimum Rating",
+                    "#RATING_MAXIMUM": "Maximum Rating",
+                    "#TITLE": "Title",
+                    "#SUBTITLE": "Subtitle",
+                    "#ARTISTS": "Artists",
+                    "#AUTHOR": "Author",
+                    "#GENRE": "Genre",
+                    "#CATEGORY": "Category",
+                    "#LANGUAGE": "Language",
+                    "#DIFFICULTY": "Difficulty",
+                    "#LENGTH": "Length",
+                    "#LENGTH_MINIMUM": "Minimum Length",
+                    "#LENGTH_MAXIMUM": "Maximum Length",
+                    "#SPEED": "Level Speed",
+                    "#AUTO": "Auto Play",
+                    "#MIRROR": "Mirror Level",
+                    "#RANDOM": "Random",
+                    "#HIDDEN": "Hidden",
+                    "#JUDGMENT_STRICT": "Strict Judgment",
+                    "#JUDGMENT_LOOSE": "Loose Judgment",
+                    "#EFFECT": "SFX",
+                    "#EFFECT_AUTO": "Auto SFX",
+                    "#STAGE": "Stage Visibility",
+                    "#STAGE_SIZE": "Stage Size",
+                    "#STAGE_ROTATION": "Stage Rotation",
+                    "#STAGE_ALPHA": "Stage Transparency",
+                    "#STAGE_TILT": "Stage Tilt",
+                    "#STAGE_COVER_VERTICAL": "Vertical Stage Cover",
+                    "#STAGE_COVER_HORIZONTAL": "Horizontal Stage Cover",
+                    "#STAGE_COVER_ALPHA": "Stage Cover Transparency",
+                    "#STAGE_ASPECTRATIO_LOCK": "Lock Stage Aspect Ratio",
+                    "#STAGE_EFFECT": "Stage Effect",
+                    "#STAGE_EFFECT_SIZE": "Stage Effect Size",
+                    "#STAGE_EFFECT_ROTATION": "Stage Effect Rotation",
+                    "#STAGE_EFFECT_ALPHA": "Stage Effect Transparency",
+                    "#LANE": "Lane Visibility",
+                    "#LANE_SIZE": "Lane Size",
+                    "#LANE_ROTATION": "Lane Rotation",
+                    "#LANE_ALPHA": "Lane Transparency",
+                    "#LANE_EFFECT": "Lane Effect",
+                    "#LANE_EFFECT_SIZE": "Lane Effect Size",
+                    "#LANE_EFFECT_ROTATION": "Lane Effect Rotation",
+                    "#LANE_EFFECT_ALPHA": "Lane Effect Transparency",
+                    "#JUDGELINE": "Judgment Line Visibility",
+                    "#JUDGELINE_SIZE": "Judgment Line Size",
+                    "#JUDGELINE_ROTATION": "Judgment Line Rotation",
+                    "#JUDGELINE_ALPHA": "Judgment Line Transparency",
+                    "#JUDGELINE_EFFECT": "Judgment Line Effect",
+                    "#JUDGELINE_EFFECT_SIZE": "Judgment Line Effect Size",
+                    "#JUDGELINE_EFFECT_ROTATION": "Judgment Line Effect Rotation",
+                    "#JUDGELINE_EFFECT_ALPHA": "Judgment Line Effect Transparency",
+                    "#SLOT": "Slot Visibility",
+                    "#SLOT_SIZE": "Slot Size",
+                    "#SLOT_ROTATION": "Slot Rotation",
+                    "#SLOT_ALPHA": "Slot Transparency",
+                    "#SLOT_EFFECT": "Slot Effect",
+                    "#SLOT_EFFECT_SIZE": "Slot Effect Size",
+                    "#SLOT_EFFECT_ROTATION": "Slot Effect Rotation",
+                    "#SLOT_EFFECT_ALPHA": "Slot Effect Transparency",
+                    "#NOTE": "Note Visibility",
+                    "#NOTE_SPEED": "Note Speed",
+                    "#NOTE_SPEED_RANDOM": "Random Note Speed",
+                    "#NOTE_SIZE": "Note Size",
+                    "#NOTE_ROTATION": "Note Rotation",
+                    "#NOTE_ALPHA": "Note Transparency",
+                    "#NOTE_EFFECT": "Note Effect",
+                    "#NOTE_EFFECT_SIZE": "Note Effect Size",
+                    "#NOTE_EFFECT_ROTATION": "Note Effect Rotation",
+                    "#NOTE_EFFECT_ALPHA": "Note Effect Transparency",
+                    "#MARKER": "Marker Visibility",
+                    "#MARKER_SIZE": "Marker Size",
+                    "#MARKER_ROTATION": "Marker Rotation",
+                    "#MARKER_ALPHA": "Marker Transparency",
+                    "#CONNECTOR": "Connector Visibility",
+                    "#CONNECTOR_SIZE": "Connector Size",
+                    "#CONNECTOR_ROTATION": "Connector Rotation",
+                    "#CONNECTOR_ALPHA": "Connector Transparency",
+                    "#SIMLINE": "Simultaneous Line Visibility",
+                    "#SIMLINE_SIZE": "Simultaneous Line Size",
+                    "#SIMLINE_ROTATION": "Simultaneous Line Rotation",
+                    "#SIMLINE_ALPHA": "Simultaneous Line Transparency"
+                },
+                "Value": {
+                    "#NONE": "None",
+                    "#ANY": "Any",
+                    "#ALL": "All",
+                    "#OTHERS": "Others",
+                    "#SHORT": "Short",
+                    "#LONG": "Long",
+                    "#HIGH": "High",
+                    "#MID": "Mid",
+                    "#LOW": "Low",
+                    "#SMALL": "Small",
+                    "#MEDIUM": "Medium",
+                    "#LARGE": "Large",
+                    "#LEFT": "Left",
+                    "#RIGHT": "Right",
+                    "#UP": "Up",
+                    "#DOWN": "Down",
+                    "#FRONT": "Front",
+                    "#BACK": "Back",
+                    "#CENTER": "Center",
+                    "#TOP": "Top",
+                    "#BOTTOM": "Bottom",
+                    "#TOP_LEFT": "Top Left",
+                    "#TOP_CENTER": "Top Center",
+                    "#TOP_RIGHT": "Top Right",
+                    "#CENTER_LEFT": "Center Left",
+                    "#CENTER_RIGHT": "Center Right",
+                    "#BOTTOM_LEFT": "Bottom Left",
+                    "#BOTTOM_CENTER": "Bottom Center",
+                    "#BOTTOM_RIGHT": "Bottom Right",
+                    "#CLOCKWISE": "Clockwise",
+                    "#COUNTERCLOCKWISE": "Counterclockwise",
+                    "#FORWARD": "Forward",
+                    "#BACKWARD": "Backward",
+                    "#SIMPLE": "Simple",
+                    "#EASY": "Easy",
+                    "#NORMAL": "Normal",
+                    "#HARD": "Hard",
+                    "#EXPERT": "Expert",
+                    "#MASTER": "Master",
+                    "#PRO": "Pro",
+                    "#TECHNICAL": "Technical",
+                    "#SPECIAL": "Special"
+                },
+                "Placeholder": {
+                    "#KEYWORDS": "Enter keywords...",
+                    "#NAME": "Enter name...",
+                    "#RATING": "Enter rating...",
+                    "#RATING_MINIMUM": "Enter minimum rating...",
+                    "#RATING_MAXIMUM": "Enter maximum rating...",
+                    "#TITLE": "Enter title...",
+                    "#SUBTITLE": "Enter subtitle...",
+                    "#ARTISTS": "Enter artists...",
+                    "#AUTHOR": "Enter author...",
+                    "#GENRE": "Enter genre...",
+                    "#CATEGORY": "Enter category...",
+                    "#LANGUAGE": "Enter language...",
+                    "#DIFFICULTY": "Enter difficulty...",
+                    "#LENGTH": "Enter length...",
+                    "#LENGTH_MINIMUM": "Enter minimum length...",
+                    "#LENGTH_MAXIMUM": "Enter maximum length..."
+                }
+            },
+            "Metric": {
+                "Arcade": "Arcade Score",
+                "Accuracy": "Accuracy Score",
+                "Life": "Life",
+                "PerfectRate": "Perfect Rate",
+                "ErrorHeatmap": "Error Heatmap"
+            },
+            "ListView": {
+                "ClearSearch": "Results for \"{0}\"",
+                "Jump": {
+                    "Header": "Jump to Page",
+                    "Page": "Page",
+                    "PagePlaceholder": "Enter page number..."
+                },
+                "Search": {
+                    "Header": "Search",
+                    "Keywords": "Keywords",
+                    "KeywordsPlaceholder": "Enter keywords..."
+                }
+            }
+        },
+        "Color": {
+            "Title": "Color",
+            "Html": "Hex",
+            "HtmlPlaceholder": "Enter color hex...",
+            "R": "Red",
+            "G": "Green",
+            "B": "Blue",
+            "H": "Hue",
+            "S": "Saturation",
+            "V": "Value",
+            "A": "Alpha"
+        },
+        "Search": {
+            "Title": "Search"
+        },
+        "Title": {
+            "TapToStart": "Tap to Start"
+        },
+        "SelectLocalization": {
+            "Title": "Select Language",
+            "Description": "Select a preferred language:",
+            "List": {
+                "Error": {
+                    "Description": "Failed to load language list"
+                }
+            },
+            "Localization": {
+                "Error": {
+                    "Description": "Failed to load language \"{0}\""
+                }
+            }
+        },
+        "SelectTheme": {
+            "Title": "Select Theme",
+            "Description": "Select a theme:"
+        },
+        "Theme": {
+            "Dark": "Dark",
+            "Light": "Light"
+        },
+        "ManageCache": {
+            "Title": "Manage Cache",
+            "Cache": {
+                "Header": "Cache",
+                "Description": "Cache allows Sonolus to speed up loading network requests and reduce bandwidth usage, by memorizing network URLs and the local repository resources they associate with.\nCache takes up a very small amount of storage, and is recommended to not be deleted.",
+                "Count": "Cache: {0} entries"
+            },
+            "Expire": {
+                "Header": "Expire",
+                "Description": "Expire all cache which causes Sonolus to revalidate before using the local repository resources which network URLs are associated with.",
+                "Expire": "Expire",
+                "Confirmation": {
+                    "Description": "Are you sure to expire all cache?"
+                }
+            },
+            "Delete": {
+                "Header": "Delete",
+                "Description": "Delete all cache which causes Sonolus to redownload all network requests. Not recommended.",
+                "Delete": "Delete",
+                "Confirmation": {
+                    "Description": "Are you sure to delete all cache?"
+                }
+            }
+        },
+        "ManageRepository": {
+            "Title": "Manage Repository",
+            "Repository": {
+                "Header": "Repository",
+                "Description": "Repository stores all resources locally available on this device.",
+                "Size": "Size: {0}"
+            },
+            "Delete": {
+                "Header": "Delete",
+                "Description": "Delete all repository resources which causes Sonolus to redownload when requested.",
+                "Delete": "Delete",
+                "Confirmation": {
+                    "Description": "Are you sure to delete all repository resources?"
+                }
+            }
+        },
+        "CalibrateAudio": {
+            "Title": "Calibrate Audio",
+            "Description": "Calibrate audio by adjusting Device Audio Offset until audio and graphics sync up."
+        },
+        "CalibrateInput": {
+            "Title": "Calibrate Input",
+            "Description": "Calibrate input by dragging along moving square with your finger.\nIf you are accustomed to games that do not offer such option, you can leave it at 0.",
+            "Result": {
+                "Start": "Drag to test offset",
+                "Ongoing": "Measuring...",
+                "OneFinger": "Please drag with one finger only",
+                "Incomplete": "Please drag the full course",
+                "Success": "Success, recommended offset: {0}"
+            }
+        },
+        "Home": {
+            "Play": "Play",
+            "Settings": "Settings"
+        },
+        "Settings": {
+            "Title": "Settings",
+            "Graphics": {
+                "Header": "Graphics",
+                "RenderScale": "Render Scale",
+                "AntiAliasing": "Anti-Aliasing",
+                "GpuParticleSystem": "GPU Particle System",
+                "IgnoreNotch": "Ignore Notch"
+            },
+            "Audio": {
+                "Header": "Audio",
+                "BgmVolume": "BGM Volume",
+                "EffectVolume": "SFX Volume",
+                "PreviewBgm": {
+                    "Name": "Preview BGM",
+                    "Value": {
+                        "Off": "Off",
+                        "DetailsOnly": "Details Only",
+                        "ListAndDetails": "List and Details"
+                    }
+                }
+            },
+            "UI": {
+                "Header": "UI",
+                "Localization": "Language",
+                "Theme": "Theme",
+                "UIScale": "UI Scale",
+                "PerfectJudgmentColor": "Perfect Judgment Color",
+                "GreatJudgmentColor": "Great Judgment Color",
+                "GoodJudgmentColor": "Good Judgment Color",
+                "MissJudgmentColor": "Miss Judgment Color",
+                "PositiveJudgmentErrorColor": "Positive Judgment Error Color",
+                "NegativeJudgmentErrorColor": "Negative Judgment Error Color",
+                "AllPerfectComboColor": "All Perfect Combo Color",
+                "FullComboComboColor": "Full Combo Combo Color",
+                "PassComboColor": "Pass Combo Color",
+                "FailComboColor": "Fail Combo Color",
+                "BoldComboNumber": "Bold Combo Number",
+                "ShowZeroCombo": "Show Zero Combo"
+            },
+            "Offsets": {
+                "Header": "Offsets",
+                "Calibrate": "Calibrate",
+                "DeviceAudioOffset": "Device Audio Offset",
+                "DeviceInputOffset": "Device Input Offset"
+            },
+            "Repository": {
+                "Header": "Repository",
+                "Manage": "Manage"
+            },
+            "Cache": {
+                "Header": "Cache",
+                "AlwaysRevalidate": "Always Revalidate",
+                "Manage": "Manage"
+            },
+            "Debug": {
+                "Header": "Debug",
+                "DebugMode": "Debug Mode"
+            }
+        },
+        "SelectCollection": {
+            "Title": "Select Collection"
+        },
+        "SelectServer": {
+            "Title": "Select Server",
+            "Collection": {
+                "Header": "Collection",
+                "Import": "Import",
+                "PackageError": {
+                    "Description": "Unsupported or corrupted package"
+                }
+            },
+            "Custom": {
+                "Header": "Custom Server"
+            }
+        },
+        "CollectionInfo": {
+            "Title": "Collection Info",
+            "Name": "Name",
+            "NamePlaceholder": "Enter collection name..."
+        },
+        "CustomServerInfo": {
+            "Title": "Custom Server Info",
+            "Name": "Name",
+            "NamePlaceholder": "Enter custom server name...",
+            "Address": "Address",
+            "AddressPlaceholder": "Enter custom server address..."
+        },
+        "Server": {
+            "Style": {
+                "Visibility": {
+                    "Title": "Visibility",
+                    "Scale": "Scale",
+                    "Alpha": "Alpha"
+                },
+                "Animation": {
+                    "Title": "Animation",
+                    "Scale": "Scale",
+                    "Alpha": "Alpha",
+                    "Tween": "Tween"
+                },
+                "Tween": {
+                    "Title": "Tween",
+                    "From": "From",
+                    "To": "To",
+                    "Duration": "Duration",
+                    "Ease": "Ease"
+                }
+            },
+            "VersionError": {
+                "Description": "This server only supports version {0}"
+            },
+            "Home": {
+                "ServerInfo": {
+                    "Error": {
+                        "Description": "Failed to load server information of {0}"
+                    }
+                },
+                "Levels": {
+                    "Header": "Levels"
+                },
+                "Skins": {
+                    "Header": "Skins"
+                },
+                "Backgrounds": {
+                    "Header": "Backgrounds"
+                },
+                "Effects": {
+                    "Header": "SFX"
+                },
+                "Particles": {
+                    "Header": "Particles"
+                },
+                "Engines": {
+                    "Header": "Engines"
+                }
+            },
+            "LevelList": {
+                "Title": "Levels",
+                "Error": {
+                    "Description": "Failed to load levels on page {0}"
+                }
+            },
+            "SkinList": {
+                "Title": "Skins",
+                "Error": {
+                    "Description": "Failed to load skins on page {0}"
+                }
+            },
+            "BackgroundList": {
+                "Title": "Backgrounds",
+                "Error": {
+                    "Description": "Failed to load backgrounds on page {0}"
+                }
+            },
+            "EffectList": {
+                "Title": "SFX",
+                "Error": {
+                    "Description": "Failed to load SFX on page {0}"
+                }
+            },
+            "ParticleList": {
+                "Title": "Particles",
+                "Error": {
+                    "Description": "Failed to load particles on page {0}"
+                }
+            },
+            "EngineList": {
+                "Title": "Engines",
+                "Error": {
+                    "Description": "Failed to load engines on page {0}"
+                }
+            },
+            "LevelLoader": {
+                "Details": {
+                    "Description": "Loading level details...",
+                    "Error": {
+                        "Description": "Failed to load level details of \"{0}\""
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "Level \"{0}\" is not compatible with current version"
+                },
+                "Cover": {
+                    "Description": "Loading level cover...",
+                    "Error": {
+                        "Description": "Failed to load level cover of \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Loading level data...",
+                    "Error": {
+                        "Description": "Failed to load level data of \"{0}\""
+                    }
+                },
+                "Bgm": {
+                    "Description": "Loading level bgm...",
+                    "Error": {
+                        "Description": "Failed to load level bgm of \"{0}\""
+                    }
+                },
+                "Preview": {
+                    "Description": "Loading level preview...",
+                    "Error": {
+                        "Description": "Failed to load level preview of \"{0}\""
+                    }
+                }
+            },
+            "SkinLoader": {
+                "Details": {
+                    "Description": "Loading skin details...",
+                    "Error": {
+                        "Description": "Failed to load skin details of \"{0}\""
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "Skin \"{0}\" is not compatible with current version"
+                },
+                "Thumbnail": {
+                    "Description": "Loading skin thumbnail...",
+                    "Error": {
+                        "Description": "Failed to load skin thumbnail of \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Loading skin data...",
+                    "Error": {
+                        "Description": "Failed to load skin data of \"{0}\""
+                    }
+                },
+                "Texture": {
+                    "Description": "Loading skin texture...",
+                    "Error": {
+                        "Description": "Failed to load skin texture of \"{0}\""
+                    }
+                }
+            },
+            "BackgroundLoader": {
+                "Details": {
+                    "Description": "Loading background details...",
+                    "Error": {
+                        "Description": "Failed to load background details of \"{0}\""
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "Background \"{0}\" is not compatible with current version"
+                },
+                "Thumbnail": {
+                    "Description": "Loading background thumbnail...",
+                    "Error": {
+                        "Description": "Failed to load background thumbnail of \"{0}\""
+                    }
+                },
+                "Configuration": {
+                    "Description": "Loading background configuration...",
+                    "Error": {
+                        "Description": "Failed to load background configuration of \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Loading background data...",
+                    "Error": {
+                        "Description": "Failed to load background data of \"{0}\""
+                    }
+                },
+                "Image": {
+                    "Description": "Loading background image...",
+                    "Error": {
+                        "Description": "Failed to load background image of \"{0}\""
+                    }
+                }
+            },
+            "EffectLoader": {
+                "Details": {
+                    "Description": "Loading SFX details...",
+                    "Error": {
+                        "Description": "Failed to load SFX details of \"{0}\""
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "SFX \"{0}\" is not compatible with current version"
+                },
+                "Thumbnail": {
+                    "Description": "Loading SFX thumbnail...",
+                    "Error": {
+                        "Description": "Failed to load SFX thumbnail of \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Loading SFX data...",
+                    "Error": {
+                        "Description": "Failed to load SFX data of \"{0}\""
+                    }
+                },
+                "Clip": {
+                    "Description": "Loading SFX clip...",
+                    "Error": {
+                        "Description": "Failed to load SFX clip of \"{0}\""
+                    }
+                }
+            },
+            "ParticleLoader": {
+                "Details": {
+                    "Description": "Loading particle details...",
+                    "Error": {
+                        "Description": "Failed to load particle details of \"{0}\""
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "Particle \"{0}\" is not compatible with current version"
+                },
+                "Thumbnail": {
+                    "Description": "Loading particle thumbnail...",
+                    "Error": {
+                        "Description": "Failed to load particle thumbnail of \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Loading particle data...",
+                    "Error": {
+                        "Description": "Failed to load particle data of \"{0}\""
+                    }
+                },
+                "Texture": {
+                    "Description": "Loading particle texture...",
+                    "Error": {
+                        "Description": "Failed to load particle texture of \"{0}\""
+                    }
+                }
+            },
+            "EngineLoader": {
+                "Details": {
+                    "Description": "Loading engine details...",
+                    "Error": {
+                        "Description": "Failed to load engine details of \"{0}\""
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "Engine \"{0}\" is not compatible with current version"
+                },
+                "Thumbnail": {
+                    "Description": "Loading engine thumbnail...",
+                    "Error": {
+                        "Description": "Failed to load engine thumbnail of \"{0}\""
+                    }
+                },
+                "Configuration": {
+                    "Description": "Loading engine configuration...",
+                    "Error": {
+                        "Description": "Failed to load engine configuration of \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Loading engine data...",
+                    "Error": {
+                        "Description": "Failed to load engine data of \"{0}\""
+                    }
+                },
+                "Rom": {
+                    "Description": "Loading engine rom...",
+                    "Error": {
+                        "Description": "Failed to load engine rom of \"{0}\""
+                    }
+                }
+            },
+            "PackageExporter": {
+                "LevelList": {
+                    "Description": "Exporting level list...",
+                    "Error": {
+                        "Description": "Failed to export level list"
+                    }
+                },
+                "SkinList": {
+                    "Description": "Exporting skin list...",
+                    "Error": {
+                        "Description": "Failed to export skin list"
+                    }
+                },
+                "BackgroundList": {
+                    "Description": "Exporting background list...",
+                    "Error": {
+                        "Description": "Failed to export background list"
+                    }
+                },
+                "EffectList": {
+                    "Description": "Exporting SFX list...",
+                    "Error": {
+                        "Description": "Failed to export SFX list"
+                    }
+                },
+                "ParticleList": {
+                    "Description": "Exporting particle list...",
+                    "Error": {
+                        "Description": "Failed to export particle list"
+                    }
+                },
+                "EngineList": {
+                    "Description": "Exporting engine list...",
+                    "Error": {
+                        "Description": "Failed to export engine list"
+                    }
+                }
+            },
+            "LevelExporter": {
+                "CompatibilityError": {
+                    "Description": "Level \"{0}\" is not compatible with current version"
+                },
+                "Cover": {
+                    "Description": "Exporting level cover...",
+                    "Error": {
+                        "Description": "Failed to export level cover of \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Exporting level data...",
+                    "Error": {
+                        "Description": "Failed to export level data of \"{0}\""
+                    }
+                },
+                "Bgm": {
+                    "Description": "Exporting level bgm...",
+                    "Error": {
+                        "Description": "Failed to export level bgm of \"{0}\""
+                    }
+                },
+                "Preview": {
+                    "Description": "Exporting level preview...",
+                    "Error": {
+                        "Description": "Failed to export level preview of \"{0}\""
+                    }
+                },
+                "Details": {
+                    "Description": "Exporting level details...",
+                    "Error": {
+                        "Description": "Failed to export level details of \"{0}\""
+                    }
+                }
+            },
+            "SkinExporter": {
+                "CompatibilityError": {
+                    "Description": "Skin \"{0}\" is not compatible with current version"
+                },
+                "Thumbnail": {
+                    "Description": "Exporting skin thumbnail...",
+                    "Error": {
+                        "Description": "Failed to export skin thumbnail of \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Exporting skin data...",
+                    "Error": {
+                        "Description": "Failed to export skin data of \"{0}\""
+                    }
+                },
+                "Texture": {
+                    "Description": "Exporting skin texture...",
+                    "Error": {
+                        "Description": "Failed to export skin texture of \"{0}\""
+                    }
+                },
+                "Details": {
+                    "Description": "Exporting skin details...",
+                    "Error": {
+                        "Description": "Failed to export skin details of \"{0}\""
+                    }
+                }
+            },
+            "BackgroundExporter": {
+                "CompatibilityError": {
+                    "Description": "Background \"{0}\" is not compatible with current version"
+                },
+                "Thumbnail": {
+                    "Description": "Exporting background thumbnail...",
+                    "Error": {
+                        "Description": "Failed to export background thumbnail of \"{0}\""
+                    }
+                },
+                "Configuration": {
+                    "Description": "Exporting background configuration...",
+                    "Error": {
+                        "Description": "Failed to export background configuration of \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Exporting background data...",
+                    "Error": {
+                        "Description": "Failed to export background data of \"{0}\""
+                    }
+                },
+                "Image": {
+                    "Description": "Exporting background image...",
+                    "Error": {
+                        "Description": "Failed to export background image of \"{0}\""
+                    }
+                },
+                "Details": {
+                    "Description": "Exporting background details...",
+                    "Error": {
+                        "Description": "Failed to export background details of \"{0}\""
+                    }
+                }
+            },
+            "EffectExporter": {
+                "CompatibilityError": {
+                    "Description": "SFX \"{0}\" is not compatible with current version"
+                },
+                "Thumbnail": {
+                    "Description": "Exporting SFX thumbnail...",
+                    "Error": {
+                        "Description": "Failed to export SFX thumbnail of \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Exporting SFX data...",
+                    "Error": {
+                        "Description": "Failed to export SFX data of \"{0}\""
+                    }
+                },
+                "Clip": {
+                    "Description": "Exporting SFX clip...",
+                    "Error": {
+                        "Description": "Failed to export SFX clip of \"{0}\""
+                    }
+                },
+                "Details": {
+                    "Description": "Exporting SFX details...",
+                    "Error": {
+                        "Description": "Failed to export SFX details of \"{0}\""
+                    }
+                }
+            },
+            "ParticleExporter": {
+                "CompatibilityError": {
+                    "Description": "Particle \"{0}\" is not compatible with current version"
+                },
+                "Thumbnail": {
+                    "Description": "Exporting particle thumbnail...",
+                    "Error": {
+                        "Description": "Failed to export particle thumbnail of \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Exporting particle data...",
+                    "Error": {
+                        "Description": "Failed to export particle data of \"{0}\""
+                    }
+                },
+                "Texture": {
+                    "Description": "Exporting particle texture...",
+                    "Error": {
+                        "Description": "Failed to export particle texture of \"{0}\""
+                    }
+                },
+                "Details": {
+                    "Description": "Exporting particle details...",
+                    "Error": {
+                        "Description": "Failed to export particle details of \"{0}\""
+                    }
+                }
+            },
+            "EngineExporter": {
+                "CompatibilityError": {
+                    "Description": "Engine \"{0}\" is not compatible with current version"
+                },
+                "Thumbnail": {
+                    "Description": "Exporting engine thumbnail...",
+                    "Error": {
+                        "Description": "Failed to export engine thumbnail of \"{0}\""
+                    }
+                },
+                "Configuration": {
+                    "Description": "Exporting engine configuration...",
+                    "Error": {
+                        "Description": "Failed to export engine configuration of \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Exporting engine data...",
+                    "Error": {
+                        "Description": "Failed to export engine data of \"{0}\""
+                    }
+                },
+                "Rom": {
+                    "Description": "Exporting engine rom...",
+                    "Error": {
+                        "Description": "Failed to export engine rom of \"{0}\""
+                    }
+                },
+                "Details": {
+                    "Description": "Exporting engine details...",
+                    "Error": {
+                        "Description": "Failed to export engine details of \"{0}\""
+                    }
+                }
+            },
+            "ItemDetails": {
+                "Save": "Save",
+                "Update": "Update",
+                "Description": {
+                    "Header": "Description"
+                },
+                "Recommended": {
+                    "Header": "Recommended"
+                }
+            },
+            "LevelDetails": {
+                "Title": "Level Details",
+                "Actions": {
+                    "Play": "Play",
+                    "Configuration": "Configuration"
+                }
+            },
+            "SkinDetails": {
+                "Title": "Skin Details"
+            },
+            "BackgroundDetails": {
+                "Title": "Background Details",
+                "Actions": {
+                    "Configuration": "Configuration"
+                }
+            },
+            "EffectDetails": {
+                "Title": "SFX Details"
+            },
+            "ParticleDetails": {
+                "Title": "Particle Details"
+            },
+            "EngineDetails": {
+                "Title": "Engine Details",
+                "Actions": {
+                    "Configuration": "Configuration"
+                }
+            },
+            "LevelConfiguration": {
+                "Title": "Level Configuration",
+                "Error": {
+                    "Description": "Failed to load level configuration of \"{0}\""
+                },
+                "Skin": {
+                    "Header": "Skin"
+                },
+                "Background": {
+                    "Header": "Background"
+                },
+                "Effect": {
+                    "Header": "SFX"
+                },
+                "Particle": {
+                    "Header": "Particle"
+                },
+                "Offsets": {
+                    "Header": "Offsets",
+                    "LevelAudioOffset": "Level Audio Offset",
+                    "ServerAudioOffset": "Server Audio Offset",
+                    "DeviceAudioOffset": "Device Audio Offset",
+                    "EngineInputOffset": "Engine Input Offset",
+                    "DeviceInputOffset": "Device Input Offset",
+                    "Calibrate": "Calibrate"
+                },
+                "Options": {
+                    "Header": "Options"
+                },
+                "UI": {
+                    "Header": "UI",
+                    "PrimaryMetric": "Primary Metric",
+                    "SecondaryMetric": "Secondary Metric",
+                    "MenuStyle": "Menu Style",
+                    "JudgmentStyle": "Judgment Style",
+                    "ComboStyle": "Combo Style",
+                    "PrimaryMetricStyle": "Primary Metric Style",
+                    "SecondaryMetricStyle": "Secondary Metric Style",
+                    "JudgmentErrorStyle": "Judgment Error Style",
+                    "JudgmentErrorPlacement": "Judgment Error Placement",
+                    "JudgmentErrorMin": "Minimum Judgment Error"
+                }
+            },
+            "BackgroundConfiguration": {
+                "Title": "Background Configuration",
+                "Error": {
+                    "Description": "Failed to load background configuration of \"{0}\""
+                },
+                "Blur": "Blur",
+                "Mask": "Mask"
+            },
+            "EngineConfiguration": {
+                "Title": "Engine Configuration",
+                "Error": {
+                    "Description": "Failed to load engine configuration of \"{0}\""
+                },
+                "Skin": {
+                    "Header": "Skin"
+                },
+                "Background": {
+                    "Header": "Background"
+                },
+                "Effect": {
+                    "Header": "SFX"
+                },
+                "Particle": {
+                    "Header": "Particle"
+                },
+                "Offsets": {
+                    "Header": "Offsets",
+                    "EngineInputOffset": "Engine Input Offset"
+                },
+                "Options": {
+                    "Header": "Options"
+                },
+                "UI": {
+                    "Header": "UI",
+                    "PrimaryMetric": "Primary Metric",
+                    "SecondaryMetric": "Secondary Metric",
+                    "MenuStyle": "Menu Style",
+                    "JudgmentStyle": "Judgment Style",
+                    "ComboStyle": "Combo Style",
+                    "PrimaryMetricStyle": "Primary Metric Style",
+                    "SecondaryMetricStyle": "Secondary Metric Style",
+                    "JudgmentErrorStyle": "Judgment Error Style",
+                    "JudgmentErrorPlacement": "Judgment Error Placement",
+                    "JudgmentErrorMin": "Minimum Judgment Error"
+                }
+            }
+        },
+        "Gameplay": {
+            "PlayMode": {
+                "Loader": {
+                    "Runtime": {
+                        "Error": {
+                            "Description": "Failed to boot level \"{0}\""
+                        }
+                    }
+                },
+                "Pause": {
+                    "Title": "Pause",
+                    "Control": {
+                        "Header": "Control",
+                        "Restart": "Restart",
+                        "Exit": "Exit"
+                    },
+                    "Snapshot": {
+                        "Header": "Snapshot",
+                        "Record": "Record",
+                        "Replay": "Replay"
+                    },
+                    "Debug": {
+                        "Header": "Debug",
+                        "Code": "Code",
+                        "Data": "Data"
+                    }
+                },
+                "Result": {
+                    "Title": "Result",
+                    "Restart": "Restart",
+                    "Options": {
+                        "Snapshot": "Snapshot",
+                        "Paused": "Paused"
+                    },
+                    "Graphs": {
+                        "Header": "Graphs",
+                        "Judgment": "Judgment",
+                        "Accuracy": "Accuracy"
+                    }
+                }
+            },
+            "Debug": {
+                "Code": {
+                    "Title": "Code"
+                },
+                "Data": {
+                    "Title": "Data"
+                }
+            },
+            "JudgmentGraph": {
+                "Title": "Judgment Graph"
+            },
+            "AccuracyGraph": {
+                "Title": "Accuracy Graph",
+                "AbsoluteValue": "Abs Value",
+                "Mean": "Mean",
+                "StandardDeviation": "St Dev",
+                "Min": "Min",
+                "Max": "Max"
+            },
+            "BucketGraph": {
+                "Title": "Bucket Graph"
+            }
+        }
+    }
+}

@@ -1,0 +1,1167 @@
+{
+    "Sonolus": {
+        "Common": {
+            "Loading": "加载中…",
+            "Confirm": "确认",
+            "Retry": "重试",
+            "Cancel": "取消",
+            "Next": "下一个",
+            "Add": "添加",
+            "Select": "选择",
+            "View": "查看",
+            "On": "开",
+            "Off": "关",
+            "Error": {
+                "Title": "错误",
+                "Description": "未知错误：\n{0}"
+            },
+            "Confirmation": {
+                "Title": "确认",
+                "Remove": {
+                    "Description": "确定要删除“{0}”吗？"
+                }
+            },
+            "InfoUpdate": {
+                "Title": "更新可用",
+                "Description": "Sonolus版本 {0} 已发布！\n\n访问我们的网站：\nhttps://sonolus.com",
+                "Update": "更新"
+            },
+            "PermissionError": {
+                "Title": "权限错误",
+                "Description": "Sonolus无法获取执行此操作所需的权限。\n\n打开设置并授权Sonolus相应的权限以继续。",
+                "Open": "打开"
+            },
+            "ColorField": {
+                "Html": "HEX",
+                "Rgb": "RGB",
+                "Hsv": "HSV"
+            },
+            "Success": "成功",
+            "PullToRefresh": "拉动刷新",
+            "PullToLoad": "拉动加载",
+            "More": "更多",
+            "Search": "搜索",
+            "Grade": "评级",
+            "Arcade": "经典得分",
+            "Accuracy": "准度得分",
+            "Combo": "连击",
+            "Perfect": "Perfect",
+            "Great": "Great",
+            "Good": "Good",
+            "Miss": "Miss",
+            "Easings": {
+                "Linear": "线性",
+                "InSine": "正弦（入）",
+                "OutSine": "正弦（出）",
+                "InOutSine": "正弦（入出）",
+                "OutInSine": "正弦（出入）",
+                "InQuad": "二次（入）",
+                "OutQuad": "二次（出）",
+                "InOutQuad": "二次（入出）",
+                "OutInQuad": "二次（出入）",
+                "InCubic": "三次（入）",
+                "OutCubic": "三次（出）",
+                "InOutCubic": "三次（入出）",
+                "OutInCubic": "三次（出入）",
+                "InQuart": "四次（入）",
+                "OutQuart": "四次（出）",
+                "InOutQuart": "四次（入出）",
+                "OutInQuart": "四次（出入）",
+                "InQuint": "五次（入）",
+                "OutQuint": "五次（出）",
+                "InOutQuint": "五次（入出）",
+                "OutInQuint": "五次（出入）",
+                "InExpo": "指数（入）",
+                "OutExpo": "指数（出）",
+                "InOutExpo": "指数（入出）",
+                "OutInExpo": "指数（出入）",
+                "InCirc": "半圆（入）",
+                "OutCirc": "半圆（出）",
+                "InOutCirc": "半圆（入出）",
+                "OutInCirc": "半圆（出入）",
+                "InBack": "回弹（入）",
+                "OutBack": "回弹（出）",
+                "InOutBack": "回弹（入出）",
+                "OutInBack": "回弹（出入）",
+                "InElastic": "弹性（入）",
+                "OutElastic": "弹性（出）",
+                "InOutElastic": "弹性（入出）",
+                "OutInElastic": "弹性（出入）"
+            },
+            "JudgmentError": {
+                "Style": {
+                    "None": "无",
+                    "Plus": "+ / -",
+                    "Minus": "- / +",
+                    "ArrowUp": "↑ / ↓",
+                    "ArrowDown": "↓ / ↑",
+                    "ArrowLeft": "← / →",
+                    "ArrowRight": "→ / ←",
+                    "TriangleUp": "▲ / ▼",
+                    "TriangleDown": "▼ / ▲",
+                    "TriangleLeft": "◄ / ►",
+                    "TriangleRight": "► / ◄"
+                },
+                "Placement": {
+                    "Both": "两边",
+                    "Left": "左",
+                    "Right": "右"
+                }
+            },
+            "Style": {
+                "Visibility": "可见度",
+                "Animation": "动画"
+            },
+            "Option": {
+                "Name": {
+                    "#KEYWORDS": "关键词",
+                    "#NAME": "ID",
+                    "#RATING": "等级",
+                    "#RATING_MINIMUM": "最低等级",
+                    "#RATING_MAXIMUM": "最高等级",
+                    "#TITLE": "标题",
+                    "#SUBTITLE": "副标题",
+                    "#ARTISTS": "艺术家",
+                    "#AUTHOR": "作者",
+                    "#GENRE": "曲风",
+                    "#CATEGORY": "类别",
+                    "#LANGUAGE": "语言",
+                    "#DIFFICULTY": "难度",
+                    "#LENGTH": "长度",
+                    "#LENGTH_MINIMUM": "最小长度",
+                    "#LENGTH_MAXIMUM": "最大长度",
+                    "#SPEED": "关卡速度",
+                    "#AUTO": "自动模式",
+                    "#MIRROR": "关卡镜像",
+                    "#RANDOM": "随机",
+                    "#HIDDEN": "隐藏",
+                    "#JUDGMENT_STRICT": "严格判定",
+                    "#JUDGMENT_LOOSE": "宽松判定",
+                    "#EFFECT": "音效",
+                    "#EFFECT_AUTO": "自动音效",
+                    "#STAGE": "舞台可见",
+                    "#STAGE_SIZE": "舞台大小",
+                    "#STAGE_ROTATION": "舞台旋转",
+                    "#STAGE_ALPHA": "舞台透明度",
+                    "#STAGE_TILT": "舞台倾斜",
+                    "#STAGE_COVER_VERTICAL": "纵向舞台遮盖",
+                    "#STAGE_COVER_HORIZONTAL": "横向舞台遮盖",
+                    "#STAGE_COVER_ALPHA": "舞台遮盖透明度",
+                    "#STAGE_ASPECTRATIO_LOCK": "锁定舞台长宽比",
+                    "#STAGE_EFFECT": "舞台特效",
+                    "#STAGE_EFFECT_SIZE": "舞台特效大小",
+                    "#STAGE_EFFECT_ROTATION": "舞台特效旋转",
+                    "#STAGE_EFFECT_ALPHA": "舞台特效透明度",
+                    "#LANE": "轨道可见",
+                    "#LANE_SIZE": "轨道大小",
+                    "#LANE_ROTATION": "轨道旋转",
+                    "#LANE_ALPHA": "轨道透明度",
+                    "#LANE_EFFECT": "轨道特效",
+                    "#LANE_EFFECT_SIZE": "轨道特效大小",
+                    "#LANE_EFFECT_ROTATION": "轨道特效旋转",
+                    "#LANE_EFFECT_ALPHA": "轨道特效透明度",
+                    "#JUDGELINE": "判定线可见",
+                    "#JUDGELINE_SIZE": "判定线大小",
+                    "#JUDGELINE_ROTATION": "判定线旋转",
+                    "#JUDGELINE_ALPHA": "判定线透明度",
+                    "#JUDGELINE_EFFECT": "判定线特效",
+                    "#JUDGELINE_EFFECT_SIZE": "判定线特效大小",
+                    "#JUDGELINE_EFFECT_ROTATION": "判定线特效旋转",
+                    "#JUDGELINE_EFFECT_ALPHA": "判定线特效透明度",
+                    "#SLOT": "键位可见",
+                    "#SLOT_SIZE": "键位大小",
+                    "#SLOT_ROTATION": "键位旋转",
+                    "#SLOT_ALPHA": "键位透明度",
+                    "#SLOT_EFFECT": "键位特效",
+                    "#SLOT_EFFECT_SIZE": "键位特效大小",
+                    "#SLOT_EFFECT_ROTATION": "键位特效旋转",
+                    "#SLOT_EFFECT_ALPHA": "键位特效透明度",
+                    "#NOTE": "键可见",
+                    "#NOTE_SPEED": "键速度",
+                    "#NOTE_SPEED_RANDOM": "随机键速度",
+                    "#NOTE_SIZE": "键大小",
+                    "#NOTE_ROTATION": "键旋转",
+                    "#NOTE_ALPHA": "键透明度",
+                    "#NOTE_EFFECT": "键特效",
+                    "#NOTE_EFFECT_SIZE": "键特效大小",
+                    "#NOTE_EFFECT_ROTATION": "键特效旋转",
+                    "#NOTE_EFFECT_ALPHA": "键特效透明度",
+                    "#MARKER": "标记可见",
+                    "#MARKER_SIZE": "标记大小",
+                    "#MARKER_ROTATION": "标记旋转",
+                    "#MARKER_ALPHA": "标记透明度",
+                    "#CONNECTOR": "键链接可见",
+                    "#CONNECTOR_SIZE": "键链接大小",
+                    "#CONNECTOR_ROTATION": "键链接旋转",
+                    "#CONNECTOR_ALPHA": "键链接透明度",
+                    "#SIMLINE": "同时点击线可见",
+                    "#SIMLINE_SIZE": "同时点击线大小",
+                    "#SIMLINE_ROTATION": "同时点击线旋转",
+                    "#SIMLINE_ALPHA": "同时点击线透明度"
+                },
+                "Value": {
+                    "#NONE": "无",
+                    "#ANY": "任意",
+                    "#ALL": "全部",
+                    "#OTHERS": "其他",
+                    "#SHORT": "短",
+                    "#LONG": "长",
+                    "#HIGH": "高",
+                    "#MID": "中",
+                    "#LOW": "低",
+                    "#SMALL": "小",
+                    "#MEDIUM": "中",
+                    "#LARGE": "大",
+                    "#LEFT": "左",
+                    "#RIGHT": "右",
+                    "#UP": "上",
+                    "#DOWN": "下",
+                    "#FRONT": "前",
+                    "#BACK": "后",
+                    "#CENTER": "中心",
+                    "#TOP": "上",
+                    "#BOTTOM": "下",
+                    "#TOP_LEFT": "左上",
+                    "#TOP_CENTER": "中上",
+                    "#TOP_RIGHT": "右上",
+                    "#CENTER_LEFT": "左中",
+                    "#CENTER_RIGHT": "右中",
+                    "#BOTTOM_LEFT": "左下",
+                    "#BOTTOM_CENTER": "中下",
+                    "#BOTTOM_RIGHT": "右下",
+                    "#CLOCKWISE": "顺时针",
+                    "#COUNTERCLOCKWISE": "逆时针",
+                    "#FORWARD": "前",
+                    "#BACKWARD": "后",
+                    "#SIMPLE": "简易",
+                    "#EASY": "简单",
+                    "#NORMAL": "普通",
+                    "#HARD": "困难",
+                    "#EXPERT": "专家",
+                    "#MASTER": "大师",
+                    "#PRO": "职业",
+                    "#TECHNICAL": "技术",
+                    "#SPECIAL": "特殊"
+                },
+                "Placeholder": {
+                    "#KEYWORDS": "输入关键字…",
+                    "#NAME": "输入ID…",
+                    "#RATING": "输入等级…",
+                    "#RATING_MINIMUM": "输入最低等级…",
+                    "#RATING_MAXIMUM": "输入最高等级…",
+                    "#TITLE": "输入标题…",
+                    "#SUBTITLE": "输入副标题…",
+                    "#ARTISTS": "输入艺术家…",
+                    "#AUTHOR": "输入作者…",
+                    "#GENRE": "输入曲风…",
+                    "#CATEGORY": "输入类别…",
+                    "#LANGUAGE": "输入语言…",
+                    "#DIFFICULTY": "输入难度…",
+                    "#LENGTH": "输入长度…",
+                    "#LENGTH_MINIMUM": "输入最小长度…",
+                    "#LENGTH_MAXIMUM": "输入最大长度…"
+                }
+            },
+            "Metric": {
+                "Arcade": "经典得分",
+                "Accuracy": "准度得分",
+                "Life": "生命值",
+                "PerfectRate": "Perfect率",
+                "ErrorHeatmap": "偏差热图"
+            },
+            "ListView": {
+                "ClearSearch": "“{0}”的结果",
+                "Jump": {
+                    "Header": "跳至页码",
+                    "Page": "页码",
+                    "PagePlaceholder": "输入页码…"
+                },
+                "Search": {
+                    "Header": "搜索",
+                    "Keywords": "关键字",
+                    "KeywordsPlaceholder": "输入关键字…"
+                }
+            }
+        },
+        "Color": {
+            "Title": "颜色",
+            "Html": "十六进制",
+            "HtmlPlaceholder": "输入十六进制颜色…",
+            "R": "红（R）",
+            "G": "绿（G）",
+            "B": "蓝（B）",
+            "H": "色相（H）",
+            "S": "饱和度（S）",
+            "V": "亮度（V）",
+            "A": "透明度（A）"
+        },
+        "Search": {
+            "Title": "搜索"
+        },
+        "Title": {
+            "TapToStart": "点击开始"
+        },
+        "SelectLocalization": {
+            "Title": "选择语言",
+            "Description": "选择一个首选语言：",
+            "List": {
+                "Error": {
+                    "Description": "加载语言列表失败"
+                }
+            },
+            "Localization": {
+                "Error": {
+                    "Description": "加载语言“{0}”失败"
+                }
+            }
+        },
+        "SelectTheme": {
+            "Title": "选择主题",
+            "Description": "选择一个主题："
+        },
+        "Theme": {
+            "Dark": "暗色",
+            "Light": "亮色"
+        },
+        "ManageCache": {
+            "Title": "管理缓存",
+            "Cache": {
+                "Header": "缓存",
+                "Description": "缓存通过记忆网络链接与关联的本地资料库资源，来提高Sonolus加载网络请求的速度并降低带宽使用量。\n缓存占用很少的储存大小，推荐不删除。",
+                "Count": "缓存：{0} 条"
+            },
+            "Expire": {
+                "Header": "过期",
+                "Description": "将全部缓存过期会使得Sonolus验证网络请求后再使用对应的本地资料库的资源。",
+                "Expire": "过期",
+                "Confirmation": {
+                    "Description": "确定要将全部缓存过期吗？"
+                }
+            },
+            "Delete": {
+                "Header": "删除",
+                "Description": "删除全部缓存会使得Sonolus重新下载全部网络请求。不推荐。",
+                "Delete": "删除",
+                "Confirmation": {
+                    "Description": "确定要删除全部缓存吗？"
+                }
+            }
+        },
+        "ManageRepository": {
+            "Title": "管理资料库",
+            "Repository": {
+                "Header": "资料库",
+                "Description": "资料库保存在本设备上可用的全部资源。",
+                "Size": "大小：{0}"
+            },
+            "Delete": {
+                "Header": "删除",
+                "Description": "删除全部资料库资源会使得Sonolus请求资源时重新下载。",
+                "Delete": "删除",
+                "Confirmation": {
+                    "Description": "确定要删除全部资料库资源吗？"
+                }
+            }
+        },
+        "CalibrateAudio": {
+            "Title": "校准音频",
+            "Description": "通过调整 设备音频偏移 直到音频和图像匹配来校准音频。"
+        },
+        "CalibrateInput": {
+            "Title": "校准输入",
+            "Description": "通过跟着移动方块拖动手指来校准输入。\n如果您习惯玩不带此选项的游戏，可以保留为0。",
+            "Result": {
+                "Start": "拖动以测试偏移",
+                "Ongoing": "测量中…",
+                "OneFinger": "请只用一只手指拖动",
+                "Incomplete": "请完成拖动整个来回",
+                "Success": "成功，推荐偏移：{0}"
+            }
+        },
+        "Home": {
+            "Play": "开始",
+            "Settings": "设置"
+        },
+        "Settings": {
+            "Title": "设置",
+            "Graphics": {
+                "Header": "图像",
+                "RenderScale": "渲染比例",
+                "AntiAliasing": "抗锯齿",
+                "GpuParticleSystem": "GPU粒子系统",
+                "IgnoreNotch": "忽视屏幕缺口"
+            },
+            "Audio": {
+                "Header": "音频",
+                "BgmVolume": "BGM音量",
+                "EffectVolume": "SFX音量",
+                "PreviewBgm": "预览BGM",
+                "PreserveBgmPitch": "保持BGM音调"
+            },
+            "UI": {
+                "Header": "UI",
+                "Localization": "语言",
+                "Theme": "主题",
+                "UIScale": "UI比例",
+                "PerfectJudgmentColor": "Perfect判定颜色",
+                "GreatJudgmentColor": "Great判定颜色",
+                "GoodJudgmentColor": "Good判定颜色",
+                "MissJudgmentColor": "Miss判定颜色",
+                "PositiveJudgmentErrorColor": "正判定偏差颜色",
+                "NegativeJudgmentErrorColor": "负判定偏差颜色",
+                "AllPerfectComboColor": "All Perfect连击颜色",
+                "FullComboComboColor": "Full Combo连击颜色",
+                "PassComboColor": "Pass连击颜色",
+                "FailComboColor": "Fail连击颜色",
+                "BoldComboNumber": "加粗连击数字",
+                "ShowZeroCombo": "显示零连击"
+            },
+            "Offsets": {
+                "Header": "偏移",
+                "Calibrate": "校准",
+                "DeviceAudioOffset": "设备音频偏移",
+                "DeviceInputOffset": "设备输入偏移"
+            },
+            "Repository": {
+                "Header": "资料库",
+                "Manage": "管理"
+            },
+            "Cache": {
+                "Header": "缓存",
+                "AlwaysRevalidate": "总是验证",
+                "Manage": "管理"
+            },
+            "Debug": {
+                "Header": "调试",
+                "DebugMode": "调试模式"
+            }
+        },
+        "SelectCollection": {
+            "Title": "选择收藏"
+        },
+        "SelectServer": {
+            "Title": "选择服务器",
+            "Collection": {
+                "Header": "收藏",
+                "Import": "导入",
+                "PackageError": {
+                    "Description": "不支持或损坏的文件包"
+                }
+            },
+            "Custom": {
+                "Header": "自定义服务器"
+            }
+        },
+        "CollectionInfo": {
+            "Title": "收藏信息",
+            "Name": "名称",
+            "NamePlaceholder": "输入收藏名称…"
+        },
+        "CustomServerInfo": {
+            "Title": "自定义服务器信息",
+            "Name": "名称",
+            "NamePlaceholder": "输入自定义服务器名称…",
+            "Address": "地址",
+            "AddressPlaceholder": "输入自定义服务器地址…"
+        },
+        "Server": {
+            "Style": {
+                "Visibility": {
+                    "Title": "可见度",
+                    "Scale": "比例",
+                    "Alpha": "透明度"
+                },
+                "Animation": {
+                    "Title": "动画",
+                    "Scale": "比例",
+                    "Alpha": "透明度",
+                    "Tween": "渐变"
+                },
+                "Tween": {
+                    "Title": "渐变",
+                    "From": "从",
+                    "To": "至",
+                    "Duration": "时长",
+                    "Ease": "缓动"
+                }
+            },
+            "VersionError": {
+                "Description": "此服务器只支持{0}版本"
+            },
+            "Home": {
+                "ServerInfo": {
+                    "Error": {
+                        "Description": "加载服务器 {0} 的信息失败"
+                    }
+                },
+                "Levels": {
+                    "Header": "关卡"
+                },
+                "Skins": {
+                    "Header": "皮肤"
+                },
+                "Backgrounds": {
+                    "Header": "背景"
+                },
+                "Effects": {
+                    "Header": "音效"
+                },
+                "Particles": {
+                    "Header": "粒子效果"
+                },
+                "Engines": {
+                    "Header": "引擎"
+                }
+            },
+            "LevelList": {
+                "Title": "关卡",
+                "Error": {
+                    "Description": "加载关卡第 {0} 页失败"
+                }
+            },
+            "SkinList": {
+                "Title": "皮肤",
+                "Error": {
+                    "Description": "加载皮肤第 {0} 页失败"
+                }
+            },
+            "BackgroundList": {
+                "Title": "背景",
+                "Error": {
+                    "Description": "加载背景第 {0} 页失败"
+                }
+            },
+            "EffectList": {
+                "Title": "音效",
+                "Error": {
+                    "Description": "加载音效第 {0} 页失败"
+                }
+            },
+            "ParticleList": {
+                "Title": "粒子效果",
+                "Error": {
+                    "Description": "加载粒子效果第 {0} 页失败"
+                }
+            },
+            "EngineList": {
+                "Title": "引擎",
+                "Error": {
+                    "Description": "加载引擎第 {0} 页失败"
+                }
+            },
+            "LevelLoader": {
+                "Details": {
+                    "Description": "加载关卡详情中…",
+                    "Error": {
+                        "Description": "加载关卡“{0}”详情失败"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "关卡“{0}”与当前版本不兼容"
+                },
+                "Cover": {
+                    "Description": "加载关卡封面中…",
+                    "Error": {
+                        "Description": "加载关卡“{0}”封面失败"
+                    }
+                },
+                "Data": {
+                    "Description": "加载关卡数据中…",
+                    "Error": {
+                        "Description": "加载关卡“{0}”数据失败"
+                    }
+                },
+                "Bgm": {
+                    "Description": "加载关卡BGM中…",
+                    "Error": {
+                        "Description": "加载关卡“{0}”BGM失败"
+                    }
+                },
+                "Preview": {
+                    "Description": "加载关卡预览中…",
+                    "Error": {
+                        "Description": "加载关卡“{0}”预览失败"
+                    }
+                }
+            },
+            "SkinLoader": {
+                "Details": {
+                    "Description": "加载皮肤详情中…",
+                    "Error": {
+                        "Description": "加载皮肤“{0}”详情失败"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "皮肤“{0}”与当前版本不兼容"
+                },
+                "Thumbnail": {
+                    "Description": "加载皮肤缩图中…",
+                    "Error": {
+                        "Description": "加载皮肤“{0}”缩图失败"
+                    }
+                },
+                "Data": {
+                    "Description": "加载皮肤数据中…",
+                    "Error": {
+                        "Description": "加载皮肤“{0}”数据失败"
+                    }
+                },
+                "Texture": {
+                    "Description": "加载皮肤材质中…",
+                    "Error": {
+                        "Description": "加载皮肤“{0}”材质失败"
+                    }
+                }
+            },
+            "BackgroundLoader": {
+                "Details": {
+                    "Description": "加载背景详情中…",
+                    "Error": {
+                        "Description": "加载背景“{0}”详情失败"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "背景“{0}”与当前版本不兼容"
+                },
+                "Thumbnail": {
+                    "Description": "加载背景缩图中…",
+                    "Error": {
+                        "Description": "加载背景“{0}”缩图失败"
+                    }
+                },
+                "Configuration": {
+                    "Description": "加载背景配置中…",
+                    "Error": {
+                        "Description": "加载背景“{0}”配置失败"
+                    }
+                },
+                "Data": {
+                    "Description": "加载背景数据中…",
+                    "Error": {
+                        "Description": "加载背景“{0}”数据失败"
+                    }
+                },
+                "Image": {
+                    "Description": "加载背景图像中…",
+                    "Error": {
+                        "Description": "加载背景“{0}”图像失败"
+                    }
+                }
+            },
+            "EffectLoader": {
+                "Details": {
+                    "Description": "加载音效详情中…",
+                    "Error": {
+                        "Description": "加载音效“{0}”详情失败"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "音效“{0}”与当前版本不兼容"
+                },
+                "Thumbnail": {
+                    "Description": "加载音效缩图中…",
+                    "Error": {
+                        "Description": "加载音效“{0}”缩图失败"
+                    }
+                },
+                "Data": {
+                    "Description": "加载音效数据中…",
+                    "Error": {
+                        "Description": "加载音效“{0}”数据失败"
+                    }
+                },
+                "Clip": {
+                    "Description": "加载音效片段中…",
+                    "Error": {
+                        "Description": "加载音效“{0}”片段失败"
+                    }
+                }
+            },
+            "ParticleLoader": {
+                "Details": {
+                    "Description": "加载粒子效果详情中…",
+                    "Error": {
+                        "Description": "加载粒子效果“{0}”详情失败"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "粒子效果“{0}”与当前版本不兼容"
+                },
+                "Thumbnail": {
+                    "Description": "加载粒子效果缩图中…",
+                    "Error": {
+                        "Description": "加载粒子效果“{0}”缩图失败"
+                    }
+                },
+                "Data": {
+                    "Description": "加载粒子效果数据中…",
+                    "Error": {
+                        "Description": "加载粒子效果“{0}”数据失败"
+                    }
+                },
+                "Texture": {
+                    "Description": "加载粒子效果材质中…",
+                    "Error": {
+                        "Description": "加载粒子效果“{0}”材质失败"
+                    }
+                }
+            },
+            "EngineLoader": {
+                "Details": {
+                    "Description": "加载引擎详情中…",
+                    "Error": {
+                        "Description": "加载引擎“{0}”详情失败"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "引擎“{0}”与当前版本不兼容"
+                },
+                "Thumbnail": {
+                    "Description": "加载引擎缩图中…",
+                    "Error": {
+                        "Description": "加载引擎“{0}”缩图失败"
+                    }
+                },
+                "Configuration": {
+                    "Description": "加载引擎配置中…",
+                    "Error": {
+                        "Description": "加载引擎“{0}”配置失败"
+                    }
+                },
+                "Data": {
+                    "Description": "加载引擎数据中…",
+                    "Error": {
+                        "Description": "加载引擎“{0}”数据失败"
+                    }
+                },
+                "Rom": {
+                    "Description": "加载引擎ROM中…",
+                    "Error": {
+                        "Description": "加载引擎“{0}”ROM失败"
+                    }
+                }
+            },
+            "PackageExporter": {
+                "LevelList": {
+                    "Description": "导出关卡列表中…",
+                    "Error": {
+                        "Description": "导出关卡列表失败"
+                    }
+                },
+                "SkinList": {
+                    "Description": "导出皮肤列表中…",
+                    "Error": {
+                        "Description": "导出皮肤列表失败"
+                    }
+                },
+                "BackgroundList": {
+                    "Description": "导出背景列表中…",
+                    "Error": {
+                        "Description": "导出背景列表失败"
+                    }
+                },
+                "EffectList": {
+                    "Description": "导出音效列表中…",
+                    "Error": {
+                        "Description": "导出音效列表失败"
+                    }
+                },
+                "ParticleList": {
+                    "Description": "导出粒子效果列表中…",
+                    "Error": {
+                        "Description": "导出粒子效果列表失败"
+                    }
+                },
+                "EngineList": {
+                    "Description": "导出引擎列表中…",
+                    "Error": {
+                        "Description": "导出引擎列表失败"
+                    }
+                }
+            },
+            "LevelExporter": {
+                "CompatibilityError": {
+                    "Description": "关卡“{0}”与当前版本不兼容"
+                },
+                "Cover": {
+                    "Description": "导出关卡封面中…",
+                    "Error": {
+                        "Description": "导出关卡“{0}”封面失败"
+                    }
+                },
+                "Data": {
+                    "Description": "导出关卡数据中…",
+                    "Error": {
+                        "Description": "导出关卡“{0}”数据失败"
+                    }
+                },
+                "Bgm": {
+                    "Description": "导出关卡BGM中…",
+                    "Error": {
+                        "Description": "导出关卡“{0}”BGM失败"
+                    }
+                },
+                "Preview": {
+                    "Description": "导出关卡预览中…",
+                    "Error": {
+                        "Description": "导出关卡“{0}”预览失败"
+                    }
+                },
+                "Details": {
+                    "Description": "导出卡详情中…",
+                    "Error": {
+                        "Description": "导出关卡“{0}”详情失败"
+                    }
+                }
+            },
+            "SkinExporter": {
+                "CompatibilityError": {
+                    "Description": "皮肤“{0}”与当前版本不兼容"
+                },
+                "Thumbnail": {
+                    "Description": "导出皮肤缩图中…",
+                    "Error": {
+                        "Description": "导出皮肤“{0}”缩图失败"
+                    }
+                },
+                "Data": {
+                    "Description": "导出皮肤数据中…",
+                    "Error": {
+                        "Description": "导出皮肤“{0}”数据失败"
+                    }
+                },
+                "Texture": {
+                    "Description": "导出皮肤材质中…",
+                    "Error": {
+                        "Description": "导出皮肤“{0}”材质失败"
+                    }
+                },
+                "Details": {
+                    "Description": "导出皮肤详情中…",
+                    "Error": {
+                        "Description": "导出皮肤“{0}”详情失败"
+                    }
+                }
+            },
+            "BackgroundExporter": {
+                "CompatibilityError": {
+                    "Description": "背景“{0}”与当前版本不兼容"
+                },
+                "Thumbnail": {
+                    "Description": "导出背景缩图…",
+                    "Error": {
+                        "Description": "导出背景“{0}”缩图失败"
+                    }
+                },
+                "Configuration": {
+                    "Description": "导出背景配置中…",
+                    "Error": {
+                        "Description": "导出背景“{0}”配置失败"
+                    }
+                },
+                "Data": {
+                    "Description": "导出背景数据中…",
+                    "Error": {
+                        "Description": "导出背景“{0}”数据失败"
+                    }
+                },
+                "Image": {
+                    "Description": "导出背景图像中…",
+                    "Error": {
+                        "Description": "导出背景“{0}”图像失败"
+                    }
+                },
+                "Details": {
+                    "Description": "导出背景详情中…",
+                    "Error": {
+                        "Description": "导出背景“{0}”详情失败"
+                    }
+                }
+            },
+            "EffectExporter": {
+                "CompatibilityError": {
+                    "Description": "音效“{0}”与当前版本不兼容"
+                },
+                "Thumbnail": {
+                    "Description": "导出音效缩图中…",
+                    "Error": {
+                        "Description": "导出音效“{0}”缩图失败"
+                    }
+                },
+                "Data": {
+                    "Description": "导出音效数据中…",
+                    "Error": {
+                        "Description": "导出音效“{0}”数据失败"
+                    }
+                },
+                "Clip": {
+                    "Description": "导出音效片段中…",
+                    "Error": {
+                        "Description": "导出音效“{0}”片段失败"
+                    }
+                },
+                "Details": {
+                    "Description": "导出音效详情中…",
+                    "Error": {
+                        "Description": "导出音效“{0}”详情失败"
+                    }
+                }
+            },
+            "ParticleExporter": {
+                "CompatibilityError": {
+                    "Description": "粒子效果“{0}”与当前版本不兼容"
+                },
+                "Thumbnail": {
+                    "Description": "导出粒子效果缩图中…",
+                    "Error": {
+                        "Description": "导出粒子效果“{0}”缩图失败"
+                    }
+                },
+                "Data": {
+                    "Description": "导出粒子效果数据中…",
+                    "Error": {
+                        "Description": "导出粒子效果“{0}”数据失败"
+                    }
+                },
+                "Texture": {
+                    "Description": "导出粒子效果材质中…",
+                    "Error": {
+                        "Description": "导出粒子效果“{0}”材质失败"
+                    }
+                },
+                "Details": {
+                    "Description": "导出粒子效果详情中…",
+                    "Error": {
+                        "Description": "导出粒子效果“{0}”详情失败"
+                    }
+                }
+            },
+            "EngineExporter": {
+                "CompatibilityError": {
+                    "Description": "引擎“{0}”与当前版本不兼容"
+                },
+                "Thumbnail": {
+                    "Description": "导出引擎缩图中…",
+                    "Error": {
+                        "Description": "导出引擎“{0}”缩图失败"
+                    }
+                },
+                "Configuration": {
+                    "Description": "导出引擎配置中…",
+                    "Error": {
+                        "Description": "导出引擎“{0}”配置失败"
+                    }
+                },
+                "Data": {
+                    "Description": "导出引擎数据中…",
+                    "Error": {
+                        "Description": "导出引擎“{0}”数据失败"
+                    }
+                },
+                "Rom": {
+                    "Description": "导出引擎ROM中…",
+                    "Error": {
+                        "Description": "导出引擎“{0}”ROM失败"
+                    }
+                },
+                "Details": {
+                    "Description": "导出引擎详情中…",
+                    "Error": {
+                        "Description": "导出引擎“{0}”详情失败"
+                    }
+                }
+            },
+            "ItemDetails": {
+                "Save": "保存",
+                "Update": "更新",
+                "Description": {
+                    "Header": "描述"
+                },
+                "Recommended": {
+                    "Header": "推荐"
+                }
+            },
+            "LevelDetails": {
+                "Title": "关卡详情",
+                "Actions": {
+                    "Play": "开始",
+                    "Configuration": "配置"
+                }
+            },
+            "SkinDetails": {
+                "Title": "皮肤详情"
+            },
+            "BackgroundDetails": {
+                "Title": "背景详情",
+                "Actions": {
+                    "Configuration": "配置"
+                }
+            },
+            "EffectDetails": {
+                "Title": "音效详情"
+            },
+            "ParticleDetails": {
+                "Title": "粒子效果详情"
+            },
+            "EngineDetails": {
+                "Title": "引擎详情",
+                "Actions": {
+                    "Configuration": "配置"
+                }
+            },
+            "LevelConfiguration": {
+                "Title": "关卡配置",
+                "Error": {
+                    "Description": "加载关卡“{0}”配置失败"
+                },
+                "Skin": {
+                    "Header": "皮肤"
+                },
+                "Background": {
+                    "Header": "背景"
+                },
+                "Effect": {
+                    "Header": "音效"
+                },
+                "Particle": {
+                    "Header": "粒子效果"
+                },
+                "Offsets": {
+                    "Header": "偏移",
+                    "LevelAudioOffset": "关卡音频偏移",
+                    "ServerAudioOffset": "服务器音频偏移",
+                    "DeviceAudioOffset": "设备音频偏移",
+                    "EngineInputOffset": "引擎输入偏移",
+                    "DeviceInputOffset": "设备输入偏移",
+                    "Calibrate": "校准"
+                },
+                "Options": {
+                    "Header": "选项"
+                },
+                "UI": {
+                    "Header": "UI",
+                    "PrimaryMetric": "主要指标",
+                    "SecondaryMetric": "次要指标",
+                    "MenuStyle": "菜单样式",
+                    "JudgmentStyle": "判定样式",
+                    "ComboStyle": "连击样式",
+                    "PrimaryMetricStyle": "主要指标样式",
+                    "SecondaryMetricStyle": "次要指标样式",
+                    "JudgmentErrorStyle": "判定误差样式",
+                    "JudgmentErrorPlacement": "判定误差位置",
+                    "JudgmentErrorMin": "最小判定误差"
+                }
+            },
+            "BackgroundConfiguration": {
+                "Title": "背景配置",
+                "Error": {
+                    "Description": "加载背景“{0}”配置失败"
+                },
+                "Blur": "模糊",
+                "Mask": "遮罩"
+            },
+            "EngineConfiguration": {
+                "Title": "引擎配置",
+                "Error": {
+                    "Description": "加载引擎“{0}”配置失败"
+                },
+                "Skin": {
+                    "Header": "皮肤"
+                },
+                "Background": {
+                    "Header": "背景"
+                },
+                "Effect": {
+                    "Header": "音效"
+                },
+                "Particle": {
+                    "Header": "粒子效果"
+                },
+                "Offsets": {
+                    "Header": "偏移",
+                    "EngineInputOffset": "引擎输入偏移"
+                },
+                "Options": {
+                    "Header": "选项"
+                },
+                "UI": {
+                    "Header": "UI",
+                    "PrimaryMetric": "主要指标",
+                    "SecondaryMetric": "次要指标",
+                    "MenuStyle": "菜单样式",
+                    "JudgmentStyle": "判定样式",
+                    "ComboStyle": "连击样式",
+                    "PrimaryMetricStyle": "主要指标样式",
+                    "SecondaryMetricStyle": "次要指标样式",
+                    "JudgmentErrorStyle": "判定误差样式",
+                    "JudgmentErrorPlacement": "判定误差位置",
+                    "JudgmentErrorMin": "最小判定误差"
+                }
+            }
+        },
+        "Gameplay": {
+            "PlayMode": {
+                "Loader": {
+                    "Runtime": {
+                        "Error": {
+                            "Description": "启动关卡“{0}”失败"
+                        }
+                    }
+                },
+                "Pause": {
+                    "Title": "暂停",
+                    "Control": {
+                        "Header": "控制",
+                        "Restart": "重新开始",
+                        "Exit": "退出"
+                    },
+                    "Snapshot": {
+                        "Header": "快照",
+                        "Record": "设置锚点",
+                        "Replay": "跳至锚点"
+                    },
+                    "Debug": {
+                        "Header": "调试",
+                        "Code": "代码",
+                        "Data": "数据"
+                    }
+                },
+                "Result": {
+                    "Title": "结果",
+                    "Restart": "重新开始",
+                    "Options": {
+                        "Snapshot": "快照",
+                        "Paused": "暂停"
+                    },
+                    "Graphs": {
+                        "Header": "图表",
+                        "Judgment": "判定",
+                        "Accuracy": "准度"
+                    }
+                }
+            },
+            "Debug": {
+                "Code": {
+                    "Title": "代码"
+                },
+                "Data": {
+                    "Title": "数据"
+                }
+            },
+            "JudgmentGraph": {
+                "Title": "判定图表"
+            },
+            "AccuracyGraph": {
+                "Title": "准度图表",
+                "AbsoluteValue": "绝对值",
+                "Mean": "平均值",
+                "StandardDeviation": "标准差",
+                "Min": "最小值",
+                "Max": "最大值"
+            },
+            "BucketGraph": {
+                "Title": "分类图表"
+            }
+        }
+    }
+}

@@ -1,0 +1,1167 @@
+{
+    "Sonolus": {
+        "Common": {
+            "Loading": "Memuat...",
+            "Confirm": "Konfirmasi",
+            "Retry": "Ulang",
+            "Cancel": "Batalkan",
+            "Next": "Selanjutnya",
+            "Add": "Tambah",
+            "Select": "Pilih",
+            "View": "Tampilan",
+            "On": "ON",
+            "Off": "OFF",
+            "Error": {
+                "Title": "Error",
+                "Description": "Error tak terduga: \n{0}"
+            },
+            "Confirmation": {
+                "Title": "Konfirmasi",
+                "Remove": {
+                    "Description": "Apakah Anda yakin untuk menghapus \"{0}\"?"
+                }
+            },
+            "InfoUpdate": {
+                "Title": "Pembaruan Tersedia",
+                "Description": "Sonolus versi {0} tersedia!\n\nKunjungi website kami:\nhttps://sonolus.com",
+                "Update": "Pembaruan"
+            },
+            "PermissionError": {
+                "Title": "Kesalahan Izin",
+                "Description": "Sonolus tidak memperoleh izin yang diperlukan untuk melakukan tindakan ini.\r\n\r\nBuka Pengaturan dan berikan izin Sonolus untuk melanjutkan.",
+                "Open": "Buka"
+            },
+            "ColorField": {
+                "Html": "HEX",
+                "Rgb": "RGB",
+                "Hsv": "HSV"
+            },
+            "Success": "Sukses",
+            "PullToRefresh": "Tarik untuk menyegarkan",
+            "PullToLoad": "Tarik untuk memuat lebih",
+            "More": "Selebihnya",
+            "Search": "Cari",
+            "Grade": "Nilai",
+            "Arcade": "Skor Klasik",
+            "Accuracy": "Skor Akurasi",
+            "Combo": "Kombo",
+            "Perfect": "Perfect",
+            "Great": "Great",
+            "Good": "Good",
+            "Miss": "Miss",
+            "Easings": {
+                "Linear": "Linear",
+                "InSine": "Sine (Masuk)",
+                "OutSine": "Sine (Keluar)",
+                "InOutSine": "Sine (Masuk Keluar)",
+                "OutInSine": "Sine (Keluar Masuk)",
+                "InQuad": "Quad (Masuk)",
+                "OutQuad": "Quad (Keluar)",
+                "InOutQuad": "Quad (Masuk Keluar)",
+                "OutInQuad": "Quad (Keluar Masuk)",
+                "InCubic": "Cubic (Masuk)",
+                "OutCubic": "Cubic (Keluar)",
+                "InOutCubic": "Qubic (Masuk Keluar)",
+                "OutInCubic": "Qubic (Keluar Masuk)",
+                "InQuart": "Quart (Masuk)",
+                "OutQuart": "Quart (Keluar)",
+                "InOutQuart": "Quart (Masuk Keluar)",
+                "OutInQuart": "Quart (Keluar Masuk)",
+                "InQuint": "Quint (Masuk)",
+                "OutQuint": "Quint (Keluar)",
+                "InOutQuint": "Quint (Masuk Keluar)",
+                "OutInQuint": "Quint (Keluar Masuk)",
+                "InExpo": "Expo (Masuk)",
+                "OutExpo": "Expo (Keluar)",
+                "InOutExpo": "Expo (Masuk Keluar)",
+                "OutInExpo": "Expo (Keluar Masuk)",
+                "InCirc": "Circ (Masuk)",
+                "OutCirc": "Circ (Keluar)",
+                "InOutCirc": "Circ (Masuk Keluar)",
+                "OutInCirc": "Circ (Keluar Masuk)",
+                "InBack": "Back (Masuk)",
+                "OutBack": "Back (Keluar)",
+                "InOutBack": "Back (Masuk Keluar)",
+                "OutInBack": "Back (Keluar Masuk)",
+                "InElastic": "Elastic (Masuk)",
+                "OutElastic": "Elastic (Keluar)",
+                "InOutElastic": "Elastic (Masuk Keluar)",
+                "OutInElastic": "Elastic (Keluar Masuk)"
+            },
+            "JudgmentError": {
+                "Style": {
+                    "None": "Tidak Ada",
+                    "Plus": "+ / -",
+                    "Minus": "- / +",
+                    "ArrowUp": "↑ / ↓",
+                    "ArrowDown": "↓ / ↑",
+                    "ArrowLeft": "← / →",
+                    "ArrowRight": "→ / ←",
+                    "TriangleUp": "▲ / ▼",
+                    "TriangleDown": "▼ / ▲",
+                    "TriangleLeft": "◄ / ►",
+                    "TriangleRight": "► / ◄"
+                },
+                "Placement": {
+                    "Both": "Keduanya",
+                    "Left": "Kiri",
+                    "Right": "Kanan"
+                }
+            },
+            "Style": {
+                "Visibility": "Visibilitas",
+                "Animation": "Animasi"
+            },
+            "Option": {
+                "Name": {
+                    "#KEYWORDS": "Kata Kunci",
+                    "#NAME": "Nama",
+                    "#RATING": "Rating",
+                    "#RATING_MINIMUM": "Rating Minimum",
+                    "#RATING_MAXIMUM": "Rating Maksimum",
+                    "#TITLE": "Judul",
+                    "#SUBTITLE": "Sub Judul",
+                    "#ARTISTS": "Artist",
+                    "#AUTHOR": "Author",
+                    "#GENRE": "Genre",
+                    "#CATEGORY": "Kategori",
+                    "#LANGUAGE": "Bahasa",
+                    "#DIFFICULTY": "Kesulitan",
+                    "#LENGTH": "Panjang",
+                    "#LENGTH_MINIMUM": "Panjang Minimum",
+                    "#LENGTH_MAXIMUM": "Panjang Maksimum",
+                    "#SPEED": "Level Kecepatan",
+                    "#AUTO": "Main Otomatis",
+                    "#MIRROR": "Level Mirror",
+                    "#RANDOM": "Acak",
+                    "#HIDDEN": "Sembunyi",
+                    "#JUDGMENT_STRICT": "Penilaian Ketat",
+                    "#JUDGMENT_LOOSE": "Penilaian Longgar",
+                    "#EFFECT": "SFX",
+                    "#EFFECT_AUTO": "SFX Auto",
+                    "#STAGE": "Visibilitas Stage",
+                    "#STAGE_SIZE": "Ukuran Stage",
+                    "#STAGE_ROTATION": "Rotasi Stage",
+                    "#STAGE_ALPHA": "Transparansi Stage",
+                    "#STAGE_TILT": "Kemiringan Stage",
+                    "#STAGE_COVER_VERTICAL": "Cover Stage Vertikal",
+                    "#STAGE_COVER_HORIZONTAL": "Cover Stage Horizontal",
+                    "#STAGE_COVER_ALPHA": "Transparansi Cover Stage",
+                    "#STAGE_ASPECTRATIO_LOCK": "Kunci Rasio Aspek Stage",
+                    "#STAGE_EFFECT": "Efek Stage",
+                    "#STAGE_EFFECT_SIZE": "Ukuran Efek Stage",
+                    "#STAGE_EFFECT_ROTATION": "Rotasi Efek Stage",
+                    "#STAGE_EFFECT_ALPHA": "Transparansi Efek Stage",
+                    "#LANE": "Visibilitas Lane",
+                    "#LANE_SIZE": "Ukuran Lane",
+                    "#LANE_ROTATION": "Rotasi Lane",
+                    "#LANE_ALPHA": "Transparansi Lane",
+                    "#LANE_EFFECT": "Efek Lane",
+                    "#LANE_EFFECT_SIZE": "Ukuran Efek Lane",
+                    "#LANE_EFFECT_ROTATION": "Rotasi Efek Lane",
+                    "#LANE_EFFECT_ALPHA": "Transparansi Efek Lane",
+                    "#JUDGELINE": "Penilaian Visibilitas Line",
+                    "#JUDGELINE_SIZE": "Penilaian Ukuran Line",
+                    "#JUDGELINE_ROTATION": "Penilaian Rotasi Line",
+                    "#JUDGELINE_ALPHA": "Penilaian Transparansi Line",
+                    "#JUDGELINE_EFFECT": "Penilaian Efek Line",
+                    "#JUDGELINE_EFFECT_SIZE": "Penilaian Ukuran Efek Line",
+                    "#JUDGELINE_EFFECT_ROTATION": "Penilaian Rotasi Efek Line",
+                    "#JUDGELINE_EFFECT_ALPHA": "Penilaian Transparansi Efek Line",
+                    "#SLOT": "Visibilitas Slot",
+                    "#SLOT_SIZE": "Ukuran Slot",
+                    "#SLOT_ROTATION": "Rotasi Slot",
+                    "#SLOT_ALPHA": "Transparansi Slot",
+                    "#SLOT_EFFECT": "Efek Slot",
+                    "#SLOT_EFFECT_SIZE": "Ukuran Efek Slot",
+                    "#SLOT_EFFECT_ROTATION": "Rotasi Efek Slot",
+                    "#SLOT_EFFECT_ALPHA": "Transparansi Efek Slot",
+                    "#NOTE": "Visibilitas Note",
+                    "#NOTE_SPEED": "Kecepatan Note",
+                    "#NOTE_SPEED_RANDOM": "Acak Kecepatan Note",
+                    "#NOTE_SIZE": "Ukuran Note",
+                    "#NOTE_ROTATION": "Rotasi Note",
+                    "#NOTE_ALPHA": "Transparansi Note",
+                    "#NOTE_EFFECT": "Efek Note",
+                    "#NOTE_EFFECT_SIZE": "Ukuran Efek Note",
+                    "#NOTE_EFFECT_ROTATION": "Rotasi Efek Note",
+                    "#NOTE_EFFECT_ALPHA": "Transparansi Efek Note",
+                    "#MARKER": "Visibilitas Marker",
+                    "#MARKER_SIZE": "Ukuran Marker",
+                    "#MARKER_ROTATION": "Rotasi Marker",
+                    "#MARKER_ALPHA": "Transparansi Marker",
+                    "#CONNECTOR": "Visibilitas Konektor",
+                    "#CONNECTOR_SIZE": "Ukuran Konektor",
+                    "#CONNECTOR_ROTATION": "Rotasi Konektor",
+                    "#CONNECTOR_ALPHA": "Transparansi Konektor",
+                    "#SIMLINE": "Visibilitas Line Simultan",
+                    "#SIMLINE_SIZE": "Ukuran Line Simultan",
+                    "#SIMLINE_ROTATION": "Rotasi Line Simultan",
+                    "#SIMLINE_ALPHA": "Transparansi Line Simultan"
+                },
+                "Value": {
+                    "#NONE": "Tidak Ada",
+                    "#ANY": "Apa saja",
+                    "#ALL": "Semua",
+                    "#OTHERS": "Lainnya",
+                    "#SHORT": "Pendek",
+                    "#LONG": "Panjang",
+                    "#HIGH": "Tinggi",
+                    "#MID": "Tengah",
+                    "#LOW": "Rendah",
+                    "#SMALL": "Kecil",
+                    "#MEDIUM": "Sedang",
+                    "#LARGE": "Besar",
+                    "#LEFT": "Kiri",
+                    "#RIGHT": "Kanan",
+                    "#UP": "Atas",
+                    "#DOWN": "Bawah",
+                    "#FRONT": "Depan",
+                    "#BACK": "Belakang",
+                    "#CENTER": "Tengah",
+                    "#TOP": "Atas",
+                    "#BOTTOM": "Bawah",
+                    "#TOP_LEFT": "Kiri Atas",
+                    "#TOP_CENTER": "Tengah Atas",
+                    "#TOP_RIGHT": "Kanan Atas",
+                    "#CENTER_LEFT": "Kiri Tengah",
+                    "#CENTER_RIGHT": "Kanan Tengah",
+                    "#BOTTOM_LEFT": "Kiri Bawah",
+                    "#BOTTOM_CENTER": "Tengah Bawah",
+                    "#BOTTOM_RIGHT": "Kanan Bawah",
+                    "#CLOCKWISE": "Searah Jarum Jam",
+                    "#COUNTERCLOCKWISE": "Berlawanan Jarum Jam",
+                    "#FORWARD": "Ke depan",
+                    "#BACKWARD": "Ke belakang",
+                    "#SIMPLE": "Simple",
+                    "#EASY": "Easy",
+                    "#NORMAL": "Normal",
+                    "#HARD": "Hard",
+                    "#EXPERT": "Expert",
+                    "#MASTER": "Master",
+                    "#PRO": "Pro",
+                    "#TECHNICAL": "Technical",
+                    "#SPECIAL": "Special"
+                },
+                "Placeholder": {
+                    "#KEYWORDS": "Masukkan kata kunci...",
+                    "#NAME": "Masukkan nama...",
+                    "#RATING": "Masukkan rating...",
+                    "#RATING_MINIMUM": "Masukkan minimum rating...",
+                    "#RATING_MAXIMUM": "Masukkan maksimum rating...",
+                    "#TITLE": "Masukkan judul...",
+                    "#SUBTITLE": "Masukkan sub judul...",
+                    "#ARTISTS": "Masukkan artist...",
+                    "#AUTHOR": "Masukkan author...",
+                    "#GENRE": "Masukkan genre...",
+                    "#CATEGORY": "Masukkan kategori...",
+                    "#LANGUAGE": "Masukkan bahasa...",
+                    "#DIFFICULTY": "Masukkan kesulitan...",
+                    "#LENGTH": "Masukkan panjang...",
+                    "#LENGTH_MINIMUM": "Masukkan panjang minimum...",
+                    "#LENGTH_MAXIMUM": "Masukkan panjang maksimum..."
+                }
+            },
+            "Metric": {
+                "Arcade": "Skor Klasik",
+                "Accuracy": "Skor Akurasi",
+                "Life": "Nyawa",
+                "PerfectRate": "Rate Sempurna",
+                "ErrorHeatmap": "Heatmap Error"
+            },
+            "ListView": {
+                "ClearSearch": "Hasil dari \"{0}\"",
+                "Jump": {
+                    "Header": "Lompat ke halaman",
+                    "Page": "Halaman",
+                    "PagePlaceholder": "Masukkan nomor halaman..."
+                },
+                "Search": {
+                    "Header": "Cari",
+                    "Keywords": "Kata Kunci",
+                    "KeywordsPlaceholder": "Masukkan Kata Kunci..."
+                }
+            }
+        },
+        "Color": {
+            "Title": "Warna",
+            "Html": "Hex",
+            "HtmlPlaceholder": "Masukkan warna hex...",
+            "R": "Merah (R)",
+            "G": "Hijau (G)",
+            "B": "Biru (B)",
+            "H": "Hue (H)",
+            "S": "Saturasi (S)",
+            "V": "Value (V)",
+            "A": "Alpha (A)"
+        },
+        "Search": {
+            "Title": "Cari"
+        },
+        "Title": {
+            "TapToStart": "Tekan untuk Memulai"
+        },
+        "SelectLocalization": {
+            "Title": "Pilih Bahasa",
+            "Description": "Pilih bahasa yang disukai:",
+            "List": {
+                "Error": {
+                    "Description": "Gagal memuat daftar bahasa"
+                }
+            },
+            "Localization": {
+                "Error": {
+                    "Description": "Gagal memuat bahasa \"{0}\""
+                }
+            }
+        },
+        "SelectTheme": {
+            "Title": "Pilih Tema",
+            "Description": "Pilih sebuah tema:"
+        },
+        "Theme": {
+            "Dark": "Gelap",
+            "Light": "Terang"
+        },
+        "ManageCache": {
+            "Title": "Mengatur Cache",
+            "Cache": {
+                "Header": "Cache",
+                "Description": "Cache mengizinkan Sonolus mempercepat pemuatan permintaan jaringan dan mengurangi penggunaan bandwidth, dengan mengingat URL jaringan dan sumber daya repositori lokal yang mereka kaitkan.\nCache menggunakan sedikit penyimpanan dan disarankan untuk tidak dihapus.",
+                "Count": "Cache: entri {0}"
+            },
+            "Expire": {
+                "Header": "Akhiri",
+                "Description": "Akhiri semua cache menyebabkan Sonolus untuk validasi ulang sebelum menggunakan sumber daya repositori lokal yang dikaitkan dengan URL jaringan.",
+                "Expire": "Akhiri",
+                "Confirmation": {
+                    "Description": "Apakah Anda yakin untuk mengakhiri semua cache?"
+                }
+            },
+            "Delete": {
+                "Header": "Hapus",
+                "Description": "Hapus semua cache menyebabkan Sonolus mengunduh ulang semua permintaan jaringan. Tidak direkomendasikan.",
+                "Delete": "Hapus",
+                "Confirmation": {
+                    "Description": "Apakah Anda yakin untuk menghapus semua cache?"
+                }
+            }
+        },
+        "ManageRepository": {
+            "Title": "Mengatur Repositori",
+            "Repository": {
+                "Header": "Repositori",
+                "Description": "Repositori menyimpan semua sumber daya lokal yang tersedia pada perangkat ini.",
+                "Size": "Ukuran: {0}"
+            },
+            "Delete": {
+                "Header": "Hapus",
+                "Description": "Hapus semua repositori menyebabkan Sonolus untuk mengunduh ulang ketika diminta.",
+                "Delete": "Hapus",
+                "Confirmation": {
+                    "Description": "Apakah Anda yakin untuk menghapus semua repositori?"
+                }
+            }
+        },
+        "CalibrateAudio": {
+            "Title": "Kalibrasi Audio",
+            "Description": "Kalibrasi audio dengan menyesuaikan Offset Audio Perangkat hingga audio dan grafik sesuai."
+        },
+        "CalibrateInput": {
+            "Title": "Kalibrasi Input",
+            "Description": "Kalibrasi input dengan menyeret kotak bergerak dengan jari anda.\nJika anda terbiasa dengan game yang tidak menawarkan opsi ini, biarkan di 0.",
+            "Result": {
+                "Start": "Seret untuk tes offset",
+                "Ongoing": "Mengukur...",
+                "OneFinger": "Tolong seret dengan satu jari saja",
+                "Incomplete": "Tolong seret jalur selengkapnya",
+                "Success": "Sukses, offset yang direkomendasikan: {0}"
+            }
+        },
+        "Home": {
+            "Play": "Main",
+            "Settings": "Pengaturan"
+        },
+        "Settings": {
+            "Title": "Pengaturan",
+            "Graphics": {
+                "Header": "Grafik",
+                "RenderScale": "Skala Render",
+                "AntiAliasing": "Anti-Aliasing",
+                "GpuParticleSystem": "Sistem Partikel GPU",
+                "IgnoreNotch": "Abaikan Notch"
+            },
+            "Audio": {
+                "Header": "Audio",
+                "BgmVolume": "Volume BGM",
+                "EffectVolume": "Volume SFX",
+                "PreviewBgm": "Pratinjau BGM",
+                "PreserveBgmPitch": "Pratinjau Pitch BGM"
+            },
+            "UI": {
+                "Header": "UI",
+                "Localization": "Bahasa",
+                "Theme": "Tema",
+                "UIScale": "Skala UI",
+                "PerfectJudgmentColor": "Warna Penilaian Perfect",
+                "GreatJudgmentColor": "Warna Penilaian Great",
+                "GoodJudgmentColor": "Warna Penilaian Good",
+                "MissJudgmentColor": "Warna Penilaian Miss",
+                "PositiveJudgmentErrorColor": "Warna Penilaian Error Positif",
+                "NegativeJudgmentErrorColor": "Warna Penilaian Error Negatif",
+                "AllPerfectComboColor": "Warna All Perfect",
+                "FullComboComboColor": "Warna Full Combo",
+                "PassComboColor": "Warna Pass",
+                "FailComboColor": "Warna Fail",
+                "BoldComboNumber": "Tebalkan Angka Kombo",
+                "ShowZeroCombo": "Tampilkan Kombo Nol"
+            },
+            "Offsets": {
+                "Header": "Offset",
+                "Calibrate": "Kalibrasi",
+                "DeviceAudioOffset": "Offset Audio Perangkat",
+                "DeviceInputOffset": "Offset Input Perangkat"
+            },
+            "Repository": {
+                "Header": "Repositori",
+                "Manage": "Atur"
+            },
+            "Cache": {
+                "Header": "Cache",
+                "AlwaysRevalidate": "Selalu Validasi Ulang",
+                "Manage": "Atur"
+            },
+            "Debug": {
+                "Header": "Debug",
+                "DebugMode": "Mode Debug"
+            }
+        },
+        "SelectCollection": {
+            "Title": "Pilih Koleksi"
+        },
+        "SelectServer": {
+            "Title": "Pilih Server",
+            "Collection": {
+                "Header": "Koleksi",
+                "Import": "Impor",
+                "PackageError": {
+                    "Description": "Paket tidak didukung atau rusak"
+                }
+            },
+            "Custom": {
+                "Header": "Kustom Server"
+            }
+        },
+        "CollectionInfo": {
+            "Title": "Info Koleksi",
+            "Name": "Nama",
+            "NamePlaceholder": "Masukkan nama koleksi..."
+        },
+        "CustomServerInfo": {
+            "Title": "Kustom Info Server",
+            "Name": "Nama",
+            "NamePlaceholder": "Masukkan nama kustom server...",
+            "Address": "Alamat",
+            "AddressPlaceholder": "Masukkan alamat kustom server..."
+        },
+        "Server": {
+            "Style": {
+                "Visibility": {
+                    "Title": "Visibilitas",
+                    "Scale": "Skala",
+                    "Alpha": "Alpha"
+                },
+                "Animation": {
+                    "Title": "Animasi",
+                    "Scale": "Skala",
+                    "Alpha": "Alpha",
+                    "Tween": "Tween"
+                },
+                "Tween": {
+                    "Title": "Tween",
+                    "From": "Dari",
+                    "To": "Ke",
+                    "Duration": "Durasi",
+                    "Ease": "Permudah"
+                }
+            },
+            "VersionError": {
+                "Description": "Server ini hanya mendukung versi {0}"
+            },
+            "Home": {
+                "ServerInfo": {
+                    "Error": {
+                        "Description": "Gagal memuat informasi server {0}"
+                    }
+                },
+                "Levels": {
+                    "Header": "Level"
+                },
+                "Skins": {
+                    "Header": "Skin"
+                },
+                "Backgrounds": {
+                    "Header": "Latar"
+                },
+                "Effects": {
+                    "Header": "SFX"
+                },
+                "Particles": {
+                    "Header": "Partikel"
+                },
+                "Engines": {
+                    "Header": "Mesin"
+                }
+            },
+            "LevelList": {
+                "Title": "Level",
+                "Error": {
+                    "Description": "Gagal memuat level dari halaman {0}"
+                }
+            },
+            "SkinList": {
+                "Title": "Skin",
+                "Error": {
+                    "Description": "Gagal memuat skin dari halaman {0}"
+                }
+            },
+            "BackgroundList": {
+                "Title": "Latar",
+                "Error": {
+                    "Description": "Gagal memuat latar dari halaman {0}"
+                }
+            },
+            "EffectList": {
+                "Title": "SFX",
+                "Error": {
+                    "Description": "Gagal memuat SFX dari halaman {0}"
+                }
+            },
+            "ParticleList": {
+                "Title": "Partikel",
+                "Error": {
+                    "Description": "Gagal memuat partikel dari halaman {0}"
+                }
+            },
+            "EngineList": {
+                "Title": "Mesin",
+                "Error": {
+                    "Description": "Gagal memuat mesin dari halaman {0}"
+                }
+            },
+            "LevelLoader": {
+                "Details": {
+                    "Description": "Memuat detail level...",
+                    "Error": {
+                        "Description": "Gagal memuat detail level"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "Level \"{0}\" tidak kompatibel dengan versi saat ini"
+                },
+                "Cover": {
+                    "Description": "Memuat level penutup",
+                    "Error": {
+                        "Description": "Gagal memuat level penutup \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Memuat data level...",
+                    "Error": {
+                        "Description": "Gagal memuat data level \"{0}\""
+                    }
+                },
+                "Bgm": {
+                    "Description": "Memuat bgm level...",
+                    "Error": {
+                        "Description": "Gagal memuat level bgm \"{0}\""
+                    }
+                },
+                "Preview": {
+                    "Description": "Memuat pratinjau level...",
+                    "Error": {
+                        "Description": "Gagal memuat pratinjau level \"{0}\""
+                    }
+                }
+            },
+            "SkinLoader": {
+                "Details": {
+                    "Description": "Memuat detail skin...",
+                    "Error": {
+                        "Description": "Gagal memuat detail skin"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "Skin \"{0}\" tidak kompatibel dengan versi saat ini"
+                },
+                "Thumbnail": {
+                    "Description": "Memuat skin thumbnail...",
+                    "Error": {
+                        "Description": "Gagal memuat skin thumbnail \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Memuat skin data...",
+                    "Error": {
+                        "Description": "Gagal memuat skin data \"{0}\""
+                    }
+                },
+                "Texture": {
+                    "Description": "Memuat tekstur skin...",
+                    "Error": {
+                        "Description": "Gagal memuat tekstur skin \"{0}\""
+                    }
+                }
+            },
+            "BackgroundLoader": {
+                "Details": {
+                    "Description": "Memuat detail latar...",
+                    "Error": {
+                        "Description": "Gagal memuat detail latar"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "Latar \"{0}\" tidak kompatibel dengan versi saat ini"
+                },
+                "Thumbnail": {
+                    "Description": "Memuat latar thumbnail",
+                    "Error": {
+                        "Description": "Gagal memuat latar thumbnail \"{0}\""
+                    }
+                },
+                "Configuration": {
+                    "Description": "Memuat konfigurasi latar...",
+                    "Error": {
+                        "Description": "Gagal memuat konfigurasi latar \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Memuat data latar...",
+                    "Error": {
+                        "Description": "Gagal memuat data latar \"{0}\""
+                    }
+                },
+                "Image": {
+                    "Description": "Memuat gambar latar...",
+                    "Error": {
+                        "Description": "Gagal memuat gambar latar \"{0}\""
+                    }
+                }
+            },
+            "EffectLoader": {
+                "Details": {
+                    "Description": "Memuat detail SFX...",
+                    "Error": {
+                        "Description": "Gagal memuat detail SFX"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "SFX \"{0}\" tidak kompatibel dengan versi saat ini"
+                },
+                "Thumbnail": {
+                    "Description": "Memuat thumbnail SFX...",
+                    "Error": {
+                        "Description": "Gagal memuat thumbnail SFX \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Memuat data SFX...",
+                    "Error": {
+                        "Description": "Gagal memuat data SFX \"{0}\""
+                    }
+                },
+                "Clip": {
+                    "Description": "Memuat clip SFX...",
+                    "Error": {
+                        "Description": "Gagal memuat clip SFX \"{0}\""
+                    }
+                }
+            },
+            "ParticleLoader": {
+                "Details": {
+                    "Description": "Memuat detail partikel...",
+                    "Error": {
+                        "Description": "Gagal memuat detail partikel"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "Partikel \"{0}\" tidak kompatibel dengan versi saat ini"
+                },
+                "Thumbnail": {
+                    "Description": "Memuat thumbnail partikel...",
+                    "Error": {
+                        "Description": "Gagal memuat thumbnail partikel \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Memuat data partikel...",
+                    "Error": {
+                        "Description": "Gagal memuat data partikel \"{0}\""
+                    }
+                },
+                "Texture": {
+                    "Description": "Memuat tekstur partikel...",
+                    "Error": {
+                        "Description": "Gagal memuat tekstur partikel \"{0}\""
+                    }
+                }
+            },
+            "EngineLoader": {
+                "Details": {
+                    "Description": "Memuat detail mesin...",
+                    "Error": {
+                        "Description": "Gagal memuat detail mesin"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "Mesin \"{0}\" tidak kompatibel dengan versi saat ini"
+                },
+                "Thumbnail": {
+                    "Description": "Memuat thumbnail mesin...",
+                    "Error": {
+                        "Description": "Gagal memuat thumbnail mesin \"{0}\""
+                    }
+                },
+                "Configuration": {
+                    "Description": "Memuat konfigurasi mesin...",
+                    "Error": {
+                        "Description": "Gagal memuat konfigurasi mesin \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Memuat data mesin...",
+                    "Error": {
+                        "Description": "Gagal memuat data mesin \"{0}\""
+                    }
+                },
+                "Rom": {
+                    "Description": "Memuat ROM mesin...",
+                    "Error": {
+                        "Description": "Gagal memuat ROM mesin \"{0}\""
+                    }
+                }
+            },
+            "PackageExporter": {
+                "LevelList": {
+                    "Description": "Mengekspor list level...",
+                    "Error": {
+                        "Description": "Gagal mengekspor list level"
+                    }
+                },
+                "SkinList": {
+                    "Description": "Mengekspor list skin...",
+                    "Error": {
+                        "Description": "Gagal mengekspor list skin"
+                    }
+                },
+                "BackgroundList": {
+                    "Description": "Mengekspor list latar belakang...",
+                    "Error": {
+                        "Description": "Gagal mengekspor list latar belakang"
+                    }
+                },
+                "EffectList": {
+                    "Description": "Mengekspor list SFX...",
+                    "Error": {
+                        "Description": "Gagal mengekspor list SFX"
+                    }
+                },
+                "ParticleList": {
+                    "Description": "Mengekspor list partikel...",
+                    "Error": {
+                        "Description": "Gagal mengekspor list partikel"
+                    }
+                },
+                "EngineList": {
+                    "Description": "Mengekspor list mesin...",
+                    "Error": {
+                        "Description": "Gagal mengekspor list mesin"
+                    }
+                }
+            },
+            "LevelExporter": {
+                "CompatibilityError": {
+                    "Description": "Level \"{0}\" tidak kompatibel dengan versi saat ini"
+                },
+                "Cover": {
+                    "Description": "Mengekspor level cover...",
+                    "Error": {
+                        "Description": "Gagal mengekspor level cover \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Mengekspor level data...",
+                    "Error": {
+                        "Description": "Gagal mengekspor level data \"{0}\""
+                    }
+                },
+                "Bgm": {
+                    "Description": "Mengekspor level bgm...",
+                    "Error": {
+                        "Description": "Gagal mengekspor level bgm \"{0}\""
+                    }
+                },
+                "Preview": {
+                    "Description": "Mengekspor pratinjau level...",
+                    "Error": {
+                        "Description": "Gagal mengekspor pratinjau level \"{0}\""
+                    }
+                },
+                "Details": {
+                    "Description": "Mengekspor detail level...",
+                    "Error": {
+                        "Description": "Gagal mengekspor detail level \"{0}\""
+                    }
+                }
+            },
+            "SkinExporter": {
+                "CompatibilityError": {
+                    "Description": "Skin \"{0}\" tidak kompatibel dengan versi saat ini"
+                },
+                "Thumbnail": {
+                    "Description": "Mengekspor thumbnail skin...",
+                    "Error": {
+                        "Description": "Gagal mengekspor thumbnail  skin\"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Mengekspor data skin...",
+                    "Error": {
+                        "Description": "Gagal mengekspor data skin \"{0}\""
+                    }
+                },
+                "Texture": {
+                    "Description": "Mengekspor tekstur skin...",
+                    "Error": {
+                        "Description": "Gagal mengekspor tekstur skin \"{0}\""
+                    }
+                },
+                "Details": {
+                    "Description": "Mengekspor detail skin...",
+                    "Error": {
+                        "Description": "Gagal mengekspor detail skin \"{0}\""
+                    }
+                }
+            },
+            "BackgroundExporter": {
+                "CompatibilityError": {
+                    "Description": "Latar belakang \"{0}\" tidak kompatibel dengan versi saat ini"
+                },
+                "Thumbnail": {
+                    "Description": "Mengekspor thumbnail latar belakang...",
+                    "Error": {
+                        "Description": "Gagal mengekspor thumbnail latar belakang \"{0}\""
+                    }
+                },
+                "Configuration": {
+                    "Description": "Mengekspor konfigurasi latar belakang...",
+                    "Error": {
+                        "Description": "Gagal mengekspor konfigurasi latar belakang \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Mengekspor data latar belakang...",
+                    "Error": {
+                        "Description": "Gagal mengekspor data latar belakang \"{0}\""
+                    }
+                },
+                "Image": {
+                    "Description": "Mengekspor gambar latar belakang...",
+                    "Error": {
+                        "Description": "Gagal mengekspor gambar latar belakang \"{0}\""
+                    }
+                },
+                "Details": {
+                    "Description": "Mengekspor detail latar belakang...",
+                    "Error": {
+                        "Description": "Gagal mengekspor detail latar belakang \"{0}\""
+                    }
+                }
+            },
+            "EffectExporter": {
+                "CompatibilityError": {
+                    "Description": "SFX \"{0}\" tidak kompatibel dengan versi saat ini"
+                },
+                "Thumbnail": {
+                    "Description": "Mengekspor thumbnail SFX...",
+                    "Error": {
+                        "Description": "Gagal mengekspor thumbnail SFX \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Mengekspor data SFX...",
+                    "Error": {
+                        "Description": "Gagal mengekspor data SFX \"{0}\""
+                    }
+                },
+                "Clip": {
+                    "Description": "Mengekspor klip SFX...",
+                    "Error": {
+                        "Description": "Gagal mengekspor klip SFX \"{0}\""
+                    }
+                },
+                "Details": {
+                    "Description": "Mengekspor detail SFX...",
+                    "Error": {
+                        "Description": "Gagal mengekspor detail SFX \"{0}\""
+                    }
+                }
+            },
+            "ParticleExporter": {
+                "CompatibilityError": {
+                    "Description": "Partikel \"{0}\" tidak kompatibel dengan versi saat ini"
+                },
+                "Thumbnail": {
+                    "Description": "Mengekspor thumbnail partikel...",
+                    "Error": {
+                        "Description": "Gagal mengekspor thumbnail partikel \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Mengekspor data partikel...",
+                    "Error": {
+                        "Description": "Gagal mengekspor data partikel \"{0}\""
+                    }
+                },
+                "Texture": {
+                    "Description": "Mengekspor tekstur partikel...",
+                    "Error": {
+                        "Description": "Gagal mengekspor tekstur partikel \"{0}\""
+                    }
+                },
+                "Details": {
+                    "Description": "Mengekspor detail partikel...",
+                    "Error": {
+                        "Description": "Gagal mengekspor detail partikel \"{0}\""
+                    }
+                }
+            },
+            "EngineExporter": {
+                "CompatibilityError": {
+                    "Description": "Mesin \"{0}\" tidak kompatibel dengan versi saat ini"
+                },
+                "Thumbnail": {
+                    "Description": "Mengekspor thumbnail mesin...",
+                    "Error": {
+                        "Description": "Gagal mengeskpor thumbnail mesin \"{0}\""
+                    }
+                },
+                "Configuration": {
+                    "Description": "Mengekspor konfigurasi mesin...",
+                    "Error": {
+                        "Description": "Gagal mengekspor konfigurasi mesin \"{0}\""
+                    }
+                },
+                "Data": {
+                    "Description": "Mengekspor data mesin...",
+                    "Error": {
+                        "Description": "Gagal mengeskpor data mesin \"{0}\""
+                    }
+                },
+                "Rom": {
+                    "Description": "Mengekspor ROM mesin...",
+                    "Error": {
+                        "Description": "Gagal mengekspor ROM mesin \"{0}\""
+                    }
+                },
+                "Details": {
+                    "Description": "Mengekspor detail mesin...",
+                    "Error": {
+                        "Description": "Gagal mengeskpor detail mesin \"{0}\""
+                    }
+                }
+            },
+            "ItemDetails": {
+                "Save": "Simpan",
+                "Update": "Pembaruan",
+                "Description": {
+                    "Header": "Deskripsi"
+                },
+                "Recommended": {
+                    "Header": "Direkomendasikan"
+                }
+            },
+            "LevelDetails": {
+                "Title": "Detail Level",
+                "Actions": {
+                    "Play": "Main",
+                    "Configuration": "Konfigurasi"
+                }
+            },
+            "SkinDetails": {
+                "Title": "Detail Skin"
+            },
+            "BackgroundDetails": {
+                "Title": "Detail Latar",
+                "Actions": {
+                    "Configuration": "Konfigurasi"
+                }
+            },
+            "EffectDetails": {
+                "Title": "Detail SFX"
+            },
+            "ParticleDetails": {
+                "Title": "Detail Partikel"
+            },
+            "EngineDetails": {
+                "Title": "Detail Mesin",
+                "Actions": {
+                    "Configuration": "Konfigurasi"
+                }
+            },
+            "LevelConfiguration": {
+                "Title": "Konfigurasi Level",
+                "Error": {
+                    "Description": "Gagal memuat konfigurasi level {0}"
+                },
+                "Skin": {
+                    "Header": "Skin"
+                },
+                "Background": {
+                    "Header": "Latar"
+                },
+                "Effect": {
+                    "Header": "SFX"
+                },
+                "Particle": {
+                    "Header": "Partikel"
+                },
+                "Offsets": {
+                    "Header": "Offset",
+                    "LevelAudioOffset": "Offset Audio Level",
+                    "ServerAudioOffset": "Offset Audio Server",
+                    "DeviceAudioOffset": "Offset Audio Perangkat",
+                    "EngineInputOffset": "Offset Input Mesin",
+                    "DeviceInputOffset": "Offset Input Perangkat",
+                    "Calibrate": "Kalibrasi"
+                },
+                "Options": {
+                    "Header": "Opsi"
+                },
+                "UI": {
+                    "Header": "UI",
+                    "PrimaryMetric": "Metrik Utama",
+                    "SecondaryMetric": "Metrik Sekunder",
+                    "MenuStyle": "Style Menu",
+                    "JudgmentStyle": "Style Penilaian",
+                    "ComboStyle": "Style Kombo",
+                    "PrimaryMetricStyle": "Style Metrik Utama",
+                    "SecondaryMetricStyle": "Style Metrik Sekunder",
+                    "JudgmentErrorStyle": "Style Penilaian Error",
+                    "JudgmentErrorPlacement": "Penempatan Penilaian Error",
+                    "JudgmentErrorMin": "Penilaian Error Minimum"
+                }
+            },
+            "BackgroundConfiguration": {
+                "Title": "Konfigurasi Latar",
+                "Error": {
+                    "Description": "Gagal memuat konfigurasi latar \"{0}\""
+                },
+                "Blur": "Blur",
+                "Mask": "Mask"
+            },
+            "EngineConfiguration": {
+                "Title": "Konfigurasi Mesin",
+                "Error": {
+                    "Description": "Gagal memuat konfigurasi mesin {0}"
+                },
+                "Skin": {
+                    "Header": "Skin"
+                },
+                "Background": {
+                    "Header": "Latar"
+                },
+                "Effect": {
+                    "Header": "SFX"
+                },
+                "Particle": {
+                    "Header": "Partikel"
+                },
+                "Offsets": {
+                    "Header": "Offset",
+                    "EngineInputOffset": "Offset Input Mesin"
+                },
+                "Options": {
+                    "Header": "Opsi"
+                },
+                "UI": {
+                    "Header": "UI",
+                    "PrimaryMetric": "Metrik Utama",
+                    "SecondaryMetric": "Metrik Sekunder",
+                    "MenuStyle": "Style Menu",
+                    "JudgmentStyle": "Style Penilaian",
+                    "ComboStyle": "Style Kombo",
+                    "PrimaryMetricStyle": "Style Metrik Utama",
+                    "SecondaryMetricStyle": "Style Metrik Sekunder",
+                    "JudgmentErrorStyle": "Style Penilaian Error",
+                    "JudgmentErrorPlacement": "Penempatan Penilaian Error",
+                    "JudgmentErrorMin": "Penilaian Error Minimum"
+                }
+            }
+        },
+        "Gameplay": {
+            "PlayMode": {
+                "Loader": {
+                    "Runtime": {
+                        "Error": {
+                            "Description": "Gagal untuk boot level \"{0}\""
+                        }
+                    }
+                },
+                "Pause": {
+                    "Title": "Jeda",
+                    "Control": {
+                        "Header": "Kontrol",
+                        "Restart": "Ulang",
+                        "Exit": "Keluar"
+                    },
+                    "Snapshot": {
+                        "Header": "Snapshot",
+                        "Record": "Rekam",
+                        "Replay": "Ulang"
+                    },
+                    "Debug": {
+                        "Header": "Debug",
+                        "Code": "Kode",
+                        "Data": "Data"
+                    }
+                },
+                "Result": {
+                    "Title": "Hasil",
+                    "Restart": "Ulang",
+                    "Options": {
+                        "Snapshot": "Snapshot",
+                        "Paused": "Dijeda"
+                    },
+                    "Graphs": {
+                        "Header": "Grafik",
+                        "Judgment": "Penilaian",
+                        "Accuracy": "Akurasi"
+                    }
+                }
+            },
+            "Debug": {
+                "Code": {
+                    "Title": "Kode"
+                },
+                "Data": {
+                    "Title": "Data"
+                }
+            },
+            "JudgmentGraph": {
+                "Title": "Grafik Penilaian"
+            },
+            "AccuracyGraph": {
+                "Title": "Grafik Akurasi",
+                "AbsoluteValue": "Nilai Mutlak",
+                "Mean": "Rata-rata",
+                "StandardDeviation": "Deviasi Standar",
+                "Min": "Min",
+                "Max": "Max"
+            },
+            "BucketGraph": {
+                "Title": "Grafik Klasifikasi"
+            }
+        }
+    }
+}

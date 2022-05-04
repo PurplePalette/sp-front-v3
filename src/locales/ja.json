@@ -1,0 +1,1196 @@
+{
+    "SweetPotato": {
+      "Navigation": {
+        "Header": {
+          "Introduction": "イントロダクション",
+          "Community": "コミュニティ",
+          "Explorer": "エクスプローラ",
+          "Upload": "アップロード",
+          "MyPage": "マイページ"
+        },
+        "Footer": {
+          "TermsOfUses": "利用規約",
+          "PrivacyPolicy": "プライバシーポリシー",
+          "Guideline": "ガイドライン",
+          "Contact": "お問い合わせ",
+          "Notice": "本サイトの掲載コンテンツはユーザーの投稿コンテンツです。権利侵害を発見した場合はお問い合わせからご連絡ください。"
+        }
+      },
+      "Index": {
+        "Sentence": {
+          "Title": "もっと自由な 次世代Sonolus配信サーバー",
+          "SubTitle1": "SweetPotatoは、Sonolus用の譜面、スキン、背景等を簡単にシェアできるユーザー投稿サイトです。",
+          "SubTitle2": "ぜひお気軽にご利用ください!"
+        },
+        "ServerInfo": "サーバー情報",
+        "SupportVersion": "対応バージョン",
+        "TotalUsers": "総ユーザー数",
+        "Total": "累計"
+      }
+    },
+    "Sonolus": {
+        "Common": {
+            "Loading": "ロード中...",
+            "Confirm": "確認",
+            "Retry": "リトライ",
+            "Cancel": "キャンセル",
+            "Next": "次",
+            "Add": "追加",
+            "Select": "選択",
+            "View": "見る",
+            "On": "オン",
+            "Off": "オフ",
+            "Error": {
+                "Title": "エラー",
+                "Description": "予期せぬエラー：\n{0}"
+            },
+            "Confirmation": {
+                "Title": "確定",
+                "Remove": {
+                    "Description": "{0}を削除しますか？"
+                }
+            },
+            "InfoUpdate": {
+                "Title": "{0}を削除しますか？",
+                "Description": "Sonolus バージョン{0} がリリースされました！\n\n公式ページ：\nhttps://sonolus.com",
+                "Update": "更新"
+            },
+            "PermissionError": {
+                "Title": "権限エラー",
+                "Description": "指定された動作に必要な権限が不足しているため実行できません。\n\n端末の設定画面からSonolusに権限を付与してください。",
+                "Open": "設定画面を開く"
+            },
+            "ColorField": {
+                "Html": "HEX",
+                "Rgb": "RGB",
+                "Hsv": "HSV"
+            },
+            "Success": "成功",
+            "PullToRefresh": "離すと更新",
+            "PullToLoad": "もっと読み込む",
+            "More": "もっと",
+            "Search": "検索",
+            "Grade": "結果",
+            "Arcade": "スコア",
+            "Accuracy": "精度スコア",
+            "Combo": "コンボ",
+            "Perfect": "Perfect",
+            "Great": "Great",
+            "Good": "Good",
+            "Miss": "Miss",
+            "Easings": {
+                "Linear": "Linear",
+                "InSine": "Sine (In)",
+                "OutSine": "Sine (Out)",
+                "InOutSine": "Sine (In Out)",
+                "OutInSine": "Sine (Out In)",
+                "InQuad": "Quad (In)",
+                "OutQuad": "Quad (Out)",
+                "InOutQuad": "Quad (In Out)",
+                "OutInQuad": "Quad (Out In)",
+                "InCubic": "Cubic (In)",
+                "OutCubic": "Cubic (Out)",
+                "InOutCubic": "Cubic (In Out)",
+                "OutInCubic": "Cubic (Out In)",
+                "InQuart": "Quart (In)",
+                "OutQuart": "Quart (Out)",
+                "InOutQuart": "Quart (In Out)",
+                "OutInQuart": "Quart (Out In)",
+                "InQuint": "Quint (In)",
+                "OutQuint": "Quint (Out)",
+                "InOutQuint": "Quint (In Out)",
+                "OutInQuint": "Quint (Out In)",
+                "InExpo": "Expo (In)",
+                "OutExpo": "Expo (Out)",
+                "InOutExpo": "Expo (In Out)",
+                "OutInExpo": "Expo (Out In)",
+                "InCirc": "Circ (In)",
+                "OutCirc": "Circ (Out)",
+                "InOutCirc": "Circ (In Out)",
+                "OutInCirc": "Circ (Out In)",
+                "InBack": "Back (In)",
+                "OutBack": "Back (Out)",
+                "InOutBack": "Back (In Out)",
+                "OutInBack": "Back (Out In)",
+                "InElastic": "Elastic (In)",
+                "OutElastic": "Elastic (Out)",
+                "InOutElastic": "Elastic (In Out)",
+                "OutInElastic": "Elastic (Out In)"
+            },
+            "JudgmentError": {
+                "Style": {
+                    "None": "無し",
+                    "Plus": "+ / -",
+                    "Minus": "- / +",
+                    "ArrowUp": "↑ / ↓",
+                    "ArrowDown": "↓ / ↑",
+                    "ArrowLeft": "← / →",
+                    "ArrowRight": "→ / ←",
+                    "TriangleUp": "▲ / ▼",
+                    "TriangleDown": "▼ / ▲",
+                    "TriangleLeft": "◄ / ►",
+                    "TriangleRight": "► / ◄"
+                },
+                "Placement": {
+                    "Both": "左右",
+                    "Left": "左",
+                    "Right": "右"
+                }
+            },
+            "Style": {
+                "Visibility": "見た目",
+                "Animation": "アニメーション"
+            },
+            "Option": {
+                "Name": {
+                    "#KEYWORDS": "キーワード",
+                    "#NAME": "名称(ID)",
+                    "#RATING": "難易度",
+                    "#RATING_MINIMUM": "最低難易度",
+                    "#RATING_MAXIMUM": "最高難易度",
+                    "#TITLE": "タイトル",
+                    "#SUBTITLE": "サブタイトル",
+                    "#ARTISTS": "アーティスト",
+                    "#AUTHOR": "作者",
+                    "#GENRE": "ジャンル",
+                    "#CATEGORY": "カテゴリ",
+                    "#LANGUAGE": "言語",
+                    "#DIFFICULTY": "難易度",
+                    "#LENGTH": "曲の長さ",
+                    "#LENGTH_MINIMUM": "最短曲長",
+                    "#LENGTH_MAXIMUM": "最長曲長",
+                    "#SPEED": "レベル再生速度",
+                    "#AUTO": "オートプレイ",
+                    "#MIRROR": "レベルを反転",
+                    "#RANDOM": "ランダム",
+                    "#HIDDEN": "ノーツを非表示",
+                    "#JUDGMENT_STRICT": "判定ハードモード",
+                    "#JUDGMENT_LOOSE": "判定イージーモード",
+                    "#EFFECT": "SEの再生",
+                    "#EFFECT_AUTO": "自動SE",
+                    "#STAGE": "ステージの表示",
+                    "#STAGE_SIZE": "ステージの大きさ",
+                    "#STAGE_ROTATION": "ステージの回転",
+                    "#STAGE_ALPHA": "ステージの不透明度",
+                    "#STAGE_TILT": "ステージの傾き",
+                    "#STAGE_COVER_VERTICAL": "レーンカバー(縦方向)",
+                    "#STAGE_COVER_HORIZONTAL": "レーンカバー(横方向)",
+                    "#STAGE_COVER_ALPHA": "ステージのカバーの不透明度",
+                    "#STAGE_ASPECTRATIO_LOCK": "ステージのアスペクト比を維持",
+                    "#STAGE_EFFECT": "ステージエフェクト",
+                    "#STAGE_EFFECT_SIZE": "ステージエフェクトの大きさ",
+                    "#STAGE_EFFECT_ROTATION": "ステージエフェクトの回転",
+                    "#STAGE_EFFECT_ALPHA": "ステージエフェクトの不透明度",
+                    "#LANE": "レーンの表示",
+                    "#LANE_SIZE": "レーンの大きさ",
+                    "#LANE_ROTATION": "レーンの回転",
+                    "#LANE_ALPHA": "レーンの不透明度",
+                    "#LANE_EFFECT": "レーンエフェクト",
+                    "#LANE_EFFECT_SIZE": "レーンエフェクトの大きさ",
+                    "#LANE_EFFECT_ROTATION": "レーンエフェクトの回転",
+                    "#LANE_EFFECT_ALPHA": "レーンエフェクトの不透明度",
+                    "#JUDGELINE": "判定ラインの表示",
+                    "#JUDGELINE_SIZE": "判定ラインの大きさ",
+                    "#JUDGELINE_ROTATION": "判定ラインの回転",
+                    "#JUDGELINE_ALPHA": "判定ラインの不透明度",
+                    "#JUDGELINE_EFFECT": "判定ラインのエフェクト",
+                    "#JUDGELINE_EFFECT_SIZE": "判定ラインのエフェクトの大きさ",
+                    "#JUDGELINE_EFFECT_ROTATION": "判定ラインのエフェクトの回転",
+                    "#JUDGELINE_EFFECT_ALPHA": "判定ラインのエフェクトの不透明度",
+                    "#SLOT": "スロットの表示",
+                    "#SLOT_SIZE": "スロットの大きさ",
+                    "#SLOT_ROTATION": "スロットの回転",
+                    "#SLOT_ALPHA": "スロットの不透明度",
+                    "#SLOT_EFFECT": "スロットエフェクト",
+                    "#SLOT_EFFECT_SIZE": "スロットエフェクトの大きさ",
+                    "#SLOT_EFFECT_ROTATION": "スロットエフェクトの回転",
+                    "#SLOT_EFFECT_ALPHA": "スロットエフェクトの不透明度",
+                    "#NOTE": "ノーツの表示",
+                    "#NOTE_SPEED": "ノーツ速度",
+                    "#NOTE_SPEED_RANDOM": "ランダム(ノーツ速度)",
+                    "#NOTE_SIZE": "ノーツの大きさ",
+                    "#NOTE_ROTATION": "ノーツの回転",
+                    "#NOTE_ALPHA": "ノーツの不透明度",
+                    "#NOTE_EFFECT": "ノーツエフェクト",
+                    "#NOTE_EFFECT_SIZE": "ノーツエフェクトの大きさ",
+                    "#NOTE_EFFECT_ROTATION": "ノーツエフェクトの回転",
+                    "#NOTE_EFFECT_ALPHA": "ノーツエフェクトの不透明度",
+                    "#MARKER": "マーカーの表示",
+                    "#MARKER_SIZE": "マーカーの大きさ",
+                    "#MARKER_ROTATION": "マーカーの回転",
+                    "#MARKER_ALPHA": "マーカーの不透明度",
+                    "#CONNECTOR": "コネクターの表示",
+                    "#CONNECTOR_SIZE": "コネクターの大きさ",
+                    "#CONNECTOR_ROTATION": "コネクターの回転",
+                    "#CONNECTOR_ALPHA": "コネクターの不透明度",
+                    "#SIMLINE": "同時ノーツ線の表示",
+                    "#SIMLINE_SIZE": "同時ノーツ線の大きさ",
+                    "#SIMLINE_ROTATION": "同時ノーツ線の回転",
+                    "#SIMLINE_ALPHA": "同時ノーツ線の不透明度"
+                },
+                "Value": {
+                    "#NONE": "無し",
+                    "#ANY": "未指定",
+                    "#ALL": "全て",
+                    "#OTHERS": "その他",
+                    "#SHORT": "短い",
+                    "#LONG": "長い",
+                    "#HIGH": "高",
+                    "#MID": "中",
+                    "#LOW": "低",
+                    "#SMALL": "小",
+                    "#MEDIUM": "中",
+                    "#LARGE": "大",
+                    "#LEFT": "左",
+                    "#RIGHT": "右",
+                    "#UP": "上",
+                    "#DOWN": "下",
+                    "#FRONT": "前面",
+                    "#BACK": "後面",
+                    "#CENTER": "中央",
+                    "#TOP": "上",
+                    "#BOTTOM": "下",
+                    "#TOP_LEFT": "上左",
+                    "#TOP_CENTER": "上中",
+                    "#TOP_RIGHT": "上右",
+                    "#CENTER_LEFT": "中左",
+                    "#CENTER_RIGHT": "中右",
+                    "#BOTTOM_LEFT": "下左",
+                    "#BOTTOM_CENTER": "下中",
+                    "#BOTTOM_RIGHT": "下右",
+                    "#CLOCKWISE": "時計回り",
+                    "#COUNTERCLOCKWISE": "反時計回り",
+                    "#FORWARD": "前方向",
+                    "#BACKWARD": "後方向",
+                    "#SIMPLE": "Simple",
+                    "#EASY": "Easy",
+                    "#NORMAL": "Normal",
+                    "#HARD": "Hard",
+                    "#EXPERT": "Expert",
+                    "#MASTER": "Master",
+                    "#PRO": "Pro",
+                    "#TECHNICAL": "Technical",
+                    "#SPECIAL": "Special"
+                },
+                "Placeholder": {
+                    "#KEYWORDS": "キーワードを入力してください...",
+                    "#NAME": "名称を入力してください...",
+                    "#RATING": "難易度を入力してください...",
+                    "#RATING_MINIMUM": "最低難易度を入力してください...",
+                    "#RATING_MAXIMUM": "最高難易度を入力してください...",
+                    "#TITLE": "タイトルを入力してください...",
+                    "#SUBTITLE": "サブタイトルを入力してください...",
+                    "#ARTISTS": "アーティスト名を入力してください...",
+                    "#AUTHOR": "作者名を入力してください...",
+                    "#GENRE": "ジャンル名を入力してください...",
+                    "#CATEGORY": "カテゴリ名を入力してください...",
+                    "#LANGUAGE": "言語を入力してください...",
+                    "#DIFFICULTY": "難易度を入力してください...",
+                    "#LENGTH": "曲の長さを入力してください...",
+                    "#LENGTH_MINIMUM": "最短曲長を入力してください...",
+                    "#LENGTH_MAXIMUM": "最長曲長を入力してください..."
+                }
+            },
+            "Metric": {
+                "Arcade": "スコア",
+                "Accuracy": "精度スコア",
+                "Life": "ライフ",
+                "PerfectRate": "Perfect率",
+                "ErrorHeatmap": "ミスヒートマップ"
+            },
+            "ListView": {
+                "ClearSearch": "「{0}」の結果",
+                "Jump": {
+                    "Header": "指定ページに移動",
+                    "Page": "ページ番号",
+                    "PagePlaceholder": "例 1"
+                },
+                "Search": {
+                    "Header": "検索",
+                    "Keywords": "キーワード",
+                    "KeywordsPlaceholder": "例 Sonolus"
+                }
+            }
+        },
+        "Color": {
+            "Title": "色設定",
+            "Html": "Hex値(RGBA)",
+            "HtmlPlaceholder": "例 #FFFFFFFF",
+            "R": "赤 (R)",
+            "G": "緑 (G)",
+            "B": "青 (B)",
+            "H": "色相 (H)",
+            "S": "彩度 (S)",
+            "V": "明度 (V)",
+            "A": "不透明度 (A)"
+        },
+        "Search": {
+            "Title": "検索"
+        },
+        "Title": {
+            "TapToStart": "タップでスタート"
+        },
+        "SelectLocalization": {
+            "Title": "言語選択",
+            "Description": "お好みの言語を選択してください：",
+            "List": {
+                "Error": {
+                    "Description": "言語リストをロードすることが出来ませんでした"
+                }
+            },
+            "Localization": {
+                "Error": {
+                    "Description": "言語{0}をロードすることが出来ませんでした"
+                }
+            }
+        },
+        "SelectTheme": {
+            "Title": "テーマ",
+            "Description": "テーマを選択："
+        },
+        "Theme": {
+            "Dark": "ダーク",
+            "Light": "ライト"
+        },
+        "ManageCache": {
+            "Title": "キャッシュ管理",
+            "Cache": {
+                "Header": "キャッシュ",
+                "Description": "キャッシュはリソースとそれに関連するURLを一時的に記憶しておく機能です。この機能によりSonolusは、ネットワーク経由の読み込みを高速化し、データ転送量を削減します。キャッシュはごく少量のストレージしか使用しないため、削除しないことをお勧めします。",
+                "Count": "キャッシュ：{0}件"
+            },
+            "Expire": {
+                "Header": "失効",
+                "Description": "失効させると、次回キャッシュ読み込み時にネットワーク経由でリソースの更新を検証します。更新がある場合ダウンロードが発生します。",
+                "Expire": "失効",
+                "Confirmation": {
+                    "Description": "すべてのキャッシュを失効させますか？"
+                }
+            },
+            "Delete": {
+                "Header": "削除 (非推奨)",
+                "Description": "すべてのキャッシュを削除すると、次回キャッシュ読み込み時、すべてのリソースの再ダウンロードが発生します。",
+                "Delete": "削除",
+                "Confirmation": {
+                    "Description": "本当にすべてのキャッシュを削除しますか？"
+                }
+            }
+        },
+        "ManageRepository": {
+            "Title": "リポジトリ管理",
+            "Repository": {
+                "Header": "リポジトリ",
+                "Description": "リポジトリには、オフラインで利用可能なすべてのリソースが保存されます。",
+                "Size": "全体サイズ：{0}"
+            },
+            "Delete": {
+                "Header": "削除",
+                "Description": "リポジトリのリソースをすべて削除すると、必要になった際、再度ダウンロードが必要になります。",
+                "Delete": "削除",
+                "Confirmation": {
+                    "Description": "本当にリポジトリのリソースをすべて削除しますか？"
+                }
+            }
+        },
+        "CalibrateAudio": {
+            "Title": "音オフセットの調整",
+            "Description": "音と画面が一致するように、デバイスの音オフセットを調整してください。"
+        },
+        "CalibrateInput": {
+            "Title": "入力オフセットの調整",
+            "Description": "動く正方形に沿ってドラッグして入力を調整します。\nこのがオプションがよくわからない場合は、0のままにしてください。",
+            "Result": {
+                "Start": "ドラッグしてオフセットを試す",
+                "Ongoing": "測定中…",
+                "OneFinger": "片方の指だけでドラッグしてください",
+                "Incomplete": "最後までドラッグしてください",
+                "Success": "成功、おすすめのオフセット：{0}"
+            }
+        },
+        "Home": {
+            "Play": "開始",
+            "Settings": "全体設定"
+        },
+        "Settings": {
+            "Title": "全体設定",
+            "Graphics": {
+                "Header": "グラフィックス",
+                "RenderScale": "レンダリング解像度",
+                "AntiAliasing": "アンチエイリアス",
+                "GpuParticleSystem": "GPUパーティクルシステム",
+                "IgnoreNotch": "ノッチを無視"
+            },
+            "Audio": {
+                "Header": "オーディオ",
+                "BgmVolume": "BGM音量",
+                "EffectVolume": "SE音量",
+                "PreviewBgm": "BGMのプレビュー",
+                "PreserveBgmPitch": "BGMの音程維持"
+            },
+            "UI": {
+                "Header": "UI",
+                "Localization": "言語",
+                "Theme": "テーマ",
+                "UIScale": "UIスケール",
+                "PerfectJudgmentColor": "Perfect判定色",
+                "GreatJudgmentColor": "Great判定色",
+                "GoodJudgmentColor": "Good判定色",
+                "MissJudgmentColor": "Miss判定色",
+                "PositiveJudgmentErrorColor": "ポジティブ判定の色",
+                "NegativeJudgmentErrorColor": "ネガティブ判定の色",
+                "AllPerfectComboColor": "All Perfect時のコンボ色",
+                "FullComboComboColor": "FullCombo時のコンボ色",
+                "PassComboColor": "Pass時のコンボ色",
+                "FailComboColor": "Fail時のコンボ色",
+                "BoldComboNumber": "太字コンボ表示",
+                "ShowZeroCombo": "ゼロコンボ表示"
+            },
+            "Offsets": {
+                "Header": "オフセット",
+                "Calibrate": "調整",
+                "DeviceAudioOffset": "デバイスの音オフセット",
+                "DeviceInputOffset": "デバイスの入力オフセット"
+            },
+            "Repository": {
+                "Header": "リポジトリ",
+                "Manage": "管理"
+            },
+            "Cache": {
+                "Header": "キャッシュ",
+                "AlwaysRevalidate": "常に確認",
+                "Manage": "管理"
+            },
+            "Debug": {
+                "Header": "デバッグ",
+                "DebugMode": "デバッグモード"
+            }
+        },
+        "SelectCollection": {
+            "Title": "コレクション選択"
+        },
+        "SelectServer": {
+            "Title": "サーバー選択",
+            "Collection": {
+                "Header": "コレクション",
+                "Import": "インポート",
+                "PackageError": {
+                    "Description": "未対応または破損したパッケージです"
+                }
+            },
+            "Custom": {
+                "Header": "カスタムサーバー"
+            }
+        },
+        "CollectionInfo": {
+            "Title": "コレクション情報",
+            "Name": "コレクション名",
+            "NamePlaceholder": "例 お気に入り"
+        },
+        "CustomServerInfo": {
+            "Title": "カスタムサーバー情報",
+            "Name": "サーバー名",
+            "NamePlaceholder": "例 パフォーマンス テスト",
+            "Address": "サーバーアドレス",
+            "AddressPlaceholder": "例 https://servers.sonolus.com/performance-test/"
+        },
+        "Server": {
+            "Style": {
+                "Visibility": {
+                    "Title": "見た目",
+                    "Scale": "大きさ",
+                    "Alpha": "不透明度"
+                },
+                "Animation": {
+                    "Title": "アニメーション",
+                    "Scale": "大きさ",
+                    "Alpha": "不透明度",
+                    "Tween": "トゥイーン"
+                },
+                "Tween": {
+                    "Title": "トゥイーン",
+                    "From": "開始値",
+                    "To": "終了値",
+                    "Duration": "所要時間",
+                    "Ease": "イージング関数"
+                }
+            },
+            "VersionError": {
+                "Description": "このサーバーはバージョン{0}にのみ対応しています。サーバーの更新を待つか、バージョン{0}のSonolusをインストールしてください。"
+            },
+            "Home": {
+                "ServerInfo": {
+                    "Error": {
+                        "Description": "{0}のサーバー情報を読み込めませんでした。正しいサーバーアドレスを入力しているかご確認ください。"
+                    }
+                },
+                "Levels": {
+                    "Header": "レベル"
+                },
+                "Skins": {
+                    "Header": "スキン"
+                },
+                "Backgrounds": {
+                    "Header": "背景"
+                },
+                "Effects": {
+                    "Header": "SE"
+                },
+                "Particles": {
+                    "Header": "パーティクル"
+                },
+                "Engines": {
+                    "Header": "エンジン"
+                }
+            },
+            "LevelList": {
+                "Title": "レベル",
+                "Error": {
+                    "Description": "{0}ページ目のレベル一覧をロードできませんでした"
+                }
+            },
+            "SkinList": {
+                "Title": "スキン",
+                "Error": {
+                    "Description": "{0}ページ目のスキン一覧の読み込みに失敗しました"
+                }
+            },
+            "BackgroundList": {
+                "Title": "背景",
+                "Error": {
+                    "Description": "{0}ページ目の背景一覧の読み込みに失敗しました"
+                }
+            },
+            "EffectList": {
+                "Title": "SE",
+                "Error": {
+                    "Description": "{0}ページ目のSE一覧の読み込みに失敗しました"
+                }
+            },
+            "ParticleList": {
+                "Title": "パーティクル",
+                "Error": {
+                    "Description": "{0}ページ目のパーティクル一覧の読み込みに失敗しました"
+                }
+            },
+            "EngineList": {
+                "Title": "エンジン",
+                "Error": {
+                    "Description": "{0}ページ目のエンジン一覧の読み込みに失敗しました"
+                }
+            },
+            "LevelLoader": {
+                "Details": {
+                    "Description": "レベル情報をロード中…",
+                    "Error": {
+                        "Description": "{0}のレベル情報のロードに失敗しました"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "レベル{0}はこのバージョンでは読み込めません。サーバーの更新を待つか、アプリをダウングレードしてください。"
+                },
+                "Cover": {
+                    "Description": "レベルジャケットをロード中…",
+                    "Error": {
+                        "Description": "{0}のレベルジャケットをロードすることができませんでした"
+                    }
+                },
+                "Data": {
+                    "Description": "レベルデータをロード中…",
+                    "Error": {
+                        "Description": "{0}のレベルデータの読み込みに失敗しました"
+                    }
+                },
+                "Bgm": {
+                    "Description": "レベルBGMをロード中…",
+                    "Error": {
+                        "Description": "{0}のレベルBGMの読み込みに失敗しました"
+                    }
+                },
+                "Preview": {
+                    "Description": "レベルプレビューを読み込んでいます...",
+                    "Error": {
+                        "Description": "{0}のレベルプレビューの読み込みに失敗しました"
+                    }
+                }
+            },
+            "SkinLoader": {
+                "Details": {
+                    "Description": "スキン情報をロード中…",
+                    "Error": {
+                        "Description": "{0}のスキン情報のロードに失敗しました"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "スキン{0}はこのバージョンでは読み込めません"
+                },
+                "Thumbnail": {
+                    "Description": "スキンサムネイルをロード中…",
+                    "Error": {
+                        "Description": "{0}のスキンサムネイルの読み込みに失敗しました"
+                    }
+                },
+                "Data": {
+                    "Description": "スキンデータをロード中…",
+                    "Error": {
+                        "Description": "{0}のスキンデータの読み込みに失敗しました"
+                    }
+                },
+                "Texture": {
+                    "Description": "スキンテクスチャをロード中…",
+                    "Error": {
+                        "Description": "{0}のスキンテクスチャの読み込みに失敗しました"
+                    }
+                }
+            },
+            "BackgroundLoader": {
+                "Details": {
+                    "Description": "背景情報をロード中…",
+                    "Error": {
+                        "Description": "{0}の背景情報のロードに失敗しました"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "背景{0}はこのバージョンでは読み込めません"
+                },
+                "Thumbnail": {
+                    "Description": "背景サムネイルをロード中…",
+                    "Error": {
+                        "Description": "{0}の背景サムネイルの読み込みに失敗しました"
+                    }
+                },
+                "Configuration": {
+                    "Description": "背景設定をロード中…",
+                    "Error": {
+                        "Description": "{0}の背景設定の読み込みに失敗しました"
+                    }
+                },
+                "Data": {
+                    "Description": "背景データをロード中…",
+                    "Error": {
+                        "Description": "{0}の背景データの読み込みに失敗しました"
+                    }
+                },
+                "Image": {
+                    "Description": "背景をロード中…",
+                    "Error": {
+                        "Description": "{0}の背景の読み込みに失敗しました"
+                    }
+                }
+            },
+            "EffectLoader": {
+                "Details": {
+                    "Description": "SE情報をロード中…",
+                    "Error": {
+                        "Description": "{0}のSE情報のロードに失敗しました"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "SE{0}はこのバージョンでは読み込めません"
+                },
+                "Thumbnail": {
+                    "Description": "SEサムネイルをロード中…",
+                    "Error": {
+                        "Description": "{0}のSEサムネイルの読み込みに失敗しました"
+                    }
+                },
+                "Data": {
+                    "Description": "SEデータをロード中…",
+                    "Error": {
+                        "Description": "{0}のSEデータの読み込みに失敗しました"
+                    }
+                },
+                "Clip": {
+                    "Description": "SEをロード中…",
+                    "Error": {
+                        "Description": "{0}のSEの読み込みに失敗しました"
+                    }
+                }
+            },
+            "ParticleLoader": {
+                "Details": {
+                    "Description": "パーティクル情報をロード中…",
+                    "Error": {
+                        "Description": "{0}のパーティクル情報のロードに失敗しました"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "パーティクル{0}はこのバージョンでは読み込めません"
+                },
+                "Thumbnail": {
+                    "Description": "パーティクル サムネイルをロード中…",
+                    "Error": {
+                        "Description": "{0}のパーティクルサムネイルの読み込みに失敗しました"
+                    }
+                },
+                "Data": {
+                    "Description": "パーティクル データをロード中…",
+                    "Error": {
+                        "Description": "{0}のスキンサムネイルの読み込みに失敗しました"
+                    }
+                },
+                "Texture": {
+                    "Description": "パーティクル テクスチャをロード中…",
+                    "Error": {
+                        "Description": "{0}のパーティクル テクスチャの読み込みに失敗しました"
+                    }
+                }
+            },
+            "EngineLoader": {
+                "Details": {
+                    "Description": "エンジン情報をロード中…",
+                    "Error": {
+                        "Description": "エンジン情報のロードに失敗しました"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "エンジン{0}はこのバージョンでは読み込めません"
+                },
+                "Thumbnail": {
+                    "Description": "エンジンサムネイルをロード中…",
+                    "Error": {
+                        "Description": "{0}のエンジンサムネイルの読み込みに失敗しました"
+                    }
+                },
+                "Configuration": {
+                    "Description": "エンジン設定をロード中…",
+                    "Error": {
+                        "Description": "{0}のエンジン設定の読み込みに失敗しました"
+                    }
+                },
+                "Data": {
+                    "Description": "エンジンデータをロード中…",
+                    "Error": {
+                        "Description": "{0}のエンジンデータの読み込みに失敗しました"
+                    }
+                },
+                "Rom": {
+                    "Description": "エンジンROMをロード中…",
+                    "Error": {
+                        "Description": "{0}のエンジンROMの読み込みに失敗しました"
+                    }
+                }
+            },
+            "PackageExporter": {
+                "LevelList": {
+                    "Description": "レベルをエクスポートしています...",
+                    "Error": {
+                        "Description": "レベルのエクスポートに失敗しました"
+                    }
+                },
+                "SkinList": {
+                    "Description": "スキンをエクスポートしています...",
+                    "Error": {
+                        "Description": "スキンのエクスポートに失敗しました"
+                    }
+                },
+                "BackgroundList": {
+                    "Description": "背景をエクスポートしています...",
+                    "Error": {
+                        "Description": "背景のエクスポートに失敗しました"
+                    }
+                },
+                "EffectList": {
+                    "Description": "SEをエクスポートしています...",
+                    "Error": {
+                        "Description": "SEのエクスポートに失敗しました"
+                    }
+                },
+                "ParticleList": {
+                    "Description": "パーティクルをエクスポートしています...",
+                    "Error": {
+                        "Description": "パーティクルのエクスポートに失敗しました"
+                    }
+                },
+                "EngineList": {
+                    "Description": "エンジンをエクスポートしています...",
+                    "Error": {
+                        "Description": "エンジンのエクスポートに失敗しました"
+                    }
+                }
+            },
+            "LevelExporter": {
+                "CompatibilityError": {
+                    "Description": "レベル \"{0}\" は このバージョンと互換性がありません"
+                },
+                "Cover": {
+                    "Description": "レベルカバーをエクスポートしています...",
+                    "Error": {
+                        "Description": "レベル \"{0}\" のカバーのエクスポートに失敗しました"
+                    }
+                },
+                "Data": {
+                    "Description": "レベルデータをエクスポートしています...",
+                    "Error": {
+                        "Description": "レベル \"{0}\" のデータのエクスポートに失敗しました"
+                    }
+                },
+                "Bgm": {
+                    "Description": "レベルBGMをエクスポートしています...",
+                    "Error": {
+                        "Description": "レベル \"{0}\" のBGMのエクスポートに失敗しました"
+                    }
+                },
+                "Preview": {
+                    "Description": "レベルプレビューをエクスポートしています...",
+                    "Error": {
+                        "Description": "{0}のレベルプレビューのエクスポートに失敗しました"
+                    }
+                },
+                "Details": {
+                    "Description": "レベル情報をエクスポートしています...",
+                    "Error": {
+                        "Description": "レベル \"{0}\" の情報のエクスポートに失敗しました"
+                    }
+                }
+            },
+            "SkinExporter": {
+                "CompatibilityError": {
+                    "Description": "スキン \"{0}\" は このバージョンと互換性がありません"
+                },
+                "Thumbnail": {
+                    "Description": "スキンをエクスポートしています...",
+                    "Error": {
+                        "Description": "スキン \"{0}\" のサムネイルのエクスポートに失敗しました"
+                    }
+                },
+                "Data": {
+                    "Description": "スキンデータをエクスポートしています...",
+                    "Error": {
+                        "Description": "スキン \"{0}\" のデータのエクスポートに失敗しました"
+                    }
+                },
+                "Texture": {
+                    "Description": "スキンテクスチャをエクスポートしています...",
+                    "Error": {
+                        "Description": "スキン \"{0}\" のテクスチャのエクスポートに失敗しました"
+                    }
+                },
+                "Details": {
+                    "Description": "スキン情報をエクスポートしています...",
+                    "Error": {
+                        "Description": "スキン \"{0}\" の情報のエクスポートに失敗しました"
+                    }
+                }
+            },
+            "BackgroundExporter": {
+                "CompatibilityError": {
+                    "Description": "背景 \"{0}\" は このバージョンと互換性がありません"
+                },
+                "Thumbnail": {
+                    "Description": "背景サムネイルをエクスポートしています...",
+                    "Error": {
+                        "Description": "背景 \"{0}\" のサムネイルのエクスポートに失敗しました"
+                    }
+                },
+                "Configuration": {
+                    "Description": "背景構成をエクスポートしています...",
+                    "Error": {
+                        "Description": "背景 \"{0}\" の構成のエクスポートに失敗しました"
+                    }
+                },
+                "Data": {
+                    "Description": "背景データをエクスポートしています...",
+                    "Error": {
+                        "Description": "背景 \"{0}\" のデータのエクスポートに失敗しました"
+                    }
+                },
+                "Image": {
+                    "Description": "背景画像をエクスポートしています...",
+                    "Error": {
+                        "Description": "背景 \"{0}\" の画像のエクスポートに失敗しました"
+                    }
+                },
+                "Details": {
+                    "Description": "背景情報をエクスポートしています...",
+                    "Error": {
+                        "Description": "背景 \"{0}\" の情報のエクスポートに失敗しました"
+                    }
+                }
+            },
+            "EffectExporter": {
+                "CompatibilityError": {
+                    "Description": "SE \"{0}\" は このバージョンと互換性がありません"
+                },
+                "Thumbnail": {
+                    "Description": "SEのサムネイルをエクスポートしています...",
+                    "Error": {
+                        "Description": "SE \"{0}\" のサムネイルのエクスポートに失敗しました"
+                    }
+                },
+                "Data": {
+                    "Description": "SEのデータをエクスポートしています...",
+                    "Error": {
+                        "Description": "SE \"{0}\" のデータのエクスポートに失敗しました"
+                    }
+                },
+                "Clip": {
+                    "Description": "SEのクリップをエクスポートしています...",
+                    "Error": {
+                        "Description": "SE \"{0}\" のクリップのエクスポートに失敗しました"
+                    }
+                },
+                "Details": {
+                    "Description": "SEの情報をエクスポートしています...",
+                    "Error": {
+                        "Description": "SE \"{0}\" の情報のエクスポートに失敗しました"
+                    }
+                }
+            },
+            "ParticleExporter": {
+                "CompatibilityError": {
+                    "Description": "パーティクル \"{0}\" は このバージョンと互換性がありません"
+                },
+                "Thumbnail": {
+                    "Description": "パーティクルのサムネイルをエクスポートしています...",
+                    "Error": {
+                        "Description": "パーティクル \"{0}\" のサムネイルのエクスポートに失敗しました"
+                    }
+                },
+                "Data": {
+                    "Description": "パーティクルのデータをエクスポートしています...",
+                    "Error": {
+                        "Description": "パーティクル \"{0}\" のデータのエクスポートに失敗しました"
+                    }
+                },
+                "Texture": {
+                    "Description": "パーティクルのテクスチャをエクスポートしています...",
+                    "Error": {
+                        "Description": "パーティクル \"{0}\" のテクスチャのエクスポートに失敗しました"
+                    }
+                },
+                "Details": {
+                    "Description": "パーティクルの情報をエクスポートしています...",
+                    "Error": {
+                        "Description": "パーティクル \"{0}\" の情報のエクスポートに失敗しました"
+                    }
+                }
+            },
+            "EngineExporter": {
+                "CompatibilityError": {
+                    "Description": "エンジン \"{0}\" は このバージョンと互換性がありません"
+                },
+                "Thumbnail": {
+                    "Description": "エンジンのサムネイルをエクスポートしています...",
+                    "Error": {
+                        "Description": "エンジン \"{0}\" のサムネイルのエクスポートに失敗しました"
+                    }
+                },
+                "Configuration": {
+                    "Description": "エンジンの構成をエクスポートしています...",
+                    "Error": {
+                        "Description": "エンジン \"{0}\" の構成のエクスポートに失敗しました"
+                    }
+                },
+                "Data": {
+                    "Description": "エンジンのデータをエクスポートしています...",
+                    "Error": {
+                        "Description": "エンジン \"{0}\" のデータのエクスポートに失敗しました"
+                    }
+                },
+                "Rom": {
+                    "Description": "エンジンのROMをエクスポートしています…",
+                    "Error": {
+                        "Description": "エンジン \"{0}\" のROMのエクスポートに失敗しました"
+                    }
+                },
+                "Details": {
+                    "Description": "エンジンの情報をエクスポートしています...",
+                    "Error": {
+                        "Description": "エンジン \"{0}\" の情報のエクスポートに失敗しました"
+                    }
+                }
+            },
+            "ItemDetails": {
+                "Save": "保存",
+                "Update": "更新",
+                "Description": {
+                    "Header": "説明"
+                },
+                "Recommended": {
+                    "Header": "おすすめ"
+                }
+            },
+            "LevelDetails": {
+                "Title": "レベル情報",
+                "Actions": {
+                    "Play": "プレイ",
+                    "Configuration": "レベル設定"
+                }
+            },
+            "SkinDetails": {
+                "Title": "スキン情報"
+            },
+            "BackgroundDetails": {
+                "Title": "背景情報",
+                "Actions": {
+                    "Configuration": "背景設定"
+                }
+            },
+            "EffectDetails": {
+                "Title": "SE情報"
+            },
+            "ParticleDetails": {
+                "Title": "パーティクル情報"
+            },
+            "EngineDetails": {
+                "Title": "エンジン情報",
+                "Actions": {
+                    "Configuration": "エンジン設定"
+                }
+            },
+            "LevelConfiguration": {
+                "Title": "レベル設定",
+                "Error": {
+                    "Description": "{0}のレベル設定の読み込みに失敗しました"
+                },
+                "Skin": {
+                    "Header": "スキン"
+                },
+                "Background": {
+                    "Header": "背景"
+                },
+                "Effect": {
+                    "Header": "SE"
+                },
+                "Particle": {
+                    "Header": "パーティクル"
+                },
+                "Offsets": {
+                    "Header": "オフセット",
+                    "LevelAudioOffset": "レベル音オフセット",
+                    "ServerAudioOffset": "サーバー音オフセット",
+                    "DeviceAudioOffset": "デバイス音オフセット",
+                    "EngineInputOffset": "エンジン入力オフセット",
+                    "DeviceInputOffset": "デバイス入力オフセット",
+                    "Calibrate": "調整"
+                },
+                "Options": {
+                    "Header": "オプション"
+                },
+                "UI": {
+                    "Header": "UI",
+                    "PrimaryMetric": "メイン指標",
+                    "SecondaryMetric": "サブ指標",
+                    "MenuStyle": "メニュースタイル",
+                    "JudgmentStyle": "判定 スタイル",
+                    "ComboStyle": "コンボ スタイル",
+                    "PrimaryMetricStyle": "メイン指標 スタイル",
+                    "SecondaryMetricStyle": "サブ指標 スタイル",
+                    "JudgmentErrorStyle": "判定タイミングスタイル",
+                    "JudgmentErrorPlacement": "判定タイミング表示位置",
+                    "JudgmentErrorMin": "判定タイミング最小誤差"
+                }
+            },
+            "BackgroundConfiguration": {
+                "Title": "背景設定",
+                "Error": {
+                    "Description": "{0}の背景設定の読み込みに失敗しました"
+                },
+                "Blur": "ぼかし",
+                "Mask": "マスク色"
+            },
+            "EngineConfiguration": {
+                "Title": "エンジン設定",
+                "Error": {
+                    "Description": "{0}のエンジン設定の読み込みに失敗しました"
+                },
+                "Skin": {
+                    "Header": "スキン"
+                },
+                "Background": {
+                    "Header": "背景"
+                },
+                "Effect": {
+                    "Header": "SE"
+                },
+                "Particle": {
+                    "Header": "パーティクル"
+                },
+                "Offsets": {
+                    "Header": "オフセット",
+                    "EngineInputOffset": "エンジン入力オフセット"
+                },
+                "Options": {
+                    "Header": "オプション"
+                },
+                "UI": {
+                    "Header": "UI",
+                    "PrimaryMetric": "メイン指標",
+                    "SecondaryMetric": "サブ指標",
+                    "MenuStyle": "メニュー スタイル",
+                    "JudgmentStyle": "判定 スタイル",
+                    "ComboStyle": "コンボ スタイル",
+                    "PrimaryMetricStyle": "メイン指標 スタイル",
+                    "SecondaryMetricStyle": "サブ指標 スタイル",
+                    "JudgmentErrorStyle": "判定タイミングスタイル",
+                    "JudgmentErrorPlacement": "判定タイミング表示位置",
+                    "JudgmentErrorMin": "判定タイミング最小誤差"
+                }
+            }
+        },
+        "Gameplay": {
+            "PlayMode": {
+                "Loader": {
+                    "Runtime": {
+                        "Error": {
+                            "Description": "レベル{0}を立ち上げられませんでした"
+                        }
+                    }
+                },
+                "Pause": {
+                    "Title": "一時停止",
+                    "Control": {
+                        "Header": "管理",
+                        "Restart": "やり直す",
+                        "Exit": "終了"
+                    },
+                    "Snapshot": {
+                        "Header": "区間練習",
+                        "Record": "セーブ",
+                        "Replay": "ロード"
+                    },
+                    "Debug": {
+                        "Header": "デバッグ",
+                        "Code": "コード",
+                        "Data": "データ"
+                    }
+                },
+                "Result": {
+                    "Title": "リザルト",
+                    "Restart": "やり直す",
+                    "Options": {
+                        "Snapshot": "区間練習",
+                        "Paused": "一時停止"
+                    },
+                    "Graphs": {
+                        "Header": "グラフ",
+                        "Judgment": "判定",
+                        "Accuracy": "精度"
+                    }
+                }
+            },
+            "Debug": {
+                "Code": {
+                    "Title": "コード"
+                },
+                "Data": {
+                    "Title": "データ"
+                }
+            },
+            "JudgmentGraph": {
+                "Title": "判定グラフ"
+            },
+            "AccuracyGraph": {
+                "Title": "精度グラフ",
+                "AbsoluteValue": "絶対値",
+                "Mean": "平均値",
+                "StandardDeviation": "標準偏差",
+                "Min": "最小値",
+                "Max": "最大値"
+            },
+            "BucketGraph": {
+                "Title": "分類図表"
+            }
+        }
+    }
+}

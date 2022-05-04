@@ -1,0 +1,1167 @@
+{
+    "Sonolus": {
+        "Common": {
+            "Loading": "로딩 중...",
+            "Confirm": "확인",
+            "Retry": "재시도",
+            "Cancel": "취소",
+            "Next": "다음",
+            "Add": "추가",
+            "Select": "선택",
+            "View": "보기",
+            "On": "켜짐",
+            "Off": "꺼짐",
+            "Error": {
+                "Title": "오류",
+                "Description": "알 수 없는 에러:\n{0}"
+            },
+            "Confirmation": {
+                "Title": "확인",
+                "Remove": {
+                    "Description": "정말로 \"{0}\" 을(를) 삭제할까요?"
+                }
+            },
+            "InfoUpdate": {
+                "Title": "업데이트 가능",
+                "Description": "Sonolus {0} 버전을 사용할 수 있습니다!\n\n웹사이트를 확인하세요:\nhttps://sonolus.com",
+                "Update": "업데이트"
+            },
+            "PermissionError": {
+                "Title": "권한 오류",
+                "Description": "계속하려면 설정 앱에서 Sonolus 앱의 필수 권한을 허용해야 합니다.",
+                "Open": "열기"
+            },
+            "ColorField": {
+                "Html": "HEX",
+                "Rgb": "RGB",
+                "Hsv": "HSV"
+            },
+            "Success": "성공",
+            "PullToRefresh": "당겨서 새로고침",
+            "PullToLoad": "당겨서 더 보기",
+            "More": "더 보기",
+            "Search": "검색",
+            "Grade": "등급",
+            "Arcade": "점수",
+            "Accuracy": "정확도 점수",
+            "Combo": "콤보",
+            "Perfect": "Perfect",
+            "Great": "Great",
+            "Good": "Good",
+            "Miss": "Miss",
+            "Easings": {
+                "Linear": "리니어",
+                "InSine": "Sine (인)",
+                "OutSine": "Sine (아웃)",
+                "InOutSine": "Sine (인-아웃)",
+                "OutInSine": "Sine (아웃-인)",
+                "InQuad": "Quad (인)",
+                "OutQuad": "Quad (아웃)",
+                "InOutQuad": "Quad (인-아웃)",
+                "OutInQuad": "Quad (아웃-인)",
+                "InCubic": "Cubic (인)",
+                "OutCubic": "Cubic (아웃)",
+                "InOutCubic": "Cubic (인-아웃)",
+                "OutInCubic": "Cubic (아웃-인)",
+                "InQuart": "Quart (인)",
+                "OutQuart": "Quart (아웃)",
+                "InOutQuart": "Quart (인-아웃)",
+                "OutInQuart": "Quart (아웃-인)",
+                "InQuint": "Quint (인)",
+                "OutQuint": "Quint (아웃)",
+                "InOutQuint": "Quint (인-아웃)",
+                "OutInQuint": "Quint (아웃-인)",
+                "InExpo": "Expo (인)",
+                "OutExpo": "Expo (아웃)",
+                "InOutExpo": "Expo (인-아웃)",
+                "OutInExpo": "Expo (아웃-인)",
+                "InCirc": "Circ (인)",
+                "OutCirc": "Circ (아웃)",
+                "InOutCirc": "Circ (인-아웃)",
+                "OutInCirc": "Circ (아웃-인)",
+                "InBack": "Back (인)",
+                "OutBack": "Back (아웃)",
+                "InOutBack": "Back (인-아웃)",
+                "OutInBack": "Back (아웃-인)",
+                "InElastic": "Elastic (인)",
+                "OutElastic": "Elastic (아웃)",
+                "InOutElastic": "Elastic (인-아웃)",
+                "OutInElastic": "Elastic (아웃-인)"
+            },
+            "JudgmentError": {
+                "Style": {
+                    "None": "설정 안 함",
+                    "Plus": "+ / -",
+                    "Minus": "- / +",
+                    "ArrowUp": "↑ / ↓",
+                    "ArrowDown": "↓ / ↑",
+                    "ArrowLeft": "← / →",
+                    "ArrowRight": "→ / ←",
+                    "TriangleUp": "▲ / ▼",
+                    "TriangleDown": "▼ / ▲",
+                    "TriangleLeft": "◄ / ►",
+                    "TriangleRight": "► / ◄"
+                },
+                "Placement": {
+                    "Both": "양쪽",
+                    "Left": "왼쪽",
+                    "Right": "오른쪽"
+                }
+            },
+            "Style": {
+                "Visibility": "가시성",
+                "Animation": "애니메이션"
+            },
+            "Option": {
+                "Name": {
+                    "#KEYWORDS": "키워드",
+                    "#NAME": "이름",
+                    "#RATING": "레벨",
+                    "#RATING_MINIMUM": "최소 레벨",
+                    "#RATING_MAXIMUM": "최대 레벨",
+                    "#TITLE": "제목",
+                    "#SUBTITLE": "부제목",
+                    "#ARTISTS": "작곡가",
+                    "#AUTHOR": "제작자",
+                    "#GENRE": "장르",
+                    "#CATEGORY": "카테고리",
+                    "#LANGUAGE": "언어",
+                    "#DIFFICULTY": "난이도",
+                    "#LENGTH": "길이",
+                    "#LENGTH_MINIMUM": "최소 길이",
+                    "#LENGTH_MAXIMUM": "최대 길이",
+                    "#SPEED": "레벨 속도",
+                    "#AUTO": "오토 플레이",
+                    "#MIRROR": "반전",
+                    "#RANDOM": "랜덤",
+                    "#HIDDEN": "히든",
+                    "#JUDGMENT_STRICT": "엄격한 판정",
+                    "#JUDGMENT_LOOSE": "느슨한 판정",
+                    "#EFFECT": "SE",
+                    "#EFFECT_AUTO": "자동 SE",
+                    "#STAGE": "무대 가시성",
+                    "#STAGE_SIZE": "무대 크기",
+                    "#STAGE_ROTATION": "무대 회전",
+                    "#STAGE_ALPHA": "무대 투명도",
+                    "#STAGE_TILT": "무대 기울기",
+                    "#STAGE_COVER_VERTICAL": "수직 가리개",
+                    "#STAGE_COVER_HORIZONTAL": "수평 가리개",
+                    "#STAGE_COVER_ALPHA": "가리개 투명도",
+                    "#STAGE_ASPECTRATIO_LOCK": "화면비 잠금",
+                    "#STAGE_EFFECT": "무대 효과",
+                    "#STAGE_EFFECT_SIZE": "무대 효과 크기",
+                    "#STAGE_EFFECT_ROTATION": "무대 효과 회전",
+                    "#STAGE_EFFECT_ALPHA": "무대 효과 투명도",
+                    "#LANE": "레인 가시성",
+                    "#LANE_SIZE": "레인 크기",
+                    "#LANE_ROTATION": "레인 회전",
+                    "#LANE_ALPHA": "레인 투명도",
+                    "#LANE_EFFECT": "레인 효과",
+                    "#LANE_EFFECT_SIZE": "레인 효과 크기",
+                    "#LANE_EFFECT_ROTATION": "레인 효과 회전",
+                    "#LANE_EFFECT_ALPHA": "레인 효과 투명도",
+                    "#JUDGELINE": "판정선 가시성",
+                    "#JUDGELINE_SIZE": "판정선 크기",
+                    "#JUDGELINE_ROTATION": "판정선 회전",
+                    "#JUDGELINE_ALPHA": "판정선 투명도",
+                    "#JUDGELINE_EFFECT": "판정선 효과",
+                    "#JUDGELINE_EFFECT_SIZE": "판정선 효과 크기",
+                    "#JUDGELINE_EFFECT_ROTATION": "판정선 효과 회전",
+                    "#JUDGELINE_EFFECT_ALPHA": "판정선 효과 투명도",
+                    "#SLOT": "슬롯 가시성",
+                    "#SLOT_SIZE": "슬롯 크기",
+                    "#SLOT_ROTATION": "슬롯 회전",
+                    "#SLOT_ALPHA": "슬롯 투명도",
+                    "#SLOT_EFFECT": "슬롯 효과",
+                    "#SLOT_EFFECT_SIZE": "슬롯 효과 크기",
+                    "#SLOT_EFFECT_ROTATION": "슬롯 효과 회전",
+                    "#SLOT_EFFECT_ALPHA": "슬롯 효과 투명도",
+                    "#NOTE": "노트 가시성",
+                    "#NOTE_SPEED": "노트 속도",
+                    "#NOTE_SPEED_RANDOM": "랜덤 노트 속도",
+                    "#NOTE_SIZE": "노트 크기",
+                    "#NOTE_ROTATION": "노트 회전",
+                    "#NOTE_ALPHA": "노트 투명도",
+                    "#NOTE_EFFECT": "노트 효과",
+                    "#NOTE_EFFECT_SIZE": "뇨트 효과 크기",
+                    "#NOTE_EFFECT_ROTATION": "노트 효과 회전",
+                    "#NOTE_EFFECT_ALPHA": "노트 효과 투명도",
+                    "#MARKER": "마커 가시성",
+                    "#MARKER_SIZE": "마커 크기",
+                    "#MARKER_ROTATION": "마커 회전",
+                    "#MARKER_ALPHA": "마커 투명도",
+                    "#CONNECTOR": "연결선 가시성",
+                    "#CONNECTOR_SIZE": "연결선 크기",
+                    "#CONNECTOR_ROTATION": "연결선 회전",
+                    "#CONNECTOR_ALPHA": "연결선 투명도",
+                    "#SIMLINE": "동시입력선 가시성",
+                    "#SIMLINE_SIZE": "동시입력선 크기",
+                    "#SIMLINE_ROTATION": "동시입력선 회전",
+                    "#SIMLINE_ALPHA": "동시입력선 투명도"
+                },
+                "Value": {
+                    "#NONE": "없음",
+                    "#ANY": "모두",
+                    "#ALL": "전체",
+                    "#OTHERS": "기타",
+                    "#SHORT": "짧음",
+                    "#LONG": "길음",
+                    "#HIGH": "높음",
+                    "#MID": "중간",
+                    "#LOW": "낮음",
+                    "#SMALL": "작음",
+                    "#MEDIUM": "중간",
+                    "#LARGE": "큼",
+                    "#LEFT": "왼쪽",
+                    "#RIGHT": "오른쪽",
+                    "#UP": "위",
+                    "#DOWN": "아래",
+                    "#FRONT": "앞",
+                    "#BACK": "뒤",
+                    "#CENTER": "가운데",
+                    "#TOP": "위",
+                    "#BOTTOM": "아래",
+                    "#TOP_LEFT": "왼쪽 위",
+                    "#TOP_CENTER": "가운데 위",
+                    "#TOP_RIGHT": "오른쪽 위",
+                    "#CENTER_LEFT": "왼쪽 가운데",
+                    "#CENTER_RIGHT": "오른쪽 가운데",
+                    "#BOTTOM_LEFT": "왼쪽 아래",
+                    "#BOTTOM_CENTER": "가운데 아래",
+                    "#BOTTOM_RIGHT": "오른쪽 아래",
+                    "#CLOCKWISE": "시계방향",
+                    "#COUNTERCLOCKWISE": "반시계방향",
+                    "#FORWARD": "앞으로",
+                    "#BACKWARD": "뒤로",
+                    "#SIMPLE": "Simple",
+                    "#EASY": "Easy",
+                    "#NORMAL": "Normal",
+                    "#HARD": "Hard",
+                    "#EXPERT": "Expert",
+                    "#MASTER": "Master",
+                    "#PRO": "Pro",
+                    "#TECHNICAL": "Technical",
+                    "#SPECIAL": "Special"
+                },
+                "Placeholder": {
+                    "#KEYWORDS": "키워드 입력...",
+                    "#NAME": "이름 입력...",
+                    "#RATING": "레벨 입력...",
+                    "#RATING_MINIMUM": "최소 레벨 입력...",
+                    "#RATING_MAXIMUM": "최대 레벨 입력...",
+                    "#TITLE": "제목 입력...",
+                    "#SUBTITLE": "부제목 입력...",
+                    "#ARTISTS": "작곡가 입력...",
+                    "#AUTHOR": "제작자 입력...",
+                    "#GENRE": "장르 입력...",
+                    "#CATEGORY": "카테고리 입력...",
+                    "#LANGUAGE": "언어 입력...",
+                    "#DIFFICULTY": "난이도 입력...",
+                    "#LENGTH": "길이 입력...",
+                    "#LENGTH_MINIMUM": "최소 길이 입력...",
+                    "#LENGTH_MAXIMUM": "최대 길이 입력..."
+                }
+            },
+            "Metric": {
+                "Arcade": "점수",
+                "Accuracy": "정확도 점수",
+                "Life": "라이프",
+                "PerfectRate": "Perfect 레이트",
+                "ErrorHeatmap": "미스 히트맵"
+            },
+            "ListView": {
+                "ClearSearch": "\"{0}\" 검색 결과",
+                "Jump": {
+                    "Header": "페이지로 이동",
+                    "Page": "페이지",
+                    "PagePlaceholder": "페이지 번호 입력..."
+                },
+                "Search": {
+                    "Header": "검색",
+                    "Keywords": "키워드",
+                    "KeywordsPlaceholder": "키워드 입력..."
+                }
+            }
+        },
+        "Color": {
+            "Title": "색상",
+            "Html": "Hex",
+            "HtmlPlaceholder": "색상 Hex값을 입력하세요...",
+            "R": "R",
+            "G": "G",
+            "B": "B",
+            "H": "H",
+            "S": "S",
+            "V": "V",
+            "A": "A"
+        },
+        "Search": {
+            "Title": "검색"
+        },
+        "Title": {
+            "TapToStart": "탭 해서 시작"
+        },
+        "SelectLocalization": {
+            "Title": "언어 선택",
+            "Description": "선호하는 언어를 선택하세요:",
+            "List": {
+                "Error": {
+                    "Description": "언어 목록을 불러오지 못함"
+                }
+            },
+            "Localization": {
+                "Error": {
+                    "Description": "\"{0}\" 언어를 불러오지 못함"
+                }
+            }
+        },
+        "SelectTheme": {
+            "Title": "테마 선택",
+            "Description": "테마를 선택하세요:"
+        },
+        "Theme": {
+            "Dark": "다크",
+            "Light": "라이트"
+        },
+        "ManageCache": {
+            "Title": "캐시 관리",
+            "Cache": {
+                "Header": "캐시",
+                "Description": "Sonolus는 캐시를 사용하여 네트워크 URL과 연결된 로컬 저장소 리소스를 저장함으로써 네트워크 요청을 빠르게 로드하고 대역폭 사용을 줄일 수 있습니다. 캐시는 적은 양의 저장 공간을 차지하므로 삭제하지 않는 것이 좋습니다.",
+                "Count": "캐시: {0} 항목"
+            },
+            "Expire": {
+                "Header": "만료",
+                "Description": "모든 캐시를 만료시킬 경우 Sonolus가 네트워크 URL과 연결된 로컬 저정소 리소스를 사용하기 전에 다시 검증하게 됩니다.",
+                "Expire": "만료",
+                "Confirmation": {
+                    "Description": "정말 모든 캐시를 만료시킬까요?"
+                }
+            },
+            "Delete": {
+                "Header": "삭제",
+                "Description": "모든 캐시를 삭제할 경우 Sonolus가 모든 네트워크 요청을 다시 다운로드하게 됩니다. 추천하지 않음.",
+                "Delete": "삭제",
+                "Confirmation": {
+                    "Description": "정말 모든 캐시를 삭제할까요?"
+                }
+            }
+        },
+        "ManageRepository": {
+            "Title": "저장소 관리",
+            "Repository": {
+                "Header": "저장소 관리",
+                "Description": "저장소는 이 기기에서 사용할 수 있는 모든 리소스를 보관합니다.",
+                "Size": "크기: {0}"
+            },
+            "Delete": {
+                "Header": "삭제",
+                "Description": "모든 저장소 리소스를 삭제할 경우  Sonolus가 리소스를 재사용할때 다시 다운로드하게 됩니다. ",
+                "Delete": "삭제",
+                "Confirmation": {
+                    "Description": "정말 모든 저장소 리소스를 삭제할까요?"
+                }
+            }
+        },
+        "CalibrateAudio": {
+            "Title": "오디오 보정",
+            "Description": "오디오와 그래픽이 일치할 때 까지 기기 오디오 오프셋을 조정해 오디오를 보정하세요."
+        },
+        "CalibrateInput": {
+            "Title": "입력 보정",
+            "Description": "사각형을 따라 손가락을 드래그해서 입력을 보정하세요.\n이런 설정이 없는 게임에 익숙하다면, 0으로 설정하시면 됩니다.",
+            "Result": {
+                "Start": "드래그해서 오프셋 테스트",
+                "Ongoing": "측정 중...",
+                "OneFinger": "한 손가락만 사용해 드래그 해주세요",
+                "Incomplete": "끝까지 드래그해 주세요",
+                "Success": "성공, 추천하는 오프셋: {0}"
+            }
+        },
+        "Home": {
+            "Play": "플레이",
+            "Settings": "설정"
+        },
+        "Settings": {
+            "Title": "설정",
+            "Graphics": {
+                "Header": "그래픽",
+                "RenderScale": "렌더 스케일",
+                "AntiAliasing": "안티 앨리어싱",
+                "GpuParticleSystem": "GPU 입자 시스템",
+                "IgnoreNotch": "노치 무시"
+            },
+            "Audio": {
+                "Header": "오디오",
+                "BgmVolume": "BGM 볼륨",
+                "EffectVolume": "SE 볼륨",
+                "PreviewBgm": "BGM 프리뷰",
+                "PreserveBgmPitch": "BGM 음량 유지"
+            },
+            "UI": {
+                "Header": "UI",
+                "Localization": "언어",
+                "Theme": "테마",
+                "UIScale": "UI 스케일",
+                "PerfectJudgmentColor": "Perfect 판정 색",
+                "GreatJudgmentColor": "Great 판정 색",
+                "GoodJudgmentColor": "Good 판정 색",
+                "MissJudgmentColor": "Miss 판정 색",
+                "PositiveJudgmentErrorColor": "긍정적 특수 판정 색",
+                "NegativeJudgmentErrorColor": "부정적 특수 판정 색",
+                "AllPerfectComboColor": "AP 콤보 색",
+                "FullComboComboColor": "FC 콤보 색",
+                "PassComboColor": "Pass 콤보 색",
+                "FailComboColor": "Fail 콤보 색",
+                "BoldComboNumber": "콤보 볼드체 적용",
+                "ShowZeroCombo": "0 콤보 보이기"
+            },
+            "Offsets": {
+                "Header": "오프셋",
+                "Calibrate": "보정",
+                "DeviceAudioOffset": "기기 오디오 오프셋",
+                "DeviceInputOffset": "기기 입력 오프셋"
+            },
+            "Repository": {
+                "Header": "저장소",
+                "Manage": "관리"
+            },
+            "Cache": {
+                "Header": "캐시",
+                "AlwaysRevalidate": "항상 재검증",
+                "Manage": "관리"
+            },
+            "Debug": {
+                "Header": "디버그",
+                "DebugMode": "디버그 모드"
+            }
+        },
+        "SelectCollection": {
+            "Title": "컬렉션 선택"
+        },
+        "SelectServer": {
+            "Title": "서버 선택",
+            "Collection": {
+                "Header": "컬렉션",
+                "Import": "불러오기",
+                "PackageError": {
+                    "Description": "지원되지 않거나 손상된 패키지"
+                }
+            },
+            "Custom": {
+                "Header": "커스텀 서버"
+            }
+        },
+        "CollectionInfo": {
+            "Title": "컬렉션 정보",
+            "Name": "이름",
+            "NamePlaceholder": "컬렉션 이름 입력..."
+        },
+        "CustomServerInfo": {
+            "Title": "커스텀 서버 정보",
+            "Name": "이름",
+            "NamePlaceholder": "커스텀 서버 이름 입력...",
+            "Address": "주소",
+            "AddressPlaceholder": "커스텀 서버 주소 입력..."
+        },
+        "Server": {
+            "Style": {
+                "Visibility": {
+                    "Title": "가시성",
+                    "Scale": "크기",
+                    "Alpha": "투명도"
+                },
+                "Animation": {
+                    "Title": "애니메이션",
+                    "Scale": "스케일",
+                    "Alpha": "투명도",
+                    "Tween": "트윈"
+                },
+                "Tween": {
+                    "Title": "트윈",
+                    "From": "시작",
+                    "To": "끝",
+                    "Duration": "길이",
+                    "Ease": "함수"
+                }
+            },
+            "VersionError": {
+                "Description": "이 서버는 {0} 버전만 지원합니다"
+            },
+            "Home": {
+                "ServerInfo": {
+                    "Error": {
+                        "Description": "{0} 서버 정보 불러오기 실패"
+                    }
+                },
+                "Levels": {
+                    "Header": "레벨"
+                },
+                "Skins": {
+                    "Header": "스킨"
+                },
+                "Backgrounds": {
+                    "Header": "배경"
+                },
+                "Effects": {
+                    "Header": "SE"
+                },
+                "Particles": {
+                    "Header": "탭 이펙트"
+                },
+                "Engines": {
+                    "Header": "엔진"
+                }
+            },
+            "LevelList": {
+                "Title": "레벨",
+                "Error": {
+                    "Description": "{0} 페이지의 레벨 불러오기 실패"
+                }
+            },
+            "SkinList": {
+                "Title": "스킨",
+                "Error": {
+                    "Description": "{0} 페이지의 스킨 불러오기 실패"
+                }
+            },
+            "BackgroundList": {
+                "Title": "배경",
+                "Error": {
+                    "Description": "{0} 페이지의 배경 불러오기 실패"
+                }
+            },
+            "EffectList": {
+                "Title": "SE",
+                "Error": {
+                    "Description": "{0} 페이지의 SE 불러오기 실패"
+                }
+            },
+            "ParticleList": {
+                "Title": "탭 이펙트",
+                "Error": {
+                    "Description": "{0} 페이지의 탭 이펙트 불러오기 실패"
+                }
+            },
+            "EngineList": {
+                "Title": "엔진",
+                "Error": {
+                    "Description": "{0} 페이지의 엔진 불러오기 실패"
+                }
+            },
+            "LevelLoader": {
+                "Details": {
+                    "Description": "레벨 정보 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 레벨 정보 불러오기 실패"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "\"{0}\" 레벨은 현재 버전과 호환되지 않음"
+                },
+                "Cover": {
+                    "Description": "레벨 커버 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 레벨 커버 불러오기 실패"
+                    }
+                },
+                "Data": {
+                    "Description": "레벨 데이터 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 레벨 데이터 불러오기 실패"
+                    }
+                },
+                "Bgm": {
+                    "Description": "레벨 BGM 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 레벨 BGM 불러오기 실패"
+                    }
+                },
+                "Preview": {
+                    "Description": "레벨 미리보기 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 레벨 미리보기 불러오기 실패"
+                    }
+                }
+            },
+            "SkinLoader": {
+                "Details": {
+                    "Description": "스킨 정보 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 스킨 정보 불러오기 실패"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "\"{0}\" 스킨은 현재 버전과 호환되지 않음"
+                },
+                "Thumbnail": {
+                    "Description": "스킨 미리보기 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 스킨 미리보기 불러오기 실패"
+                    }
+                },
+                "Data": {
+                    "Description": "스킨 데이터 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 스킨 데이터 불러오기 실패"
+                    }
+                },
+                "Texture": {
+                    "Description": "스킨 텍스쳐 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 스킨 텍스쳐 불러오기 실패"
+                    }
+                }
+            },
+            "BackgroundLoader": {
+                "Details": {
+                    "Description": "배경 정보 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 배경 정보 불러오기 실패"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "\"{0}\" 배경은 현재 버전과 호환되지 않음"
+                },
+                "Thumbnail": {
+                    "Description": "배경 미리보기 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 배경 미리보기 불러오기 실패"
+                    }
+                },
+                "Configuration": {
+                    "Description": "배경 설정 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 배경 설정 불러오기 실패"
+                    }
+                },
+                "Data": {
+                    "Description": "배경 데이터 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 배경 데이터 불러오기 실패"
+                    }
+                },
+                "Image": {
+                    "Description": "배경 이미지 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 배경 이미지 불러오기 실패"
+                    }
+                }
+            },
+            "EffectLoader": {
+                "Details": {
+                    "Description": "SE 정보 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" SE 정보 불러오기 실패"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "\"{0}\" SE는 현재 버전과 호환되지 않습니다"
+                },
+                "Thumbnail": {
+                    "Description": "SE 미리보기 불러오는 중...",
+                    "Error": {
+                        "Description": "SE 미리보기 불러오기 실패"
+                    }
+                },
+                "Data": {
+                    "Description": "SE 데이터 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" SE 데이터 불러오기 실패"
+                    }
+                },
+                "Clip": {
+                    "Description": "SE 클립 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" SE 클립 불러오기 실패"
+                    }
+                }
+            },
+            "ParticleLoader": {
+                "Details": {
+                    "Description": "탭 이펙트 정보 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 탭 이펙트 정보 불러오기 실패"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "\"{0}\" 탭 이펙트는 현재 버전과 호환되지 않음"
+                },
+                "Thumbnail": {
+                    "Description": "탭 이펙트 미리보기 불러오는 중...",
+                    "Error": {
+                        "Description": "탭 이펙트 미리보기 불러오기 실패"
+                    }
+                },
+                "Data": {
+                    "Description": "탭 이펙트 데이터 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 탭 이펙트 데이터 불러오기 실패"
+                    }
+                },
+                "Texture": {
+                    "Description": "탭 이펙트 텍스쳐 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 탭 이펙트 텍스쳐 불러오기 실패"
+                    }
+                }
+            },
+            "EngineLoader": {
+                "Details": {
+                    "Description": "엔진 정보 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 엔진 정보 불러오기 실패"
+                    }
+                },
+                "CompatibilityError": {
+                    "Description": "\"{0}\" 엔진은 현재 버전과 호환되지 않음"
+                },
+                "Thumbnail": {
+                    "Description": "엔진 미리보기 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 엔진 미리보기 불러오기 실패"
+                    }
+                },
+                "Configuration": {
+                    "Description": "엔진 설정 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 엔진 설정 불러오기 실패"
+                    }
+                },
+                "Data": {
+                    "Description": "엔진 데이터 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 엔진 데이터 불러오기 실패"
+                    }
+                },
+                "Rom": {
+                    "Description": "엔진 읽기 전용 메모리 불러오는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 엔진 읽기 전용 메모리 불러오기 실패"
+                    }
+                }
+            },
+            "PackageExporter": {
+                "LevelList": {
+                    "Description": "레벨 목록 내보내는 중...",
+                    "Error": {
+                        "Description": "레벨 목록 내보내기 실패"
+                    }
+                },
+                "SkinList": {
+                    "Description": "스킨 목록 내보내는 중...",
+                    "Error": {
+                        "Description": "스킨 목록 내보내기 실패"
+                    }
+                },
+                "BackgroundList": {
+                    "Description": "배경 목록 내보내는 중...",
+                    "Error": {
+                        "Description": "배경 목록 내보내기 실패"
+                    }
+                },
+                "EffectList": {
+                    "Description": "SE 목록 내보내는 중...",
+                    "Error": {
+                        "Description": "SE 목록 내보내기 실패"
+                    }
+                },
+                "ParticleList": {
+                    "Description": "탭 이펙트 목록 내보내는 중...",
+                    "Error": {
+                        "Description": "탭 이펙트 목록 내보내기 실패"
+                    }
+                },
+                "EngineList": {
+                    "Description": "엔진 목록 내보내는 중...",
+                    "Error": {
+                        "Description": "엔진 목록 내보내기 실패"
+                    }
+                }
+            },
+            "LevelExporter": {
+                "CompatibilityError": {
+                    "Description": "\"{0}\" 레벨은 현재 버전과 호환되지 않음"
+                },
+                "Cover": {
+                    "Description": "레벨 커버 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 레벨 커버 내보내기 실패"
+                    }
+                },
+                "Data": {
+                    "Description": "레벨 데이터 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 레벨 데이터 내보내기 실패"
+                    }
+                },
+                "Bgm": {
+                    "Description": "레벨 BGM 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 레벨 BGM 내보내기 실패"
+                    }
+                },
+                "Preview": {
+                    "Description": "레벨 미리보기 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 레벨 미리보기 내보내기 실패"
+                    }
+                },
+                "Details": {
+                    "Description": "레벨 정보 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 레벨 정보 내보내기 실패"
+                    }
+                }
+            },
+            "SkinExporter": {
+                "CompatibilityError": {
+                    "Description": "\"{0}\" 스킨은 현재 버전과 호환되지 않음"
+                },
+                "Thumbnail": {
+                    "Description": "스킨 썸네일 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 스킨 썸네일 내보내기 실패"
+                    }
+                },
+                "Data": {
+                    "Description": "스킨 데이터 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 스킨 데이터 내보내기 실패"
+                    }
+                },
+                "Texture": {
+                    "Description": "스킨 텍스쳐 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 스킨 텍스쳐 내보내기 실패"
+                    }
+                },
+                "Details": {
+                    "Description": "스킨 정보 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 스킨 정보 내보내기 실패"
+                    }
+                }
+            },
+            "BackgroundExporter": {
+                "CompatibilityError": {
+                    "Description": "\"{0}\" 배경은 현재 버전과 호환되지 않음"
+                },
+                "Thumbnail": {
+                    "Description": "배경 썸네일 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 배경 썸네일 내보내기 실패"
+                    }
+                },
+                "Configuration": {
+                    "Description": "배경 설정 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 배경 설정 내보내기 실패"
+                    }
+                },
+                "Data": {
+                    "Description": "배경 데이터 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 배경 데이터 내보내기 실패"
+                    }
+                },
+                "Image": {
+                    "Description": "배경 이미지 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 배경 이미지 내보내기 실패"
+                    }
+                },
+                "Details": {
+                    "Description": "배경 정보 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 배경 정보 내보내기 실패"
+                    }
+                }
+            },
+            "EffectExporter": {
+                "CompatibilityError": {
+                    "Description": "\"{0}\"  SE는 현재 버전과 호환되지 않음"
+                },
+                "Thumbnail": {
+                    "Description": "SE 썸네일 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" SE 썸네일 내보내기 실패"
+                    }
+                },
+                "Data": {
+                    "Description": "SE 데이터 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" SE 데이터 내보내기 실패"
+                    }
+                },
+                "Clip": {
+                    "Description": "SE 클립 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" SE 클립 내보내기 실패"
+                    }
+                },
+                "Details": {
+                    "Description": "SE 정보 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" SE 정보내보내기 실패"
+                    }
+                }
+            },
+            "ParticleExporter": {
+                "CompatibilityError": {
+                    "Description": "\"{0}\" 탭 이펙트는 현재 버전과 호환되지 않음"
+                },
+                "Thumbnail": {
+                    "Description": "탭 이펙트 썸네일 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 탭 이펙트 썸네일 내보내기 실패"
+                    }
+                },
+                "Data": {
+                    "Description": "탭 이펙트 데이터 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 탭 이펙트 데이터 내보내기 실패"
+                    }
+                },
+                "Texture": {
+                    "Description": "탭 이펙트 텍스쳐 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 탭 이펙트 텍스쳐 내보내기 실패"
+                    }
+                },
+                "Details": {
+                    "Description": "탭 이펙트 정보 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 탭 이펙트 정보 내보내기 실패"
+                    }
+                }
+            },
+            "EngineExporter": {
+                "CompatibilityError": {
+                    "Description": "\"{0}\" \b엔진은 현재 버전과 호환되지 않음"
+                },
+                "Thumbnail": {
+                    "Description": "엔진 썸네일 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 엔진 썸네일 내보내기 실패"
+                    }
+                },
+                "Configuration": {
+                    "Description": "엔진 설정 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 엔진 설정 내보내기 실패"
+                    }
+                },
+                "Data": {
+                    "Description": "엔진 데이터 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 엔진 데이터 내보내기 실패"
+                    }
+                },
+                "Rom": {
+                    "Description": "엔진 읽기 전용 메모리 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 엔진 읽기 전용 메모리 내보내기 실패"
+                    }
+                },
+                "Details": {
+                    "Description": "엔진 정보 내보내는 중...",
+                    "Error": {
+                        "Description": "\"{0}\" 엔진 정보 내보내기 실패"
+                    }
+                }
+            },
+            "ItemDetails": {
+                "Save": "저장",
+                "Update": "업데이트",
+                "Description": {
+                    "Header": "설명"
+                },
+                "Recommended": {
+                    "Header": "추천"
+                }
+            },
+            "LevelDetails": {
+                "Title": "레벨 정보",
+                "Actions": {
+                    "Play": "플레이",
+                    "Configuration": "레벨 설정"
+                }
+            },
+            "SkinDetails": {
+                "Title": "스킨 정보 "
+            },
+            "BackgroundDetails": {
+                "Title": "배경 정보",
+                "Actions": {
+                    "Configuration": "배경 설정"
+                }
+            },
+            "EffectDetails": {
+                "Title": "SE 정보"
+            },
+            "ParticleDetails": {
+                "Title": "탭 이펙트 정보"
+            },
+            "EngineDetails": {
+                "Title": "엔진 정보",
+                "Actions": {
+                    "Configuration": "엔진 설정"
+                }
+            },
+            "LevelConfiguration": {
+                "Title": "레벨 설정",
+                "Error": {
+                    "Description": "\"{0}\" 레벨 설정 불러오기 실패"
+                },
+                "Skin": {
+                    "Header": "스킨"
+                },
+                "Background": {
+                    "Header": "배경"
+                },
+                "Effect": {
+                    "Header": "SE"
+                },
+                "Particle": {
+                    "Header": "탭 이펙트"
+                },
+                "Offsets": {
+                    "Header": "오프셋",
+                    "LevelAudioOffset": "레벨 오디오 오프셋",
+                    "ServerAudioOffset": "서버 오디오 오프셋",
+                    "DeviceAudioOffset": "기기 오디오 오프셋",
+                    "EngineInputOffset": "엔진 입력 오프셋",
+                    "DeviceInputOffset": "기기 입력 오프셋",
+                    "Calibrate": "보정"
+                },
+                "Options": {
+                    "Header": "옵션"
+                },
+                "UI": {
+                    "Header": "UI",
+                    "PrimaryMetric": "기본 메트릭",
+                    "SecondaryMetric": "보조 메트릭",
+                    "MenuStyle": "메뉴 스타일",
+                    "JudgmentStyle": "판정 스타일",
+                    "ComboStyle": "콤보 스타일",
+                    "PrimaryMetricStyle": "기본 메트릭 스타일",
+                    "SecondaryMetricStyle": "보조 메트릭 스타일",
+                    "JudgmentErrorStyle": "특수 판정 스타일",
+                    "JudgmentErrorPlacement": "특수 판정 위치",
+                    "JudgmentErrorMin": "특수 판정 최소값"
+                }
+            },
+            "BackgroundConfiguration": {
+                "Title": "배경 설정",
+                "Error": {
+                    "Description": "\"{0}\" 배경 설정 불러오기 실패"
+                },
+                "Blur": "블러",
+                "Mask": "마스크"
+            },
+            "EngineConfiguration": {
+                "Title": "엔진 설정",
+                "Error": {
+                    "Description": "\"{0}\" 엔진 설정 불러오기 실패"
+                },
+                "Skin": {
+                    "Header": "스킨"
+                },
+                "Background": {
+                    "Header": "배경"
+                },
+                "Effect": {
+                    "Header": "SE"
+                },
+                "Particle": {
+                    "Header": "탭 이펙트"
+                },
+                "Offsets": {
+                    "Header": "오프셋",
+                    "EngineInputOffset": "엔진 입력 오프셋"
+                },
+                "Options": {
+                    "Header": "옵션"
+                },
+                "UI": {
+                    "Header": "UI",
+                    "PrimaryMetric": "기본 메트릭",
+                    "SecondaryMetric": "보조 메트릭",
+                    "MenuStyle": "메뉴 스타일",
+                    "JudgmentStyle": "판정 스타일",
+                    "ComboStyle": "콤보 스타일",
+                    "PrimaryMetricStyle": "기본 메트릭 스타일",
+                    "SecondaryMetricStyle": "보조 메트릭 스타일",
+                    "JudgmentErrorStyle": "특수 판정 스타일",
+                    "JudgmentErrorPlacement": "특수 판정 위치",
+                    "JudgmentErrorMin": "특수 판정 최소값"
+                }
+            }
+        },
+        "Gameplay": {
+            "PlayMode": {
+                "Loader": {
+                    "Runtime": {
+                        "Error": {
+                            "Description": "\"{0}\" 레벨 시작 실패"
+                        }
+                    }
+                },
+                "Pause": {
+                    "Title": "일시정지",
+                    "Control": {
+                        "Header": "제어",
+                        "Restart": "재시작",
+                        "Exit": "종료"
+                    },
+                    "Snapshot": {
+                        "Header": "스냅샷",
+                        "Record": "저장",
+                        "Replay": "불러오기"
+                    },
+                    "Debug": {
+                        "Header": "디버그",
+                        "Code": "코드",
+                        "Data": "데이터"
+                    }
+                },
+                "Result": {
+                    "Title": "결과",
+                    "Restart": "재시작",
+                    "Options": {
+                        "Snapshot": "스냅샷",
+                        "Paused": "일시정지"
+                    },
+                    "Graphs": {
+                        "Header": "그래프",
+                        "Judgment": "판정",
+                        "Accuracy": "정확도"
+                    }
+                }
+            },
+            "Debug": {
+                "Code": {
+                    "Title": "코드"
+                },
+                "Data": {
+                    "Title": "데이터"
+                }
+            },
+            "JudgmentGraph": {
+                "Title": "판정 그래프"
+            },
+            "AccuracyGraph": {
+                "Title": "정확도 그래프",
+                "AbsoluteValue": "절대값",
+                "Mean": "평균치",
+                "StandardDeviation": "표준편차",
+                "Min": "최소값",
+                "Max": "최대값"
+            },
+            "BucketGraph": {
+                "Title": "판정 그래프"
+            }
+        }
+    }
+}
