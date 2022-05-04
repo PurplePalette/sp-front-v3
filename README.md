@@ -9,7 +9,7 @@ Nuxt generation frontend for Sonolus server api, named [sonolus-uploader-fastapi
 * Any VPS(Recommends [Oracle Cloud Free Tier](https://www.oracle.com/jp/cloud/free/))
 
 ## License
-GPL
+AGPLv3+
 
 ## Setup
 
@@ -27,7 +27,7 @@ yarn run preview
 # Checkout the https://v3.nuxtjs.org/docs/deployment for more information.
 ```
 
-## Docs
+## Related docs
 - [API Spec / Stoplight](https://sonolus-core.stoplight.io/docs/servers/YXBpOjM2MTAxMzcx-sweet-potato-server-3-api)
 - [Detailed spec, frontend mock / Whimsical](https://whimsical.com/sweet-potato-next-2EyH4Ts7UBT6t2cpwmKdR4)
 
