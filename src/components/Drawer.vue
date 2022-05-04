@@ -29,17 +29,16 @@
         </v-list-item-content>
       </v-list-item>
       <v-list-item
-        v-for="item in items"
-        :key="item.title"
+        v-for="(item,i) in nav"
+        :key="i"
         :to="item.to"
-        :href="item.href"
         class="no-hover"
       >
         <v-list-item-icon>
           {{ item.icon }}
         </v-list-item-icon>
         <v-list-item-content>
-          <v-list-item-title>{{ item.title }}</v-list-item-title>
+          <v-list-item-title>{{ $t(item.text) }}</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
     </v-list>
@@ -50,56 +49,15 @@
 import {
   mdiAccount,
   mdiLogin,
-  mdiFormatListBulleted,
-  mdiInformation,
-  mdiPalette,
-  mdiDiscord,
-  mdiPen
 } from '@mdi/js'
 
 const menu = useSideMenu()
 const auth = useAuth()
 const config = useRuntimeConfig()
+const nav = useNav()
 
 const loginToAccount = () => {
   console.log('ここにログイン処理')
 }
 
-const items = [
-  {
-    icon: mdiFormatListBulleted,
-    title: '創作譜面一覧',
-    to: '/fumen/list'
-  },
-  {
-    icon: mdiInformation,
-    title: '創作譜面の遊び方',
-    to: '/help/play-sonolus-fumen'
-  },
-  {
-    icon: mdiInformation,
-    title: '創作譜面の作り方',
-    to: '/help/create-sonolus-fumen'
-  },
-  {
-    icon: mdiInformation,
-    title: '投稿ガイドライン',
-    to: '/help/publish-fumen-rules'
-  },
-  {
-    icon: mdiPalette,
-    title: 'PurplePaletteについて',
-    to: '/help/about-purplepalette'
-  },
-  {
-    icon: mdiDiscord,
-    title: 'コミュニティに参加!',
-    href: config.DISCORD_URL
-  },
-  {
-    icon: mdiPen,
-    title: 'DMCAリクエスト',
-    href: config.DMCA_URL
-  }
-]
 </script>
