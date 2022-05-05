@@ -25,31 +25,7 @@
     <v-container>
       <v-row justify="center">
         <v-col cols="12" sm="12" md="8" lg="8">
-          <v-card>
-            <v-tabs
-              v-model="tabIndex"
-              background-color="secondary"
-              center-active
-              fixed-tabs
-            >
-              <v-tab v-for="(info, index) in infoTabs" :key="index" :value="index">
-                <v-icon>{{ info.icon }} </v-icon>
-                {{ $t(info.text) }}
-              </v-tab>
-            </v-tabs>
-
-            <v-card-text>
-              <v-window v-model="tabIndex">
-                <v-window-item
-                  v-for="(info, index) in infoTabs"
-                  :key="index"
-                  :value="index"
-                >
-                  {{ $t(info.text) }}
-                </v-window-item>
-              </v-window>
-            </v-card-text>
-          </v-card>
+          <RecentBox />
         </v-col>
         <v-col cols="12" sm="12" md="4" lg="4">
           <v-card>
