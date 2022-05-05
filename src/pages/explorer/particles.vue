@@ -1,14 +1,13 @@
 <template>
   <v-container>
-    <ListBox :jump="true" :tab-index="0">
-      <v-window-item :value="0">
-        aaa
+    <ListBox :jump="true" :tab-index="4">
+      <v-window-item :value="4">
+        eee
       </v-window-item>
     </ListBox>
   </v-container>
 </template>
 
-
 <script setup lang="ts">
-useTitle("譜面一覧")
+useTitle("パーティクル一覧")
 </script>
