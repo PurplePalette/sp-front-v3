@@ -31,6 +31,17 @@ import {
   mdiFlash,
 } from '@mdi/js'
 
+// props
+interface Props {
+  tabIndex?: number,
+  jump?: boolean
+}
+const props = withDefaults(defineProps<Props>(), {
+  tabIndex: 0,
+  jump: false
+})
+
+// data
 const infoTabs = [
   // Level
   { text: 'Sonolus.Server.Home.Levels.Header', icon: mdiMusicNote, to: "/explorer/levels"},
@@ -45,12 +56,14 @@ const infoTabs = [
   // Engine
   { text: 'Sonolus.Server.Home.Engines.Header', icon: mdiCog, to: "/explorer/engines" },
 ]
+const tabIndex = ref<number>(0);
 
-interface Props {
-  tabIndex?: number
+// watch
+if (props.jump) {
+  const router = useRouter()
+
+  watch(tabIndex, (value) => {
+    router.push(infoTabs[value].to)
+  })
 }
-
-const props = withDefaults(defineProps<Props>(), {
-  tabIndex: 0,
-})
 </script>
