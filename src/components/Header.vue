@@ -2,7 +2,6 @@
   <v-app-bar
     fixed
     color="primary"
-    dark
     app
   >
     <v-app-bar-title @click="router.push('/')">{{ title }}</v-app-bar-title>
@@ -13,7 +12,7 @@
       </v-icon>
       {{ $t(btn.text) }}
     </v-btn>
-    <Language class="hidden-lg-and-up" />
+    <Language />
     <v-btn
       @click="menu.toggle"
       class="hidden-lg-and-up"
