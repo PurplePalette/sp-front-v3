@@ -41,5 +41,6 @@ yarn run preview
 - [Nuxt 3 documentation](https://v3.nuxtjs.org)
 - [Vuetify 3 documentation](https://next.vuetifyjs.com/en/)
 - [Nuxt3 + Vuetify3 + Volarの開発環境を構築する](https://zenn.dev/winteryukky/articles/87a40b60fddb96)
+- [Using URL Query Params in Nuxt 3](https://dev.to/codybontecou/using-url-query-params-in-nuxt-3-43kc)
 - [isystk/nuxt3-typescript-aws : Nuxt3 の学習用サンプルアプリケーション](https://github.com/isystk/nuxt3-typescript-aws)
 - [PurplePalette/sonolus-uploader : Sonolus uploader frontend website](https://github.com/PurplePalette/sonolus-uploader)
