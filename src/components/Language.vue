@@ -1,9 +1,6 @@
 <template>
   <v-spacer />
-  <v-menu
-    left
-    bottom
-  >
+  <v-menu>
     <template v-slot:activator="{ props }">
       <v-btn
         icon
