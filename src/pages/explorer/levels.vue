@@ -12,8 +12,12 @@
     </v-row>
     <v-row class="mt-2" justify="center">
       <v-col>
-        <v-card>
-          検索結果表示欄
+        <v-card class="px-2">
+          <v-row justify="center">
+            <v-col v-for="i in 10" cols="12" sm="6" md="6" lg="6" xl="4">
+              <SearchResultLevel />
+            </v-col>
+          </v-row>
         </v-card>
       </v-col>
     </v-row>
