@@ -65,7 +65,6 @@
 </template>
 
 <script setup lang="ts">
-import { isNumber } from "@intlify/shared";
 import { mdiMagnify, mdiShape, mdiFinance, mdiAlignHorizontalLeft, mdiSortVariant, mdiShuffle } from "@mdi/js"
 
 // Read/Write url params
