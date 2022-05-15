@@ -1,10 +1,25 @@
 <template>
-  <v-container>
-    <ListBox :jump="true" :tab-index="3">
-      <v-window-item :value="3">
-        ddd
-      </v-window-item>
-    </ListBox>
+  <v-container fluid>
+    <v-row justify="center">
+      <!-- PC用左メニュー -->
+      <v-col class="hidden-md-and-down" cols="12" sm="12" md="12" lg="2">
+        <SearchFormLevelLaptop />
+      </v-col>
+      <!-- PC用右メニュー -->
+      <v-col cols="12" sm="12" md="12" lg="10">
+        <!-- タブ / タブの中身 -->
+        <ListBox :jump="true" :tab-index="3">
+          <template v-slot:filter-form>
+            <SearchFormLevelSmart class="mt-2" />
+          </template>
+          <template v-slot:elements>
+            <v-col v-for="i in 10" cols="12" sm="6" md="6" lg="6" xl="4">
+              <SearchResultLevel title="効果音"/>
+            </v-col>
+          </template>
+        </ListBox>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
