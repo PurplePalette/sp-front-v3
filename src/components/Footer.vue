@@ -19,7 +19,9 @@
             variant="text"
           >
             <v-icon>{{ link.icon }}</v-icon>
-            <a style="text-decoration: none;" class="text-white" :href="link.to">{{ $t(link.text) }}</a>
+            <a target="_blank" style="text-decoration: none;" class="text-white" :href="link.to">{{ $t(link.text) }}</a>
+            &nbsp;
+            <v-icon>{{ mdiOpenInNew }}</v-icon>
           </v-btn>
         </v-col>
       </v-row>
@@ -40,7 +42,7 @@
 </template>
 
 <script setup lang="ts">
-import { mdiInformation, mdiPen, mdiAccount, mdiNote } from '@mdi/js';
+import { mdiOpenInNew, mdiInformation, mdiPen, mdiAccount, mdiNote } from '@mdi/js';
 
 const config = useRuntimeConfig()
 
