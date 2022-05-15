@@ -16,7 +16,7 @@
           class="flex-grow-0"
         />
         <v-card-title class="flex-grow-1 flex-column align-start">
-          <div class="text-subtitle-1 font-weight-bold">No title</div>
+          <div class="text-subtitle-1 font-weight-bold">{{ title }}</div>
           <div class="text-subtitle-2 font-weight-thin">By Omado</div>
           <div class="mt-1 text-caption font-weight-thin">Author: Omado</div>
         </v-card-title>
@@ -50,6 +50,7 @@ const icons = [
 ]
 
 const props = defineProps({
+  title: String,
   rating: Number
 })
 </script>
