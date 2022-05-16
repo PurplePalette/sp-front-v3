@@ -1,30 +1,127 @@
 <template>
     <v-container>
-      <v-row justify="center">
+      <v-row justify="center" class="mb-3">
         <v-col cols="12" sm="12" md="10" lg="10">
-          <p class="text-h2 text-center">ファイル投稿フォーム</p>
+          <v-card color="secondary" class="py-1">
+            <p class="text-center text-h5 mt-2">ファイル投稿フォーム</p>
+            <p class="text-center text-subtitle mt-1 mb-2">投稿ガイドライン をお読みの上ご登録ください!</p>
+          </v-card>
         </v-col>
         <v-col cols="12" sm="12" md="10" lg="10">
-          <ListBox>
-            <v-window-item :value="0">
-              譜面フォーム
-            </v-window-item>
-            <v-window-item :value="1">
-              スキンフォーム
-            </v-window-item>
-            <v-window-item :value="2">
-              背景フォーム
-            </v-window-item>
-            <v-window-item :value="3">
-              Effectフォーム
-            </v-window-item>
-            <v-window-item :value="4">
-              Particleフォーム
-            </v-window-item>
-            <v-window-item :value="5">
-              Engineフォーム
-            </v-window-item>
-          </ListBox>
+          <v-card class="py-1">
+            <v-row justify="center">
+                <v-col cols="12" md="4">
+                  <p class="text-center">投稿種別</p>
+                </v-col>
+                <v-col cols="12" md="4">
+                  <p class="text-center">選択</p>
+                </v-col>
+            </v-row>
+          </v-card>
+        </v-col>
+        <v-col cols="12" sm="12" md="10" lg="10">
+          <v-card class="py-1">
+            <v-row justify="center">
+                <v-col cols="12" md="3">
+                  <p class="text-center">ジャケット ファイル</p>
+                </v-col>
+                <v-col cols="12" md="3">
+                  <p class="text-center">音源 ファイル</p>
+                </v-col>
+                <v-col cols="12" md="3">
+                  <p class="text-center">譜面 ファイル</p>
+                </v-col>
+            </v-row>
+          </v-card>
+        </v-col>
+        <v-col cols="12" sm="12" md="10" lg="10">
+          <v-card class="text-center">
+            <v-row justify="center">
+              <v-col class="mb-n6" cols="12" md="10">
+                <v-text-field
+                  v-model="title"
+                  :counter="20"
+                  label="タイトル"
+                  hint="検索結果に表示されるタイトルです、曲名などを入れてください"
+                  required
+                />
+              </v-col>
+            </v-row>
+            <v-row class="mb-n3" justify="center">
+              <v-col class="mb-n6" cols="12" md="10">
+                <v-textarea
+                  v-model="description"
+                  clearable
+                  clear-icon="mdi-close-circle"
+                  label="説明文"
+                  hint="譜面の特徴やこだわりなどを記入してください"
+                  required
+                />
+              </v-col>
+            </v-row>
+            <v-row justify="center">
+              <v-col class="mb-n6" cols="12" md="5">
+                <v-text-field
+                  v-model="artist"
+                  :counter="20"
+                  label="アーティスト名"
+                  hint="音楽名義・ユニット名などを入れて下さい"
+                  required
+                />
+              </v-col>
+              <v-col class="mb-n6" cols="12" md="5">
+                <v-text-field
+                  v-model="author"
+                  :counter="20"
+                  label="譜面作成者名"
+                  hint="譜面ファイルを作成した人の名義を入れてください"
+                  required
+                />
+              </v-col>
+            </v-row>
+            <v-row justify="center">
+              <v-col cols="12" md="5">
+                <v-select
+                  v-model="artist"
+                  :items="items"
+                  label="ジャンル名"
+                  hint="ガイドラインに従って指定してください"
+                  required
+                />
+              </v-col>
+              <v-col cols="12" md="5">
+                <div class="text-caption text-left">難易度</div>
+                <v-slider
+                  v-model="difficulty"
+                  :max="50"
+                  :min="1"
+                  step="1"
+                  :color="difficultyColor"
+                  single-line
+                  density="compact"
+                  type="number"
+                  thumb-label
+                >
+                  <template v-slot:append>
+                    <v-text-field
+                      v-model="difficulty"
+                      type="number"
+                      :max="50"
+                      :min="1"
+                      density="compact"
+                      hide-details
+                      variant="outlined"
+                    ></v-text-field>
+                  </template>
+                </v-slider>
+              </v-col>
+            </v-row>
+          </v-card>
+          <v-card class="text-center my-6">
+            <p>※作品を直接全体公開することはできません</p>
+            <p class="mb-2">投稿後 動作テストした後 マイページ上で 投稿作品を編集して公開してください</p>
+            <v-btn class="mb-4" color="primary" size="large">テストサーバーに投稿する</v-btn>
+          </v-card>
         </v-col>
       </v-row>
     </v-container>
@@ -32,4 +129,34 @@
 
 <script setup lang="ts">
 useTitle("Upload")
+
+const title = ref<string>('')
+const description = ref<string>('')
+const artist = ref<string>('')
+const author = ref<string>('')
+const difficulty = ref<number>(1)
+
+const difficultyColor = computed(() => {
+  if (difficulty.value <= 9) {
+    return 'success'
+  } else if (difficulty.value <= 15) {
+    return 'info'
+  } else if (difficulty.value <= 20) {
+    return 'warning'
+  } else if (difficulty.value <= 28) {
+    return 'red'
+  } else if (difficulty.value <= 37){
+    return 'primary'
+  } else {
+    return 'black'
+  }
+})
+
+const items = [
+  "J-POP",
+  "GENERAL",
+  "VOCAROID",
+  "ORIGINAL",
+  "OTHER",
+]
 </script>
