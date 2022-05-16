@@ -4,8 +4,7 @@
     color="primary"
     app
   >
-    <v-app-bar-title @click="router.push('/')">{{ title }}</v-app-bar-title>
-    <v-spacer class="hidden-sm-and-down" />
+    <v-btn class="text-h6" to="/">{{ title }}</v-btn>
     <v-btn v-for="(btn, i) in nav" :key="i" :to="btn.to" class="hidden-sm-and-down" text>
       <v-icon role="img" aria-hidden="false">
         {{ btn.icon }}
