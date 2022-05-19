@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app :theme="theme.theme">
     <Header :title="config.SITE_NAME" />
     <Drawer />
     <v-main>
@@ -11,4 +11,5 @@
 
 <script lang="ts" setup>
 const config = useRuntimeConfig()
+const theme = useThemeChange()
 </script>

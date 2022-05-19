@@ -13,6 +13,17 @@
     </v-btn>
     <Language />
     <v-btn
+      @click="changeTheme"
+      aria-label="themeChangeButton"
+      aria-haspopup="true"
+      aria-expanded="false"
+      icon
+    >
+      <v-icon aria-label="Change theme" role="img" aria-hidden="false">
+        {{ mdiThemeLightDark }}
+      </v-icon>
+    </v-btn>
+    <v-btn
       @click="menu.toggle"
       class="hidden-lg-and-up"
       aria-label="menuButton"
@@ -28,11 +39,20 @@
 </template>
 
 <script lang="ts" setup>
-import { mdiMenu } from '@mdi/js'
+import { mdiThemeLightDark, mdiMenu } from '@mdi/js'
+
+const changeTheme = () => {
+  if (theme.theme == "custom") {
+    theme.setTheme("dark")
+  } else {
+    theme.setTheme("custom")
+  }
+}
 
 const nav = useNav()
 const router = useRouter()
 const menu = useSideMenu()
+const theme = useThemeChange()
 const props = defineProps({
   title: String
 })
