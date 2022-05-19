@@ -2,7 +2,7 @@
 <div>
     <v-btn
         height="100%"
-        color="primary"
+        color="info"
         class="text-none"
         depressed
         @click="openFileSelect"

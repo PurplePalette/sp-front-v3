@@ -23,6 +23,7 @@ export default defineNuxtPlugin((nuxtApp) => {
                colors: {
                   primary: '#5E35B1',
                   secondary: '#7E57C2',
+                  info: '#CE93D8',
                }
             }
          }
