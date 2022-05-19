@@ -8,35 +8,30 @@
           </v-card>
         </v-col>
         <v-col cols="12" sm="12" md="10" lg="10">
-          <v-card class="py-1">
-            <v-row justify="center">
-                <v-col cols="12" md="4">
-                  <p class="text-center">投稿種別</p>
-                </v-col>
-                <v-col cols="12" md="4">
-                  <p class="text-center">選択</p>
-                </v-col>
-            </v-row>
-          </v-card>
-        </v-col>
-        <v-col cols="12" sm="12" md="10" lg="10">
-          <v-card class="py-1">
-            <v-row justify="center">
-                <v-col cols="12" md="3">
-                  <p class="text-center">ジャケット ファイル</p>
-                </v-col>
-                <v-col cols="12" md="3">
-                  <p class="text-center">音源 ファイル</p>
-                </v-col>
-                <v-col cols="12" md="3">
-                  <p class="text-center">譜面 ファイル</p>
-                </v-col>
-            </v-row>
-          </v-card>
-        </v-col>
-        <v-col cols="12" sm="12" md="10" lg="10">
           <v-card class="text-center">
             <v-row justify="center">
+              <v-col cols="12" md="10">
+                <v-select
+                  v-model="formType"
+                  :items="formTypes"
+                  label="投稿種別"
+                  hint="投稿したいものを選んでください"
+                  required
+                />
+              </v-col>
+            </v-row>
+            <v-row class="text-center" justify="center">
+                <v-col cols="4" md="3">
+                  <FileSelectButton accept="image/jpeg" :button-icon="mdiImage" button-title="ジャケットファイルを選択"/>
+                </v-col>
+                <v-col cols="4" md="3">
+                  <FileSelectButton accept="audio/mpeg" :button-icon="mdiMusicNote" button-title="音源ファイルを選択"/>
+                </v-col>
+                <v-col cols="4" md="3">
+                  <FileSelectButton accept="text/plain" :button-icon="mdiBookMusic" button-title="SUSファイルを選択"/>
+                </v-col>
+            </v-row>
+            <v-row class="mt-6" justify="center">
               <v-col class="mb-n6" cols="12" md="10">
                 <v-text-field
                   v-model="title"
@@ -82,7 +77,7 @@
             <v-row justify="center">
               <v-col cols="12" md="5">
                 <v-select
-                  v-model="artist"
+                  v-model="genre"
                   :items="items"
                   label="ジャンル名"
                   hint="ガイドラインに従って指定してください"
@@ -116,11 +111,15 @@
                 </v-slider>
               </v-col>
             </v-row>
-          </v-card>
-          <v-card class="text-center my-6">
-            <p>※作品を直接全体公開することはできません</p>
-            <p class="mb-2">投稿後 動作テストした後 マイページ上で 投稿作品を編集して公開してください</p>
-            <v-btn class="mb-4" color="primary" size="large">テストサーバーに投稿する</v-btn>
+            <v-row justify="center">
+              <v-col cols="12" md="5">
+                <p>※作品を直接全体公開することはできません</p>
+                <p>投稿後 動作テストした後 マイページ上で 投稿作品を編集して公開してください</p>
+              </v-col>
+              <v-col cols="12" md="5">
+                <v-btn class="mb-4" color="info" size="large">テストサーバーに投稿する</v-btn>
+              </v-col>
+            </v-row>
           </v-card>
         </v-col>
       </v-row>
@@ -128,12 +127,16 @@
 </template>
 
 <script setup lang="ts">
+import { mdiImage, mdiMusicNote, mdiBookMusic } from "@mdi/js"
+
 useTitle("Upload")
 
 const title = ref<string>('')
 const description = ref<string>('')
 const artist = ref<string>('')
 const author = ref<string>('')
+const genre = ref<string>('ORIGINAL')
+const formType = ref<string>('レベル')
 const difficulty = ref<number>(1)
 
 const difficultyColor = computed(() => {
@@ -158,5 +161,13 @@ const items = [
   "VOCAROID",
   "ORIGINAL",
   "OTHER",
+]
+
+const formTypes = [
+  "レベル",
+  "スキン",
+  "背景",
+  "SE",
+  "パーティクル",
 ]
 </script>
