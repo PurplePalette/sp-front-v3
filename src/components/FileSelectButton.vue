@@ -54,7 +54,7 @@ const props = withDefaults(defineProps<Props>(), {
 })
 
 interface Emits {
-  (e: "update:File", value: File): void;
+  (e: "update:file", value: File): void;
 }
 const emits = defineEmits<Emits>()
 
@@ -90,7 +90,7 @@ const onFileSelectChange = (e: Event) => {
     const files = target.files
     const file = files![0]
     selectedFile.value = file
-    emits("update:File", file)
+    emits("update:file", file)
 }
 
 // D&D時にEmit
@@ -109,7 +109,7 @@ const onFileDropped = (e: DragEvent) => {
     }
     const file = e.dataTransfer.files[0]
     selectedFile.value = file
-    emits("update:File", file)
+    emits("update:file", file)
 }
 
 </script>

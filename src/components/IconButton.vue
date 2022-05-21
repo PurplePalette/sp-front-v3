@@ -6,7 +6,7 @@
         class="text-none"
         depressed
         :disabled="props.disabled"
-        @click="emits('update:click')"
+        @click="handleClick"
     >
         <v-row class="text-center" justify="center">
             <v-col class="mt-2 mb-n2" cols="10">
@@ -30,15 +30,25 @@ interface Props {
   title?: string,
   icon?: string,
   disabled?: boolean,
+  to?: string,
 }
 const props = withDefaults(defineProps<Props>(), {
   title: "ボタンタイトル",
   icon: mdiInformation,
-  disabled: false
+  disabled: false,
+  to: undefined
 })
 
 interface Emits {
   (e: "update:click"): void;
 }
 const emits = defineEmits<Emits>()
+
+const handleClick = () => {
+  emits('update:click')
+  if (props.to != undefined) {
+    const router = useRouter()
+    router.push(props.to)
+  }
+}
 </script>

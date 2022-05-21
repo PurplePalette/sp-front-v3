@@ -6,7 +6,7 @@
         size="x-large"
         color="secondary"
         variant="outlined"
-        @click="emits('update:Prev')"
+        @click="emits('update:prev')"
     >
         {{ props.textPrev }}
     </v-btn>
@@ -16,7 +16,7 @@
         class="mx-4"
         size="x-large"
         color="primary"
-        @click="emits('update:Next')"
+        @click="emits('update:next')"
     >
         {{ props.textNext }}
     </v-btn>
@@ -41,8 +41,8 @@ const props = withDefaults(defineProps<Props>(), {
 })
 
 interface Emits {
-  (e: "update:Next"): void;
-  (e: "update:Prev"): void;
+  (e: "update:next"): void;
+  (e: "update:prev"): void;
 }
 const emits = defineEmits<Emits>()
 </script>
