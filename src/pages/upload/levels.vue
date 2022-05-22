@@ -48,6 +48,7 @@
 
 <script setup lang="ts">
 useTitle("Upload")
+useConfirmUnload()
 
 const stepId = ref<number>(2)
 const disableNext = ref<boolean>(true)
