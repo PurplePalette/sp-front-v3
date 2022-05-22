@@ -1,7 +1,7 @@
 <template>
     <v-btn
-        v-if="showPrev"
-        :disabled="disablePrev"
+        v-if="props.showPrev"
+        :disabled="props.disablePrev"
         class="mx-4"
         size="x-large"
         color="secondary"
@@ -11,8 +11,8 @@
         {{ props.textPrev }}
     </v-btn>
     <v-btn
-        v-if="showNext"
-        :disabled="disableNext"
+        v-if="props.showNext"
+        :disabled="props.disableNext"
         class="mx-4"
         size="x-large"
         color="primary"
