@@ -3,6 +3,7 @@
         <v-col class="text-center" cols="12" sm="12" md="10" lg="10">
             <NextAndBackButton
                 :text-next="stepId != 4 ? '次へ' : '投稿する'"
+                :disableNext="props.disableNext"
                 @update:next="next()"
                 @update:prev="prev()"
             />
@@ -13,11 +14,11 @@
 <script setup lang="ts">
 interface Props {
   stepId?: number,
-  disablePrev?: boolean
+  disableNext?: boolean
 }
 const props = withDefaults(defineProps<Props>(), {
   stepId: 0,
-  disablePrev: false
+  disableNext: false
 })
 
 const stepId = ref<number>(props.stepId)
