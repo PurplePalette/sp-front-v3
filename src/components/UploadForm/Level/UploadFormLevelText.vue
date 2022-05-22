@@ -102,6 +102,26 @@
 </template>
 
 <script setup lang="ts">
+interface Props {
+  title?: string
+  description?: string
+  artist?: string
+  author?: string
+  genre?: string
+  engine?: string
+  difficulty?: number
+}
+const props = withDefaults(defineProps<Props>(), {
+  title: "",
+  description: "",
+  artist: "",
+  author: "",
+  genre: "ORIGINAL",
+  engine: "SEKAI",
+  difficulty: 25,
+})
+
+
 interface Emits {
   (e: "update:filled"): void;
   (e: "update:unfilled"): void;
@@ -115,13 +135,13 @@ interface Emits {
 }
 const emits = defineEmits<Emits>()
 
-const title = ref<string>('')
-const description = ref<string>('')
-const artist = ref<string>('')
-const author = ref<string>('')
-const genre = ref<string>('ORIGINAL')
-const engine = ref<string>('SEKAI')
-const difficulty = ref<number>(1)
+const title = ref<string>(props.title)
+const description = ref<string>(props.description)
+const artist = ref<string>(props.artist)
+const author = ref<string>(props.author)
+const genre = ref<string>(props.genre)
+const engine = ref<string>(props.engine)
+const difficulty = ref<number>(props.difficulty)
 const items = [
   "J-POP",
   "GENERAL",
