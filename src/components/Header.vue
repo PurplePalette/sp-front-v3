@@ -19,9 +19,7 @@
       aria-expanded="false"
       icon
     >
-      <v-icon aria-label="Change theme" role="img" aria-hidden="false">
-        {{ mdiThemeLightDark }}
-      </v-icon>
+      <v-icon :icon="mdiThemeLightDark" aria-label="Change theme" role="img" aria-hidden="false" />
     </v-btn>
     <v-btn
       @click="menu.toggle"
@@ -31,9 +29,7 @@
       aria-expanded="false"
       icon
     >
-      <v-icon aria-label="My Account" role="img" aria-hidden="false">
-        {{ mdiMenu }}
-      </v-icon>
+      <v-icon :icon="mdiMenu" aria-label="My Account" role="img" aria-hidden="false" />
     </v-btn>
   </v-app-bar>
 </template>
