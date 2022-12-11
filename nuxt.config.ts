@@ -1,7 +1,13 @@
-import { defineNuxtConfig } from 'nuxt'
-
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
+// https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
+  // server side rendering mode
+  ssr: true,
+
+  // typescripts
+  typescript: {
+    strict: true,
+    typeCheck: true,
+  },
   srcDir: "src/",
   runtimeConfig: {
     public: {
@@ -16,24 +22,25 @@ export default defineNuxtConfig({
         pathPrefix: false
     },
   ],
-  autoImports: {
-    dirs: ['stores']
-  },
   build: {
     transpile: ['vuetify']
   },
-  buildModules: [
-    // 別途 pinia本体も要インストール
+  modules: [
     '@pinia/nuxt',
-    // @nuxtjs/i18nはまだ Nuxt3をサポートしていない
-    '@intlify/nuxt3'
+    '@nuxtjs/i18n',
   ],
-  intlify: {
-    // src/localesフォルダがデフォルトで参照される
+  i18n: {
+    locales: [
+      { code: 'en', file: 'en.json' },
+      { code: 'ja', file: 'ja.json' },
+    ],
+    lazy: true,
+    defaultLocale: 'ja',
+    langDir: 'locales/',
     vueI18n: {
       locale: 'ja',
       fallbackLocale: 'en',
-    }
+    },
   },
   // @ts-ignore
   vite: {
@@ -41,16 +48,15 @@ export default defineNuxtConfig({
       'process.env.DEBUG': 'false',
     }
   },
-  typescript: {
-    strict: true
-  },
-  meta: {
-    title: process.env.SITE_NAME,
-    viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
-    charset: 'utf-8',
-    meta: [
-      { hid: 'description', name: 'description', content: process.env.SITE_DESCRIPTION },
-      { name: 'robots', content: 'noarchive' }
-    ]
+  app: {
+    head: {
+      title: process.env.SITE_NAME,
+      viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+      charset: 'utf-8',
+      meta: [
+        { hid: 'description', name: 'description', content: process.env.SITE_DESCRIPTION },
+        { name: 'robots', content: 'noarchive' }
+      ]
+    }
   }
 })
