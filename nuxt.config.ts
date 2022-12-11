@@ -8,6 +8,10 @@ export default defineNuxtConfig({
     strict: true,
     typeCheck: true,
   },
+  imports: {
+    // Auto-import pinia stores defined in `~/stores`
+    dirs: ['stores']
+  },
   srcDir: "src/",
   runtimeConfig: {
     public: {
