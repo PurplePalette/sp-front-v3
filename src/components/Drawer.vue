@@ -19,9 +19,11 @@
         v-if="!auth.isLoggedIn"
         @click="loginToAccount"
       >
-        <v-list-item-icon>
-          {{ mdiLogin }}
-        </v-list-item-icon>
+        <v-list-item>
+          <v-icon>
+            {{ mdiLogin }}
+          </v-icon>
+        </v-list-item>
         <v-list-item-title>ログイン</v-list-item-title>
       </v-list-item>
       <v-list-item
@@ -30,9 +32,11 @@
         :to="item.to"
         class="no-hover"
       >
-        <v-list-item-icon>
-          {{ item.icon }}
-        </v-list-item-icon>
+        <v-list-item>
+          <v-icon>
+            {{ item.icon }}
+          </v-icon>
+        </v-list-item>
         <v-list-item-title>{{ $t(item.text) }}</v-list-item-title>
       </v-list-item>
     </v-list>
