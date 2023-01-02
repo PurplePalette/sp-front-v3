@@ -3,11 +3,10 @@
   <v-menu>
     <template v-slot:activator="{ props }">
       <v-btn
-        icon
+        :icon="mdiTranslate"
         v-bind="props"
-      >
-        <v-icon>{{ mdiTranslate }}</v-icon>
-      </v-btn>
+        variant="text"
+      />
     </template>
     <v-list
       style="position: absolute; left: -100px; z-index: 999; height:auto;"
