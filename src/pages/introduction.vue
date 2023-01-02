@@ -3,12 +3,9 @@
     <v-row justify="center" align="center">
       <v-col cols="12" sm="12" md="10" lg="10">
         <v-card>
-          <v-card-header>
-            <v-card-header-text class="text-h4">
-              SweetPotatoとは?
-            </v-card-header-text>
-          </v-card-header>
-
+          <v-card-title>
+            SweetPotatoとは?
+          </v-card-title>
           <v-card-text>
             <p class="text-h5">
               本サービスは、ユーザーが作成した、譜面、スキン、背景等を投稿をSonolus上で簡単に利用できるよう配信を行うサービスです。端的に言うと、ファイル投稿サイトです。</p>

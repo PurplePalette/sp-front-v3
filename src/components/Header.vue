@@ -4,37 +4,41 @@
     color="primary"
     app
   >
-    <v-btn class="text-h6" to="/">{{ title }}</v-btn>
-    <v-btn v-for="(btn, i) in nav" :key="i" :to="btn.to" class="hidden-sm-and-down" text>
-      <v-icon role="img" aria-hidden="false">
-        {{ btn.icon }}
-      </v-icon>
+    <v-btn class="ml-2" to="/" variant="plain">
+      {{ title }}
+    </v-btn>
+    <v-btn
+      v-for="(btn, i) in nav"
+      :key="i"
+      :prepend-icon="btn.icon"
+      :to="btn.to || undefined"
+      :href="btn.href || undefined"
+      class="hidden-sm-and-down"
+      variant="text"
+    >
       {{ $t(btn.text) }}
     </v-btn>
     <Language />
     <v-btn
       @click="changeTheme"
-      aria-label="themeChangeButton"
+      class="mr-3"
+      aria-label="Change theme button"
       aria-haspopup="true"
       aria-expanded="false"
-      icon
-    >
-      <v-icon aria-label="Change theme" role="img" aria-hidden="false">
-        {{ mdiThemeLightDark }}
-      </v-icon>
-    </v-btn>
+      :icon="mdiThemeLightDark"
+      role="img"
+      aria-hidden="false"
+      variant="text"
+    />
     <v-btn
       @click="menu.toggle"
       class="hidden-lg-and-up"
-      aria-label="menuButton"
+      aria-label="My account button"
       aria-haspopup="true"
       aria-expanded="false"
-      icon
-    >
-      <v-icon aria-label="My Account" role="img" aria-hidden="false">
-        {{ mdiMenu }}
-      </v-icon>
-    </v-btn>
+      :icon="mdiMenu"
+      variant="text"
+    />
   </v-app-bar>
 </template>
 

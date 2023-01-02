@@ -7,7 +7,7 @@
       height="100%"
       color="info"
       class="text-none"
-      :variant="!isDragged ? 'contained' : 'outlined'"
+      :variant="!isDragged ? 'plain' : 'outlined'"
       depressed
       @click="openFileSelect"
   >

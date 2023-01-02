@@ -29,28 +29,24 @@
         </v-col>
         <v-col cols="12" sm="12" md="4" lg="4">
           <v-card>
-            <v-card-header>
-              <v-card-header-text>
-                <v-card-title class="text-h5">{{ $t('SweetPotato.Index.ServerInfo') }}</v-card-title>
-              </v-card-header-text>
-            </v-card-header>
-            <v-list-item height="32px" v-for="(info, index) in infoServer" :key="index">
-              <v-list-item-avatar left>
+            <v-card-title class="text-h5">{{ $t('SweetPotato.Index.ServerInfo') }}</v-card-title>
+            <v-card-text height="32px" v-for="(info, index) in infoServer" :key="index">
+              <v-list-item left>
                 <v-icon :icon="info.icon" />
-              </v-list-item-avatar>
+              </v-list-item>
               <v-list-item-subtitle>
                 <h4>{{ $t(info.key) }}: {{ info.value }}</h4>
               </v-list-item-subtitle>
-            </v-list-item>
+            </v-card-text>
             <v-spacer class="mb-2"/>
-            <v-list-item height="32px" v-for="(info, index) in infoTabs" :key="index">
-              <v-list-item-avatar left>
+            <v-card-text height="32px" v-for="(info, index) in infoTabs" :key="index">
+              <v-list-item left>
                 <v-icon :icon="info.icon" />
-              </v-list-item-avatar>
+              </v-list-item>
               <v-list-item-subtitle>
                 <h4>{{ $t('SweetPotato.Index.Total') }}{{ $t(info.text) }}: {{ info.count }}</h4>
               </v-list-item-subtitle>
-            </v-list-item>
+            </v-card-text>
           </v-card>
         </v-col>
       </v-row>
